@@ -1,5 +1,5 @@
 export default {
-  "title": "Sesamy Docs",
+  "title": "Sesamy",
   "tagline": "",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
@@ -24,9 +24,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Sesamy Docs",
+      "title": "Sesamy",
       "logo": {
-        "alt": "Sesamy Docs",
+        "alt": "Sesamy",
         "src": "img/logo.svg"
       },
       "items": [
