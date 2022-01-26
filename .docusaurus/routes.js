@@ -50,11 +50,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','87d'),
+    component: ComponentCreator('/docs','028'),
     routes: [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/getting-started',
+        component: ComponentCreator('/docs/news-widget/getting-started','03f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

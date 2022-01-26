@@ -9,6 +9,20 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "category",
+        "label": "News Widget",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/news-widget/getting-started",
+            "docId": "news-widget/getting-started"
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "Tutorial Intro",
         "href": "/docs/intro",
@@ -85,6 +99,12 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/getting-started": {
+      "id": "news-widget/getting-started",
+      "title": "Getting Started",
+      "description": "INTRODUCTION",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

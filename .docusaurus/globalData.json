@@ -8,11 +8,16 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "news-widget/getting-started",
           "docs": [
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/getting-started",
+              "path": "/docs/news-widget/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
