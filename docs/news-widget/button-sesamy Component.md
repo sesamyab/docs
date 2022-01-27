@@ -76,11 +76,6 @@ There are three different flows for the checkout once the `sesamy-button` is cli
 
 This message is shown after the article is buyed, replacing the button.
 
-The direction and the aligment of the unlock message can be configured by:
+The `direction` and the `aligment` of the unlock message can be configured by:
 - `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
 - `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
-
-
-
-
-
