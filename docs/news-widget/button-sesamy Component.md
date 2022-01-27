@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # sesamy-button Component
 
-INTRODUCTION
-
 ## Usage
 
 ### Basic usage
@@ -88,30 +86,28 @@ The list of CSS custom properties are:
 
 ```html
 <style>
-    sesamy-button {
-      sesamy-button {
-        --background: #436cad;
-        --background-hover: #436cad;
-        --opacity-hover: 0.8;
-        --color: #fff;
-        --border: 1px solid #436cad;
-        --border-radius: 30px;
-        --font-family: sans-serif;
-        --font-size: 16px;
-        --width: 300px;
-        --min-width: 300px;
-        --max-width: 100%;
-        --height: 50px;
-        --checkout-primary-button-color: #436cad;
-        --checkout-primary-button-hover: #436cad;
-        --checkout-primary-button-border-color: #436cad;
-        --checkout-primary-button-border-radius: 10px;
-        --checkout-secondary-button-color: #436cad;
-        --checkout-secondary-button-hover: #436cad;
-        --checkout-secondary-button-border-color: #436cad;
-        --checkout-secondary-button-border-radius: 5px;
-      }
-    }
+  sesamy-button {
+    --background: #436cad;
+    --background-hover: #436cad;
+    --opacity-hover: 0.8;
+    --color: #fff;
+    --border: 1px solid #436cad;
+    --border-radius: 30px;
+    --font-family: sans-serif;
+    --font-size: 16px;
+    --width: 300px;
+    --min-width: 300px;
+    --max-width: 100%;
+    --height: 50px;
+    --checkout-primary-button-color: #436cad;
+    --checkout-primary-button-hover: #436cad;
+    --checkout-primary-button-border-color: #436cad;
+    --checkout-primary-button-border-radius: 10px;
+    --checkout-secondary-button-color: #436cad;
+    --checkout-secondary-button-hover: #436cad;
+    --checkout-secondary-button-border-color: #436cad;
+    --checkout-secondary-button-border-radius: 5px;
+  }
 </style>
 ```
 
