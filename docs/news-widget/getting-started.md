@@ -10,12 +10,84 @@ INTRODUCTION
 
 ###  Add Meta tags
 
-These meta-tags are setted to provide the `price` and `currency` to the widget when the user clicks in the `sesamy-button`.
+It's needed to get the `title`, `description`, `image`, `price` and `currency`.
 
+The priority to get those values are:
+
+#### `title`
+1. `sesamy:title` meta tag
 ```html
-<meta property="sesamy:price" content="8" />
-<meta property="sesamy:currency" content="SEK" />
+<meta property="sesamy:title" content="any title" />
 ```
+2. `og:title` meta tag
+```html
+<meta property="og:title" content="any title" />
+```
+3. <title\> tag 
+```html
+<title>any title</title>
+```
+4. First <H1\> finded
+```html
+<h1>any title</h1>
+```
+
+#### `description`
+1. `sesamy:description` meta tag
+```html
+<meta property="sesamy:description" content="any description" />
+```
+2. `og:description` meta tag
+```html
+<meta property="og:description" content="any description" />
+```
+3. `description` meta tag 
+```html
+<meta property="description" content="any description" />
+```
+
+#### `image`
+1. `sesamy:image` meta tag
+```html
+<meta property="sesamy:image" content="[IMAGE_URL]" />
+```
+2. `og:image` meta tag
+```html
+<meta property="og:image" content="[IMAGE_URL]" />
+```
+3. `image` meta tag 
+```html
+<meta property="image" content="[IMAGE_URL]" />
+```
+
+#### `price`
+1. `sesamy:price` meta tag
+```html
+<meta property="sesamy:price" content="10" />
+```
+2. `og:price` meta tag
+```html
+<meta property="og:price" content="10" />
+```
+3. `price` meta tag
+```html
+<meta property="price" content="10" />
+```
+
+#### `currency`
+1. `sesamy:currency` meta tag
+```html
+<meta property="sesamy:currency" content="EUR" />
+```
+2. `og:currency` meta tag
+```html
+<meta property="og:currency" content="EUR" />
+```
+3. `currency` meta tag 
+```html
+<meta property="currency" content="EUR" />
+```
+
 
 ### Styling
 
