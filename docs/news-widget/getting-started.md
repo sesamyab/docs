@@ -25,18 +25,18 @@ Besides, we can adjust any style of any of these components directly, like `sesa
 
 Check all the CSS custom properties of every component in the component page.
 
-```css
+```html
 <style>
     sesamy-content-container {
         display: none;
     }
-    sesamy-button {
-        --background: #436cad;
-        --border-radius: 30px;
-    }
     sesamy-button-container {
         --background: #ffffff;
         --font-weight: 600;
+    }
+    sesamy-button {
+        --background: #436cad;
+        --border-radius: 30px;
     }
 </style>
 ```
@@ -45,7 +45,7 @@ Check all the CSS custom properties of every component in the component page.
 
 Once the checkout flow in the iframe is finished and the item was succesfully purchased, a custom event `sesamy-unlock` will be dispatched, the button element can listen to that event and handle as appropriate. The `detail` property of the event will contain the information regarding the unlocked article.
 
-```js
+```html
 <script>
     document.addEventListener('sesamy-unlock', function (e) {
       console.log(e.detail);
@@ -72,23 +72,24 @@ The id of the checkout from which the item was purchased.
 The `sesamy-content-container` element is used to hide content on the client-side.
 
 ```html
-    <html>
-        <head></head>
-        <body>
-            <style>
+<html>
+    <head>
+        <style>
             sesamy-content-container {
                 display: none;
             }
-            </style>
-            <sesamy-content-container>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-            </sesamy-content-container>
-            
-            <script type="module" src="./dist/sesamy-content-container.min.js"></script>
-        </body>
-    </html>
+        </style>
+    </head>
+    <body>
+        <sesamy-content-container>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+        </sesamy-content-container>
+        
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
+    </body>
+</html>
 ```
 
 By default, the content inside `sesamy-content-container` will be hidden until the checkout flow is finished. The attribute `show-childs-count` could be used to show the the number of visible children elements when locked, and the attribute `gradient` with the value "true" (`gradient="true"`) to show a gradient effect at the bottom of the inner content.
@@ -98,7 +99,21 @@ By default, the content inside `sesamy-content-container` will be hidden until t
 This component show the button to buy the article. When it's clicked, the widget will appear.
 
 ```html
-<sesamy-button></sesamy-button>
+<html>
+    <head>
+        <style>
+            sesamy-button {
+                --background: #436cad;
+                --border-radius: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <sesamy-button></sesamy-button>
+        
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+    </body>
+</html>
 ```
 
 ### <sesamy-button-container\>
@@ -106,9 +121,28 @@ This component show the button to buy the article. When it's clicked, the widget
 If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the button will be displayed wrapped by a container with an image and a description taken from the meta tags.
 
 ```html
-<sesamy-button-container>
-    <sesamy-button></sesamy-button>
-</sesamy-button-container>
+<html>
+    <head>
+        <style>
+            sesamy-button-container {
+                --background: #ffffff;
+                --font-weight: 600;
+            }
+            sesamy-button {
+                --background: #436cad;
+                --border-radius: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <sesamy-button-container>
+            <sesamy-button></sesamy-button>
+        </sesamy-button-container>
+        
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+    </body>
+</html>
 ```
 
 To overwrite the image and the description taken from the meta tags you can use the `item-src` and `description` attributes.
