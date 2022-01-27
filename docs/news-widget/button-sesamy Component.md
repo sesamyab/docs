@@ -34,7 +34,11 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 <html>
   <head></head>
   <body>
-    <sesamy-button text="Unlock content!" price="10" currency="EUR"></sesamy-button>
+    <sesamy-button 
+      text="Unlock content!" 
+      price="10" 
+      currency="EUR"
+    ></sesamy-button>
 
     <script type="module" src="./dist/sesamy-button.min.js"></script>
   </body>
@@ -51,7 +55,9 @@ By default, the item displayed in the checkout iframe that is opened when the bu
 <html>
   <head></head>
   <body>
-    <sesamy-button item-src="https://www-realtid-se-news-demo.vercel.app/artikel/112273"></sesamy-button>
+    <sesamy-button 
+      item-src="https://www-realtid-se-news-demo.vercel.app/artikel/112273"
+    ></sesamy-button>
 
     <script type="module" src="./dist/sesamy-button.min.js"></script>
   </body>
@@ -68,9 +74,12 @@ There are three different flows for the checkout once the `sesamy-button` is cli
 
 ### Unlock Message 
 
+This message is shown after the article is buyed, replacing the button.
+
 The direction and the aligment of the unlock message can be configured by:
 - `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
 - `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
+
 
 
 
