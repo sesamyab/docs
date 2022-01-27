@@ -50,11 +50,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','028'),
+    component: ComponentCreator('/docs','c13'),
     routes: [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/button-sesamy Component',
+        component: ComponentCreator('/docs/news-widget/button-sesamy Component','fab'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

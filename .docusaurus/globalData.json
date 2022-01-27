@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "news-widget/button-sesamy Component",
+              "path": "/docs/news-widget/button-sesamy Component",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "news-widget/getting-started",
               "path": "/docs/news-widget/getting-started",
               "sidebar": "tutorialSidebar"

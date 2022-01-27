@@ -36,12 +36,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/news-widget/getting-started"
+                "title": "sesamy-button Component",
+                "permalink": "/docs/news-widget/button-sesamy Component"
               },
               "next": {
                 "title": "Create a Page",
                 "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "news-widget/button-sesamy Component",
+              "id": "news-widget/button-sesamy Component",
+              "title": "sesamy-button Component",
+              "description": "INTRODUCTION",
+              "source": "@site/docs/news-widget/button-sesamy Component.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/button-sesamy Component",
+              "permalink": "/docs/news-widget/button-sesamy Component",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/news-widget/button-sesamy Component.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/news-widget/getting-started"
+              },
+              "next": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -62,8 +88,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "sesamy-button Component",
+                "permalink": "/docs/news-widget/button-sesamy Component"
               }
             },
             {
@@ -282,6 +308,10 @@
                   {
                     "type": "doc",
                     "id": "news-widget/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "news-widget/button-sesamy Component"
                   }
                 ]
               },

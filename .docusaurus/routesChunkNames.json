@@ -29,13 +29,17 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-028": {
+  "/docs-c13": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/news-widget/button-sesamy Component-fab": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-button-sesamy-component-9-e-8-73e"
   },
   "/docs/news-widget/getting-started-03f": {
     "component": "component---theme-doc-item-178-a40",

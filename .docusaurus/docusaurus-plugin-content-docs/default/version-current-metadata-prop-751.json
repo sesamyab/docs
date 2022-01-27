@@ -19,6 +19,12 @@
             "label": "Getting Started",
             "href": "/docs/news-widget/getting-started",
             "docId": "news-widget/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "sesamy-button Component",
+            "href": "/docs/news-widget/button-sesamy Component",
+            "docId": "news-widget/button-sesamy Component"
           }
         ]
       },
@@ -99,6 +105,12 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/button-sesamy Component": {
+      "id": "news-widget/button-sesamy Component",
+      "title": "sesamy-button Component",
+      "description": "INTRODUCTION",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/getting-started": {

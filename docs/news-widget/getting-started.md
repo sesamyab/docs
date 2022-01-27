@@ -6,16 +6,24 @@ sidebar_position: 1
 
 INTRODUCTION
 
-## HEAD
+## Inside the `HEAD` tag 
 
-### 1 - Add Meta tags
+###  Add Meta tags
+
+These meta-tags are setted to provide the `price` and `currency` to the widget when the user clicks in the `sesamy-button`.
 
 ```html
 <meta property="sesamy:price" content="8" />
 <meta property="sesamy:currency" content="SEK" />
 ```
 
-### 2 - Add Custom CSS variables 
+### Styling
+
+The `sesamy-button` and `sesamy-button-container` elements are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+
+Besides, we can adjust any style of any of these components directly, like `sesamy-content-container`.
+
+Check all the CSS custom properties of every component in the component page.
 
 ```css
 <style>
@@ -23,56 +31,98 @@ INTRODUCTION
         display: none;
     }
     sesamy-button {
-        --background: #b06;
-        --color: #fff;
-        --font-family: Open Sans,Arial,Helvetica,sans-serif;
-        --checkout-primary-button-color: #bb0066;
-        --checkout-secondary-button-color: #bb0066;
+        --background: #436cad;
+        --border-radius: 30px;
     }
     sesamy-button-container {
-        --background: rgba(73,207,210,.1);
-        margin: 40px;
+        --background: #ffffff;
+        --font-weight: 600;
     }
 </style>
 ```
 
-### 3 - Add Handler when article is unlocked
+### Handling Unlock Data
+
+Once the checkout flow in the iframe is finished and the item was succesfully purchased, a custom event `sesamy-unlock` will be dispatched, the button element can listen to that event and handle as appropriate. The `detail` property of the event will contain the information regarding the unlocked article.
 
 ```js
 <script>
-    document.addEventListener("sesamy-unlock", function (e) {
-        document.querySelector('.paywall[data-event-view="paywall"]').hidden = true;
+    document.addEventListener('sesamy-unlock', function (e) {
+      console.log(e.detail);
     });
 </script>
 ```
 
-## BODY
+#### Event payload structure
 
-### 1 - sesamy-content-container component
+The `detail` property of the `sesamy-unlock` event will contain an object with two properties:
+
+##### - `itemId` (`String`)
+
+An sku that identifies the purchased item.
+
+##### - `checkoutId` (`String`)
+
+The id of the checkout from which the item was purchased.
+
+## Inside the `BODY` tag
+
+### <sesamy-content-container\>
+
+The `sesamy-content-container` element is used to hide content on the client-side.
 
 ```html
-    <sesamy-content-container 
-      item-src="https://news-demo-seven.vercel.app/www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
-      show-childs-count="1"
-    >
-        [full article html content]
-    </sesamy-content-container>
+    <html>
+        <head></head>
+        <body>
+            <style>
+            sesamy-content-container {
+                display: none;
+            }
+            </style>
+            <sesamy-content-container>
+                <p>...</p>
+                <p>...</p>
+                <p>...</p>
+            </sesamy-content-container>
+            
+            <script type="module" src="./dist/sesamy-content-container.min.js"></script>
+        </body>
+    </html>
 ```
 
-### 2 - Sesamy buy button
+By default, the content inside `sesamy-content-container` will be hidden until the checkout flow is finished. The attribute `show-childs-count` could be used to show the the number of visible children elements when locked, and the attribute `gradient` with the value "true" (`gradient="true"`) to show a gradient effect at the bottom of the inner content.
+
+### <sesamy-button\>
+
+This component show the button to buy the article. When it's clicked, the widget will appear.
+
+```html
+<sesamy-button></sesamy-button>
+```
+
+### <sesamy-button-container\>
+
+If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the button will be displayed wrapped by a container with an image and a description taken from the meta tags.
 
 ```html
 <sesamy-button-container>
-    <sesamy-button
-        text="LÅS UPP ARTIKEL"
-        item-src="https://news-demo-seven.vercel.app/www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
-        unlock-message-direction="vertical"
-        unlock-message-alignment="left"
-    ></sesamy-button>
+    <sesamy-button></sesamy-button>
 </sesamy-button-container>
 ```
 
-### 3 - Component Scripts
+To overwrite the image and the description taken from the meta tags you can use the `item-src` and `description` attributes.
+
+```html
+<sesamy-button-container
+    description="Any description"
+    item-src="https://www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
+>
+    <sesamy-button></sesamy-button>
+</sesamy-button-container>
+```
+
+### Component Scripts
 
 ```html
 <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
