@@ -10,46 +10,44 @@ Here we can see an example of the different elements that have to be integrated 
 
 ```html
 <html>
-    <head>
-        <meta property="sesamy:price" content="10" />
-        <meta property="sesamy:currency" content="EUR" />
+  <head>
+    <meta property="sesamy:price" content="10" />
+    <meta property="sesamy:currency" content="EUR" />
 
-        <style>
-            sesamy-content-container {
-                display: none;
-            }
-            sesamy-button-container {
-                --background: #ffffff;
-                --font-weight: 600;
-            }
-            sesamy-button {
-                --background: #436cad;
-                --border-radius: 30px;
-            }
-        </style>
-        <script>
-            document.addEventListener('sesamy-unlock', function (e) {
-                console.log(e.detail);
-            });
-        </script>
-    </head>
-    <body>
-        <sesamy-button></sesamy-button>
+    <style>
+      sesamy-content-container {
+        display: none;
+      }
+      sesamy-button-container {
+        --background: #ffffff;
+        --font-weight: 600;
+      }
+      sesamy-button {
+        --background: #436cad;
+        --border-radius: 30px;
+      }
+    </style>
+    <script>
+      document.addEventListener('sesamy-unlock', function (e) {
+        console.log(e.detail);
+      });
+    </script>
+  </head>
+  <body>
+    <sesamy-content-container>
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+    </sesamy-content-container>
 
-        <sesamy-content-container>
-            <p>...</p>
-            <p>...</p>
-            <p>...</p>
-        </sesamy-content-container>
-
-        <sesamy-button-container>
-            <sesamy-button></sesamy-button>
-        </sesamy-button-container>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-    </body>
+    <sesamy-button-container>
+      <sesamy-button></sesamy-button>
+    </sesamy-button-container>
+    
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+  </body>
 </html>
 ```
 
@@ -148,17 +146,17 @@ Check all the CSS custom properties of every component in the component page.
 
 ```html
 <style>
-    sesamy-content-container {
-        display: none;
-    }
-    sesamy-button-container {
-        --background: #ffffff;
-        --font-weight: 600;
-    }
-    sesamy-button {
-        --background: #436cad;
-        --border-radius: 30px;
-    }
+  sesamy-content-container {
+    display: none;
+  }
+  sesamy-button-container {
+    --background: #ffffff;
+    --font-weight: 600;
+  }
+  sesamy-button {
+    --background: #436cad;
+    --border-radius: 30px;
+  }
 </style>
 ```
 
@@ -168,9 +166,9 @@ Once the checkout flow in the iframe is finished and the item was succesfully pu
 
 ```html
 <script>
-    document.addEventListener('sesamy-unlock', function (e) {
-      console.log(e.detail);
-    });
+  document.addEventListener('sesamy-unlock', function (e) {
+    console.log(e.detail);
+  });
 </script>
 ```
 
@@ -194,22 +192,22 @@ The `sesamy-content-container` element is used to hide content on the client-sid
 
 ```html
 <html>
-    <head>
-        <style>
-            sesamy-content-container {
-                display: none;
-            }
-        </style>
-    </head>
-    <body>
-        <sesamy-content-container>
-            <p>...</p>
-            <p>...</p>
-            <p>...</p>
-        </sesamy-content-container>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
-    </body>
+  <head>
+    <style>
+      sesamy-content-container {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <sesamy-content-container>
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+    </sesamy-content-container>
+    
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
+  </body>
 </html>
 ```
 
@@ -221,19 +219,19 @@ This component show the button to buy the article. When it's clicked, the widget
 
 ```html
 <html>
-    <head>
-        <style>
-            sesamy-button {
-                --background: #436cad;
-                --border-radius: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <sesamy-button></sesamy-button>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-    </body>
+  <head>
+    <style>
+      sesamy-button {
+        --background: #436cad;
+        --border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <sesamy-button></sesamy-button>
+    
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+  </body>
 </html>
 ```
 
@@ -243,39 +241,30 @@ If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the 
 
 ```html
 <html>
-    <head>
-        <style>
-            sesamy-button-container {
-                --background: #ffffff;
-                --font-weight: 600;
-            }
-            sesamy-button {
-                --background: #436cad;
-                --border-radius: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <sesamy-button-container>
-            <sesamy-button></sesamy-button>
-        </sesamy-button-container>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-    </body>
+  <head>
+    <style>
+      sesamy-button-container {
+        --background: #ffffff;
+        --font-weight: 600;
+      }
+      sesamy-button {
+        --background: #436cad;
+        --border-radius: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <sesamy-button-container>
+        <sesamy-button></sesamy-button>
+    </sesamy-button-container>
+    
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
+    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+  </body>
 </html>
 ```
 
 To overwrite the image and the description taken from the meta tags you can use the `item-src` and `description` attributes.
-
-```html
-<sesamy-button-container
-    description="Any description"
-    item-src="https://www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
->
-    <sesamy-button></sesamy-button>
-</sesamy-button-container>
-```
 
 ### Component Scripts
 
