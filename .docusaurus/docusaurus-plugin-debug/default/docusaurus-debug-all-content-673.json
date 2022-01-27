@@ -74,7 +74,7 @@
               "unversionedId": "news-widget/getting-started",
               "id": "news-widget/getting-started",
               "title": "Getting Started",
-              "description": "INTRODUCTION",
+              "description": "Boilerplate",
               "source": "@site/docs/news-widget/getting-started.md",
               "sourceDirName": "news-widget",
               "slug": "/news-widget/getting-started",

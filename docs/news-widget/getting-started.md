@@ -4,7 +4,56 @@ sidebar_position: 1
 
 # Getting Started
 
-INTRODUCTION
+## Boilerplate
+
+Here we can see an example of the different elements that have to be integrated to show the button an the widget.
+
+```html
+<html>
+    <head>
+        <meta property="sesamy:price" content="10" />
+        <meta property="sesamy:currency" content="EUR" />
+
+        <style>
+            sesamy-content-container {
+                display: none;
+            }
+            sesamy-button-container {
+                --background: #ffffff;
+                --font-weight: 600;
+            }
+            sesamy-button {
+                --background: #436cad;
+                --border-radius: 30px;
+            }
+        </style>
+        <script>
+            document.addEventListener('sesamy-unlock', function (e) {
+                console.log(e.detail);
+            });
+        </script>
+    </head>
+    <body>
+        <sesamy-button></sesamy-button>
+
+        <sesamy-content-container>
+            <p>...</p>
+            <p>...</p>
+            <p>...</p>
+        </sesamy-content-container>
+
+        <sesamy-button-container>
+            <sesamy-button></sesamy-button>
+        </sesamy-button-container>
+        
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
+        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+    </body>
+</html>
+```
+
+
 
 ## Inside the `HEAD` tag 
 
@@ -234,51 +283,4 @@ To overwrite the image and the description taken from the meta tags you can use 
 <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
 <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
 <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-```
-
-## Boilerplate
-
-```html
-<html>
-    <head>
-        <meta property="sesamy:price" content="10" />
-        <meta property="sesamy:currency" content="EUR" />
-
-        <style>
-            sesamy-content-container {
-                display: none;
-            }
-            sesamy-button-container {
-                --background: #ffffff;
-                --font-weight: 600;
-            }
-            sesamy-button {
-                --background: #436cad;
-                --border-radius: 30px;
-            }
-        </style>
-        <script>
-            document.addEventListener('sesamy-unlock', function (e) {
-                console.log(e.detail);
-            });
-        </script>
-    </head>
-    <body>
-        <sesamy-button></sesamy-button>
-
-        <sesamy-content-container>
-            <p>...</p>
-            <p>...</p>
-            <p>...</p>
-        </sesamy-content-container>
-
-        <sesamy-button-container>
-            <sesamy-button></sesamy-button>
-        </sesamy-button-container>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-    </body>
-</html>
 ```

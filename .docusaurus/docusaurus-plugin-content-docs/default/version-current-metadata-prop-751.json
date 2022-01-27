@@ -116,7 +116,7 @@
     "news-widget/getting-started": {
       "id": "news-widget/getting-started",
       "title": "Getting Started",
-      "description": "INTRODUCTION",
+      "description": "Boilerplate",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
