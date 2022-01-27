@@ -9,6 +9,12 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "Intro",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
         "type": "category",
         "label": "News Widget",
         "collapsible": true,
@@ -33,19 +39,13 @@
             "docId": "news-widget/button-sesamy-container Component"
           }
         ]
-      },
-      {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
       }
     ]
   },
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
+      "title": "Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },

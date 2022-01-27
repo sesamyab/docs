@@ -1,7 +1,7 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Tutorial Intro",
+  "title": "Intro",
   "description": "Let's discover Docusaurus in less than 5 minutes.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -15,8 +15,8 @@
     "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "sesamy-button-container Component",
-    "permalink": "/docs/news-widget/button-sesamy-container Component"
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/news-widget/getting-started"
   }
 }

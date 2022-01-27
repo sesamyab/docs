@@ -21,7 +21,7 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
+              "title": "Intro",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -35,9 +35,9 @@
                 "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/button-sesamy-container Component"
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/news-widget/getting-started"
               }
             },
             {
@@ -86,10 +86,6 @@
               "previous": {
                 "title": "sesamy-button Component",
                 "permalink": "/docs/news-widget/button-sesamy Component"
-              },
-              "next": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
               }
             },
             {
@@ -109,6 +105,10 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Intro",
+                "permalink": "/docs/intro"
+              },
               "next": {
                 "title": "sesamy-button Component",
                 "permalink": "/docs/news-widget/button-sesamy Component"
@@ -117,6 +117,10 @@
           ],
           "sidebars": {
             "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
               {
                 "type": "category",
                 "label": "News Widget",
@@ -136,14 +140,10 @@
                     "id": "news-widget/button-sesamy-container Component"
                   }
                 ]
-              },
-              {
-                "type": "doc",
-                "id": "intro"
               }
             ]
           },
-          "mainDocId": "news-widget/getting-started",
+          "mainDocId": "intro",
           "categoryGeneratedIndices": []
         }
       ]

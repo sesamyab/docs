@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "news-widget/getting-started",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
