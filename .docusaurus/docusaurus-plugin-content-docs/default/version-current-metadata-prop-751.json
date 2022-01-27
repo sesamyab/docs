@@ -25,6 +25,12 @@
             "label": "sesamy-button Component",
             "href": "/docs/news-widget/button-sesamy Component",
             "docId": "news-widget/button-sesamy Component"
+          },
+          {
+            "type": "link",
+            "label": "sesamy-button-container Component",
+            "href": "/docs/news-widget/button-sesamy-container Component",
+            "docId": "news-widget/button-sesamy-container Component"
           }
         ]
       },
@@ -110,7 +116,13 @@
     "news-widget/button-sesamy Component": {
       "id": "news-widget/button-sesamy Component",
       "title": "sesamy-button Component",
-      "description": "INTRODUCTION",
+      "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/button-sesamy-container Component": {
+      "id": "news-widget/button-sesamy-container Component",
+      "title": "sesamy-button-container Component",
+      "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/getting-started": {

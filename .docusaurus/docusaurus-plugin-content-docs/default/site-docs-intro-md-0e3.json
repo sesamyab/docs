@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "sesamy-button Component",
-    "permalink": "/docs/news-widget/button-sesamy Component"
+    "title": "sesamy-button-container Component",
+    "permalink": "/docs/news-widget/button-sesamy-container Component"
   },
   "next": {
     "title": "Create a Page",
