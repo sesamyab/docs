@@ -74,7 +74,7 @@ The priority to get those values are:
 <meta property="price" content="10" />
 ```
 
-#### `currency`
+#### `currency` (`DKK`, `EUR` and `SEK`)
 1. `sesamy:currency` meta tag
 ```html
 <meta property="sesamy:currency" content="EUR" />
