@@ -13,11 +13,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/alberto/PROYECTOS-SESAMY/docs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/alberto/PROYECTOS/docs/sidebars.js"
         },
         "theme": {
-          "customCss": "/Users/alberto/PROYECTOS-SESAMY/docs/src/css/custom.css"
+          "customCss": "/Users/alberto/PROYECTOS/docs/src/css/custom.css"
         }
       }
     ]
