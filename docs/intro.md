@@ -2,34 +2,10 @@
 sidebar_position: 2
 ---
 
-# Intro
+# Sesamy Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Explore our guides and examples to integrate Sesamy.
 
-## Getting Started
+Increase your news revenue using the [Sesamy News Widget](/docs/news-widget/getting-started)
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest docs classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd docs
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+Monteize your podcasts using [Sesamy Accesst](/docs/access/getting-started)

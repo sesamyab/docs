@@ -50,8 +50,26 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','8f1'),
+    component: ComponentCreator('/docs','d63'),
     routes: [
+      {
+        path: '/docs/access/description-fallback',
+        component: ComponentCreator('/docs/access/description-fallback','771'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/access/getting-started',
+        component: ComponentCreator('/docs/access/getting-started','622'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/access/xml-extension',
+        component: ComponentCreator('/docs/access/xml-extension','c88'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),

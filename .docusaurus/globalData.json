@@ -11,6 +11,21 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "access/description-fallback",
+              "path": "/docs/access/description-fallback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/getting-started",
+              "path": "/docs/access/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/xml-extension",
+              "path": "/docs/access/xml-extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

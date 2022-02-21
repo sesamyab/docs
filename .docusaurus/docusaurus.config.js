@@ -13,10 +13,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/alberto/PROYECTOS/docs/sidebars.js"
+          "sidebarPath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js"
         },
         "theme": {
-          "customCss": "/Users/alberto/PROYECTOS/docs/src/css/custom.css"
+          "customCss": "/Users/markusahlstrand/Projects/sesamy/docs/src/css/custom.css"
         }
       }
     ]

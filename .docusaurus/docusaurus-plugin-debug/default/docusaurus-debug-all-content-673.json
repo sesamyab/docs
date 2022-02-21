@@ -12,15 +12,86 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/alberto/PROYECTOS/docs/sidebars.js",
-          "contentPath": "/Users/alberto/PROYECTOS/docs/docs",
-          "contentPathLocalized": "/Users/alberto/PROYECTOS/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
+          "contentPath": "/Users/markusahlstrand/Projects/sesamy/docs/docs",
+          "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "access/description-fallback",
+              "id": "access/description-fallback",
+              "title": "Description Fallback",
+              "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
+              "source": "@site/docs/access/description-fallback.md",
+              "sourceDirName": "access",
+              "slug": "/access/description-fallback",
+              "permalink": "/docs/access/description-fallback",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/xml-extension"
+              }
+            },
+            {
+              "unversionedId": "access/getting-started",
+              "id": "access/getting-started",
+              "title": "Getting Started",
+              "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+              "source": "@site/docs/access/getting-started.md",
+              "sourceDirName": "access",
+              "slug": "/access/getting-started",
+              "permalink": "/docs/access/getting-started",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-button-container Component",
+                "permalink": "/docs/news-widget/button-sesamy-container Component"
+              },
+              "next": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/xml-extension"
+              }
+            },
+            {
+              "unversionedId": "access/xml-extension",
+              "id": "access/xml-extension",
+              "title": "XML Extension",
+              "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
+              "source": "@site/docs/access/xml-extension.md",
+              "sourceDirName": "access",
+              "slug": "/access/xml-extension",
+              "permalink": "/docs/access/xml-extension",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              },
+              "next": {
+                "title": "Description Fallback",
+                "permalink": "/docs/access/description-fallback"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "Sesamy Documentation",
+              "description": "Explore our guides and examples to integrate Sesamy.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -81,6 +152,10 @@
               "previous": {
                 "title": "sesamy-button Component",
                 "permalink": "/docs/news-widget/button-sesamy Component"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
               }
             },
             {
@@ -100,7 +175,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro",
+                "title": "Sesamy Documentation",
                 "permalink": "/docs/intro"
               },
               "next": {
@@ -132,6 +207,26 @@
                   {
                     "type": "doc",
                     "id": "news-widget/button-sesamy-container Component"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Podcast Access",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "access/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "access/xml-extension"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "access/description-fallback"
                   }
                 ]
               }

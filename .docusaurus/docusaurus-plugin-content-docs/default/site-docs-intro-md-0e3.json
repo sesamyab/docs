@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Sesamy Documentation",
+  "description": "Explore our guides and examples to integrate Sesamy.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

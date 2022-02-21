@@ -10,7 +10,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Intro",
+        "label": "Sesamy Documentation",
         "href": "/docs/intro",
         "docId": "intro"
       },
@@ -39,14 +39,58 @@
             "docId": "news-widget/button-sesamy-container Component"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Podcast Access",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/access/getting-started",
+            "docId": "access/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "XML Extension",
+            "href": "/docs/access/xml-extension",
+            "docId": "access/xml-extension"
+          },
+          {
+            "type": "link",
+            "label": "Description Fallback",
+            "href": "/docs/access/description-fallback",
+            "docId": "access/description-fallback"
+          }
+        ]
       }
     ]
   },
   "docs": {
+    "access/description-fallback": {
+      "id": "access/description-fallback",
+      "title": "Description Fallback",
+      "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/getting-started": {
+      "id": "access/getting-started",
+      "title": "Getting Started",
+      "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/xml-extension": {
+      "id": "access/xml-extension",
+      "title": "XML Extension",
+      "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "Sesamy Documentation",
+      "description": "Explore our guides and examples to integrate Sesamy.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/button-sesamy Component": {
