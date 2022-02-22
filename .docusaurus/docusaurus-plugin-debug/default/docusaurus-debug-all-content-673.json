@@ -17,6 +17,52 @@
           "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "access/configuration/configuration",
+              "id": "access/configuration/configuration",
+              "title": "Configuration",
+              "description": "The Sesamy Access service can be configured in a variaty of ways depending on how the premium content is stored and if Sesamy Access is serving the public feed.",
+              "source": "@site/docs/access/configuration/configuration.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/",
+              "permalink": "/docs/access/configuration/",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Description Fallback",
+                "permalink": "/docs/access/description-fallback"
+              },
+              "next": {
+                "title": "Sources",
+                "permalink": "/docs/access/configuration/sources"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/sources",
+              "id": "access/configuration/sources",
+              "title": "Sources",
+              "description": "Sesamy Access can pull content from multiple sources when creating a new feed. Each source can be configured to either public or private.",
+              "source": "@site/docs/access/configuration/sources.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/sources",
+              "permalink": "/docs/access/configuration/sources",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/access/configuration/"
+              }
+            },
+            {
               "unversionedId": "access/description-fallback",
               "id": "access/description-fallback",
               "title": "Description Fallback",
@@ -35,6 +81,10 @@
               "previous": {
                 "title": "XML Extension",
                 "permalink": "/docs/access/xml-extension"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/access/configuration/"
               }
             },
             {
@@ -212,7 +262,7 @@
               },
               {
                 "type": "category",
-                "label": "Podcast Access",
+                "label": "Access",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -227,6 +277,22 @@
                   {
                     "type": "doc",
                     "id": "access/description-fallback"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Configuration",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/sources"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "access/configuration/configuration"
+                    }
                   }
                 ]
               }

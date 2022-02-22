@@ -50,8 +50,20 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','d63'),
+    component: ComponentCreator('/docs','5b4'),
     routes: [
+      {
+        path: '/docs/access/configuration/',
+        component: ComponentCreator('/docs/access/configuration/','9f4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/access/configuration/sources',
+        component: ComponentCreator('/docs/access/configuration/sources','fef'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/access/description-fallback',
         component: ComponentCreator('/docs/access/description-fallback','771'),

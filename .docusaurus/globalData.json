@@ -11,6 +11,16 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "access/configuration/configuration",
+              "path": "/docs/access/configuration/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/configuration/sources",
+              "path": "/docs/access/configuration/sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "access/description-fallback",
               "path": "/docs/access/description-fallback",
               "sidebar": "tutorialSidebar"

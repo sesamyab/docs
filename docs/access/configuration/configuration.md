@@ -12,7 +12,7 @@ In proxy mode the Access service put in front of another hosting service and the
 
 As Sesamy Access has access to the complete feed it can also generate any private feeds without any futher configuration.
 
-The product and pricing information can either be added to the source feed using [xml](/docs/access/xml-extension) of the [description fields](/docs/access/description-fallback.md)
+The product and pricing information can either be added to the source feed using [xml](/docs/access/xml-extension) of the [description fields](/docs/access/description-fallback)
 
 Existing feeds public feeds needs to be redirected to the Sesamy Access public feed.
 

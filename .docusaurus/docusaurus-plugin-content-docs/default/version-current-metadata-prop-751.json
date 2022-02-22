@@ -42,7 +42,7 @@
       },
       {
         "type": "category",
-        "label": "Podcast Access",
+        "label": "Access",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -63,12 +63,39 @@
             "label": "Description Fallback",
             "href": "/docs/access/description-fallback",
             "docId": "access/description-fallback"
+          },
+          {
+            "type": "category",
+            "label": "Configuration",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Sources",
+                "href": "/docs/access/configuration/sources",
+                "docId": "access/configuration/sources"
+              }
+            ],
+            "href": "/docs/access/configuration/"
           }
         ]
       }
     ]
   },
   "docs": {
+    "access/configuration/configuration": {
+      "id": "access/configuration/configuration",
+      "title": "Configuration",
+      "description": "The Sesamy Access service can be configured in a variaty of ways depending on how the premium content is stored and if Sesamy Access is serving the public feed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/configuration/sources": {
+      "id": "access/configuration/sources",
+      "title": "Sources",
+      "description": "Sesamy Access can pull content from multiple sources when creating a new feed. Each source can be configured to either public or private.",
+      "sidebar": "tutorialSidebar"
+    },
     "access/description-fallback": {
       "id": "access/description-fallback",
       "title": "Description Fallback",
