@@ -17,6 +17,31 @@
           "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "access/api",
+              "id": "access/api",
+              "title": "API",
+              "description": "The private feeds can be created through the Sesamy Checkout flow but it's also possible to create private links for existing customers as a publisher.",
+              "source": "@site/docs/access/api.md",
+              "sourceDirName": "access",
+              "slug": "/access/api",
+              "permalink": "/docs/access/api",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/access/configuration/"
+              }
+            },
+            {
               "unversionedId": "access/configuration/configuration",
               "id": "access/configuration/configuration",
               "title": "Configuration",
@@ -33,12 +58,33 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Description Fallback",
-                "permalink": "/docs/access/description-fallback"
+                "title": "API",
+                "permalink": "/docs/access/api"
               },
               "next": {
                 "title": "Sources",
                 "permalink": "/docs/access/configuration/sources"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/description-fallback",
+              "id": "access/configuration/description-fallback",
+              "title": "Description Fallback",
+              "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
+              "source": "@site/docs/access/configuration/description-fallback.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/description-fallback",
+              "permalink": "/docs/access/configuration/description-fallback",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/configuration/xml-extension"
               }
             },
             {
@@ -60,31 +106,35 @@
               "previous": {
                 "title": "Configuration",
                 "permalink": "/docs/access/configuration/"
+              },
+              "next": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/configuration/xml-extension"
               }
             },
             {
-              "unversionedId": "access/description-fallback",
-              "id": "access/description-fallback",
-              "title": "Description Fallback",
-              "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
-              "source": "@site/docs/access/description-fallback.md",
-              "sourceDirName": "access",
-              "slug": "/access/description-fallback",
-              "permalink": "/docs/access/description-fallback",
+              "unversionedId": "access/configuration/xml-extension",
+              "id": "access/configuration/xml-extension",
+              "title": "XML Extension",
+              "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
+              "source": "@site/docs/access/configuration/xml-extension.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/xml-extension",
+              "permalink": "/docs/access/configuration/xml-extension",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "XML Extension",
-                "permalink": "/docs/access/xml-extension"
+                "title": "Sources",
+                "permalink": "/docs/access/configuration/sources"
               },
               "next": {
-                "title": "Configuration",
-                "permalink": "/docs/access/configuration/"
+                "title": "Description Fallback",
+                "permalink": "/docs/access/configuration/description-fallback"
               }
             },
             {
@@ -108,33 +158,8 @@
                 "permalink": "/docs/news-widget/button-sesamy-container Component"
               },
               "next": {
-                "title": "XML Extension",
-                "permalink": "/docs/access/xml-extension"
-              }
-            },
-            {
-              "unversionedId": "access/xml-extension",
-              "id": "access/xml-extension",
-              "title": "XML Extension",
-              "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
-              "source": "@site/docs/access/xml-extension.md",
-              "sourceDirName": "access",
-              "slug": "/access/xml-extension",
-              "permalink": "/docs/access/xml-extension",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
-              },
-              "next": {
-                "title": "Description Fallback",
-                "permalink": "/docs/access/description-fallback"
+                "title": "API",
+                "permalink": "/docs/access/api"
               }
             },
             {
@@ -272,11 +297,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "access/xml-extension"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "access/description-fallback"
+                    "id": "access/api"
                   },
                   {
                     "type": "category",
@@ -287,6 +308,14 @@
                       {
                         "type": "doc",
                         "id": "access/configuration/sources"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/xml-extension"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/description-fallback"
                       }
                     ],
                     "link": {
