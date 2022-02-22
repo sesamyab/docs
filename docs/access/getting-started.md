@@ -15,7 +15,7 @@ Access fetches content from one or many rss feeds and creates unique user feeds 
 As RSS is a open standard with many different implementations, much like html, there are many different ways solve thing depending on which client the user is using:
 
 - The most effective way is to mention in the podcast that they can purchase the episode or become a member at the publisher website, where you can user our widget to make the integration easy.
-- By adding a payment link in the feed some podcasts client will show a button, typically labeled support, which can point to a checkout. See (this link)[https://indieweb.org/payment] for more information.
+- By adding a payment link in the feed some podcasts client will show a button, typically labeled support, which can point to a checkout. See [this link](https://indieweb.org/payment) for more information.
 - By adding a link element in the feed, which some clients will show.
 - By adding a html link in the description of the feed and the episodes.
 
