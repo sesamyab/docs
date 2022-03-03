@@ -12,15 +12,161 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/alberto/PROYECTOS/docs/sidebars.js",
-          "contentPath": "/Users/alberto/PROYECTOS/docs/docs",
-          "contentPathLocalized": "/Users/alberto/PROYECTOS/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
+          "contentPath": "/Users/markusahlstrand/Projects/sesamy/docs/docs",
+          "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
+            {
+              "unversionedId": "access/api",
+              "id": "access/api",
+              "title": "API",
+              "description": "The private feeds can be created through the Sesamy Checkout flow but it's also possible to create private links for existing customers as a publisher.",
+              "source": "@site/docs/access/api.md",
+              "sourceDirName": "access",
+              "slug": "/access/api",
+              "permalink": "/docs/access/api",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              },
+              "next": {
+                "title": "Configuration",
+                "permalink": "/docs/access/configuration/"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/configuration",
+              "id": "access/configuration/configuration",
+              "title": "Configuration",
+              "description": "The Sesamy Access service can be configured in a variaty of ways depending on how the premium content is stored and if Sesamy Access is serving the public feed.",
+              "source": "@site/docs/access/configuration/configuration.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/",
+              "permalink": "/docs/access/configuration/",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API",
+                "permalink": "/docs/access/api"
+              },
+              "next": {
+                "title": "Sources",
+                "permalink": "/docs/access/configuration/sources"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/description-fallback",
+              "id": "access/configuration/description-fallback",
+              "title": "Description Fallback",
+              "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
+              "source": "@site/docs/access/configuration/description-fallback.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/description-fallback",
+              "permalink": "/docs/access/configuration/description-fallback",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/configuration/xml-extension"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/sources",
+              "id": "access/configuration/sources",
+              "title": "Sources",
+              "description": "Sesamy Access can pull content from multiple sources when creating a new feed. Each source can be configured to either public or private.",
+              "source": "@site/docs/access/configuration/sources.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/sources",
+              "permalink": "/docs/access/configuration/sources",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuration",
+                "permalink": "/docs/access/configuration/"
+              },
+              "next": {
+                "title": "XML Extension",
+                "permalink": "/docs/access/configuration/xml-extension"
+              }
+            },
+            {
+              "unversionedId": "access/configuration/xml-extension",
+              "id": "access/configuration/xml-extension",
+              "title": "XML Extension",
+              "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
+              "source": "@site/docs/access/configuration/xml-extension.md",
+              "sourceDirName": "access/configuration",
+              "slug": "/access/configuration/xml-extension",
+              "permalink": "/docs/access/configuration/xml-extension",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sources",
+                "permalink": "/docs/access/configuration/sources"
+              },
+              "next": {
+                "title": "Description Fallback",
+                "permalink": "/docs/access/configuration/description-fallback"
+              }
+            },
+            {
+              "unversionedId": "access/getting-started",
+              "id": "access/getting-started",
+              "title": "Getting Started",
+              "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+              "source": "@site/docs/access/getting-started.md",
+              "sourceDirName": "access",
+              "slug": "/access/getting-started",
+              "permalink": "/docs/access/getting-started",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-button-container Component",
+                "permalink": "/docs/news-widget/button-sesamy-container Component"
+              },
+              "next": {
+                "title": "API",
+                "permalink": "/docs/access/api"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "Sesamy Documentation",
+              "description": "Explore our guides and examples to integrate Sesamy.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -81,6 +227,10 @@
               "previous": {
                 "title": "sesamy-button Component",
                 "permalink": "/docs/news-widget/button-sesamy Component"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
               }
             },
             {
@@ -100,7 +250,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Intro",
+                "title": "Sesamy Documentation",
                 "permalink": "/docs/intro"
               },
               "next": {
@@ -132,6 +282,46 @@
                   {
                     "type": "doc",
                     "id": "news-widget/button-sesamy-container Component"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Access",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "access/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "access/api"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Configuration",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/sources"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/xml-extension"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "access/configuration/description-fallback"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "access/configuration/configuration"
+                    }
                   }
                 ]
               }

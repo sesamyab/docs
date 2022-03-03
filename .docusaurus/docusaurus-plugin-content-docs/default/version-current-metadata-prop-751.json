@@ -10,7 +10,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Intro",
+        "label": "Sesamy Documentation",
         "href": "/docs/intro",
         "docId": "intro"
       },
@@ -39,14 +39,97 @@
             "docId": "news-widget/button-sesamy-container Component"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Access",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/access/getting-started",
+            "docId": "access/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "API",
+            "href": "/docs/access/api",
+            "docId": "access/api"
+          },
+          {
+            "type": "category",
+            "label": "Configuration",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Sources",
+                "href": "/docs/access/configuration/sources",
+                "docId": "access/configuration/sources"
+              },
+              {
+                "type": "link",
+                "label": "XML Extension",
+                "href": "/docs/access/configuration/xml-extension",
+                "docId": "access/configuration/xml-extension"
+              },
+              {
+                "type": "link",
+                "label": "Description Fallback",
+                "href": "/docs/access/configuration/description-fallback",
+                "docId": "access/configuration/description-fallback"
+              }
+            ],
+            "href": "/docs/access/configuration/"
+          }
+        ]
       }
     ]
   },
   "docs": {
+    "access/api": {
+      "id": "access/api",
+      "title": "API",
+      "description": "The private feeds can be created through the Sesamy Checkout flow but it's also possible to create private links for existing customers as a publisher.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/configuration/configuration": {
+      "id": "access/configuration/configuration",
+      "title": "Configuration",
+      "description": "The Sesamy Access service can be configured in a variaty of ways depending on how the premium content is stored and if Sesamy Access is serving the public feed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/configuration/description-fallback": {
+      "id": "access/configuration/description-fallback",
+      "title": "Description Fallback",
+      "description": "As many podcast hosting services doesn't support the access XML tags there's a fallback to add the same information in the episode descriptions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/configuration/sources": {
+      "id": "access/configuration/sources",
+      "title": "Sources",
+      "description": "Sesamy Access can pull content from multiple sources when creating a new feed. Each source can be configured to either public or private.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/configuration/xml-extension": {
+      "id": "access/configuration/xml-extension",
+      "title": "XML Extension",
+      "description": "Sesamy access uses the Access XML extention for both reading and writing RSS.",
+      "sidebar": "tutorialSidebar"
+    },
+    "access/getting-started": {
+      "id": "access/getting-started",
+      "title": "Getting Started",
+      "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "Sesamy Documentation",
+      "description": "Explore our guides and examples to integrate Sesamy.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/button-sesamy Component": {
