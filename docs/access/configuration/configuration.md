@@ -27,3 +27,7 @@ If the current hosting service is comaptible with Sesamy Access the proxy mode c
 If none of the options above are possible due to the current hosting service it is also possible to only deliver the private feeds with Sesamy Access. In this case the private content needs to be made available in a separate feed and can be blended with the episodes in the public feed.
 
 As the public feed isn't updated by Sesamy there's no automatic way to add links in the feed to the Sesamy Checkout and these links have to be manually added in the description fields and in the audio files.
+
+# Bundles
+
+Several products can be combined into a bundle, for instance it is possible to create a subscription that gives access to all the feeds from a publisher. Bundles are created in the Sesamy publishing tools and can not be created as part of the xml feeds.
