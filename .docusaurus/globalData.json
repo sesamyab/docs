@@ -11,6 +11,36 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "access/api",
+              "path": "/docs/access/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/configuration/configuration",
+              "path": "/docs/access/configuration/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/configuration/description-fallback",
+              "path": "/docs/access/configuration/description-fallback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/configuration/sources",
+              "path": "/docs/access/configuration/sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/configuration/xml-extension",
+              "path": "/docs/access/configuration/xml-extension",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "access/getting-started",
+              "path": "/docs/access/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
