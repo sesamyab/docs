@@ -10,7 +10,7 @@ The syntax used is very similar to markdown and the goal is to make it as easy t
 
 ## Usage
 
-The data is added anywhere in the description of a channel or an episode as a JSON object and work very similar to how the XML tags work.
+The data is added anywhere in the description of a channel or an episode as markdown and work very similar to how the XML tags work.
 
 ## Channel level tags
 
