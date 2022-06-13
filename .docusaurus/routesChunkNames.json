@@ -29,7 +29,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/docs-374": {
+  "/docs-3ee": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -61,17 +61,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
-  "/docs/news-widget/button-sesamy Component-fab": {
+  "/docs/news-widget/-9b3": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-button-sesamy-component-9-e-8-73e"
-  },
-  "/docs/news-widget/button-sesamy-container Component-251": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-button-sesamy-container-component-219-a11"
+    "content": "content---docs-news-widget-143-b73"
   },
   "/docs/news-widget/getting-started-03f": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-getting-startede-81-0a3"
+  },
+  "/docs/news-widget/sesamy-button Component-e18": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-sesamy-button-component-645-86a"
+  },
+  "/docs/news-widget/sesamy-button-container Component-5c0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-sesamy-button-container-componenta-4-a-82f"
+  },
+  "/docs/news-widget/sesamy-login Component-b3d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-sesamy-login-component-3-ef-9ee"
   },
   "/-f49": {
     "component": "component---site-src-pages-index-tsx-1-df-d3e",

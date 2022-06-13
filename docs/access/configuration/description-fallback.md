@@ -66,3 +66,5 @@ Below is an example of the access-item tag:
     ...
 <channel>
 ```
+
+If the product id that is used on an episode isn't defined on the channel the episode will still be locked but the product will not be available for purchase. This can for instance be used to lock an episode that is part of a bundle.
