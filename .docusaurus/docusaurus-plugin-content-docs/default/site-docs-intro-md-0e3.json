@@ -15,7 +15,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/docs/news-widget/getting-started"
+    "title": "News Widets",
+    "permalink": "/docs/news-widget/"
   }
 }

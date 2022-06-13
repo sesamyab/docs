@@ -8,4 +8,4 @@ Explore our guides and examples to integrate Sesamy.
 
 Increase your news revenue using the [Sesamy News Widget](/docs/news-widget/getting-started)
 
-Monteize your podcasts using [Sesamy Accesst](/docs/access/getting-started)
+Monteize your podcasts using [Sesamy Access](/docs/access/getting-started)

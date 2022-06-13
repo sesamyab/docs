@@ -48,7 +48,7 @@ Below is an example of a channel tag with the tags:
     </sesamy:product>
 ```
 
-## Epsisode level tags
+## Episode level tags
 
 The sesamy-item tag is a superset of the rss item tag, but with extra properties to handle unlocking of content.
 

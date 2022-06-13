@@ -155,7 +155,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/button-sesamy-container Component"
+                "permalink": "/docs/news-widget/sesamy-button-container Component"
               },
               "next": {
                 "title": "API",
@@ -179,58 +179,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/news-widget/getting-started"
-              }
-            },
-            {
-              "unversionedId": "news-widget/button-sesamy Component",
-              "id": "news-widget/button-sesamy Component",
-              "title": "sesamy-button Component",
-              "description": "Usage",
-              "source": "@site/docs/news-widget/button-sesamy Component.md",
-              "sourceDirName": "news-widget",
-              "slug": "/news-widget/button-sesamy Component",
-              "permalink": "/docs/news-widget/button-sesamy Component",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/news-widget/getting-started"
-              },
-              "next": {
-                "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/button-sesamy-container Component"
-              }
-            },
-            {
-              "unversionedId": "news-widget/button-sesamy-container Component",
-              "id": "news-widget/button-sesamy-container Component",
-              "title": "sesamy-button-container Component",
-              "description": "Usage",
-              "source": "@site/docs/news-widget/button-sesamy-container Component.md",
-              "sourceDirName": "news-widget",
-              "slug": "/news-widget/button-sesamy-container Component",
-              "permalink": "/docs/news-widget/button-sesamy-container Component",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "sesamy-button Component",
-                "permalink": "/docs/news-widget/button-sesamy Component"
-              },
-              "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
+                "title": "News Widets",
+                "permalink": "/docs/news-widget/"
               }
             },
             {
@@ -250,12 +200,112 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "News Widets",
+                "permalink": "/docs/news-widget/"
+              },
+              "next": {
+                "title": "sesamy-login Component",
+                "permalink": "/docs/news-widget/sesamy-login Component"
+              }
+            },
+            {
+              "unversionedId": "news-widget/news-widget",
+              "id": "news-widget/news-widget",
+              "title": "News Widets",
+              "description": "The news widgets are a collection of web components that are used to purchase and unlock content on 3rd party websites.",
+              "source": "@site/docs/news-widget/news-widget.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/",
+              "permalink": "/docs/news-widget/",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Sesamy Documentation",
                 "permalink": "/docs/intro"
               },
               "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/news-widget/getting-started"
+              }
+            },
+            {
+              "unversionedId": "news-widget/sesamy-button Component",
+              "id": "news-widget/sesamy-button Component",
+              "title": "sesamy-button Component",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/sesamy-button Component.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/sesamy-button Component",
+              "permalink": "/docs/news-widget/sesamy-button Component",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-login Component",
+                "permalink": "/docs/news-widget/sesamy-login Component"
+              },
+              "next": {
+                "title": "sesamy-button-container Component",
+                "permalink": "/docs/news-widget/sesamy-button-container Component"
+              }
+            },
+            {
+              "unversionedId": "news-widget/sesamy-button-container Component",
+              "id": "news-widget/sesamy-button-container Component",
+              "title": "sesamy-button-container Component",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/sesamy-button-container Component.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/sesamy-button-container Component",
+              "permalink": "/docs/news-widget/sesamy-button-container Component",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "sesamy-button Component",
-                "permalink": "/docs/news-widget/button-sesamy Component"
+                "permalink": "/docs/news-widget/sesamy-button Component"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              }
+            },
+            {
+              "unversionedId": "news-widget/sesamy-login Component",
+              "id": "news-widget/sesamy-login Component",
+              "title": "sesamy-login Component",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/sesamy-login Component.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/sesamy-login Component",
+              "permalink": "/docs/news-widget/sesamy-login Component",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/news-widget/getting-started"
+              },
+              "next": {
+                "title": "sesamy-button Component",
+                "permalink": "/docs/news-widget/sesamy-button Component"
               }
             }
           ],
@@ -277,13 +327,21 @@
                   },
                   {
                     "type": "doc",
-                    "id": "news-widget/button-sesamy Component"
+                    "id": "news-widget/sesamy-login Component"
                   },
                   {
                     "type": "doc",
-                    "id": "news-widget/button-sesamy-container Component"
+                    "id": "news-widget/sesamy-button Component"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "news-widget/sesamy-button-container Component"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "news-widget/news-widget"
+                }
               },
               {
                 "type": "category",

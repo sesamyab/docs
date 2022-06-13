@@ -28,17 +28,24 @@
           },
           {
             "type": "link",
+            "label": "sesamy-login Component",
+            "href": "/docs/news-widget/sesamy-login Component",
+            "docId": "news-widget/sesamy-login Component"
+          },
+          {
+            "type": "link",
             "label": "sesamy-button Component",
-            "href": "/docs/news-widget/button-sesamy Component",
-            "docId": "news-widget/button-sesamy Component"
+            "href": "/docs/news-widget/sesamy-button Component",
+            "docId": "news-widget/sesamy-button Component"
           },
           {
             "type": "link",
             "label": "sesamy-button-container Component",
-            "href": "/docs/news-widget/button-sesamy-container Component",
-            "docId": "news-widget/button-sesamy-container Component"
+            "href": "/docs/news-widget/sesamy-button-container Component",
+            "docId": "news-widget/sesamy-button-container Component"
           }
-        ]
+        ],
+        "href": "/docs/news-widget/"
       },
       {
         "type": "category",
@@ -132,22 +139,34 @@
       "description": "Explore our guides and examples to integrate Sesamy.",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/button-sesamy Component": {
-      "id": "news-widget/button-sesamy Component",
-      "title": "sesamy-button Component",
-      "description": "Usage",
-      "sidebar": "tutorialSidebar"
-    },
-    "news-widget/button-sesamy-container Component": {
-      "id": "news-widget/button-sesamy-container Component",
-      "title": "sesamy-button-container Component",
-      "description": "Usage",
-      "sidebar": "tutorialSidebar"
-    },
     "news-widget/getting-started": {
       "id": "news-widget/getting-started",
       "title": "Getting Started",
       "description": "Boilerplate",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/news-widget": {
+      "id": "news-widget/news-widget",
+      "title": "News Widets",
+      "description": "The news widgets are a collection of web components that are used to purchase and unlock content on 3rd party websites.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/sesamy-button Component": {
+      "id": "news-widget/sesamy-button Component",
+      "title": "sesamy-button Component",
+      "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/sesamy-button-container Component": {
+      "id": "news-widget/sesamy-button-container Component",
+      "title": "sesamy-button-container Component",
+      "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/sesamy-login Component": {
+      "id": "news-widget/sesamy-login Component",
+      "title": "sesamy-login Component",
+      "description": "Usage",
       "sidebar": "tutorialSidebar"
     }
   }
