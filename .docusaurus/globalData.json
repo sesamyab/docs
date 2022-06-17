@@ -56,23 +56,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-button Component",
-              "path": "/docs/news-widget/sesamy-button Component",
+              "id": "news-widget/sesamy-button",
+              "path": "/docs/news-widget/sesamy-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-button-container Component",
-              "path": "/docs/news-widget/sesamy-button-container Component",
+              "id": "news-widget/sesamy-button-container",
+              "path": "/docs/news-widget/sesamy-button-container",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-content-container Component",
-              "path": "/docs/news-widget/sesamy-content-container Component",
+              "id": "news-widget/sesamy-content-container",
+              "path": "/docs/news-widget/sesamy-content-container",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-login Component",
-              "path": "/docs/news-widget/sesamy-login Component",
+              "id": "news-widget/sesamy-login",
+              "path": "/docs/news-widget/sesamy-login",
               "sidebar": "tutorialSidebar"
             }
           ],

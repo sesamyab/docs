@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5b3'),
+    component: ComponentCreator('/docs', 'b27'),
     routes: [
       {
         path: '/docs/access/api',
@@ -101,26 +101,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-button Component',
-        component: ComponentCreator('/docs/news-widget/sesamy-button Component', 'e18'),
+        path: '/docs/news-widget/sesamy-button',
+        component: ComponentCreator('/docs/news-widget/sesamy-button', '6ba'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-button-container Component',
-        component: ComponentCreator('/docs/news-widget/sesamy-button-container Component', '5c0'),
+        path: '/docs/news-widget/sesamy-button-container',
+        component: ComponentCreator('/docs/news-widget/sesamy-button-container', '034'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-content-container Component',
-        component: ComponentCreator('/docs/news-widget/sesamy-content-container Component', 'f53'),
+        path: '/docs/news-widget/sesamy-content-container',
+        component: ComponentCreator('/docs/news-widget/sesamy-content-container', '3cb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-login Component',
-        component: ComponentCreator('/docs/news-widget/sesamy-login Component', 'b3d'),
+        path: '/docs/news-widget/sesamy-login',
+        component: ComponentCreator('/docs/news-widget/sesamy-login', '2a5'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
