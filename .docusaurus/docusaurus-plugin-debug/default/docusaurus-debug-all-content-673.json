@@ -4,12 +4,12 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/docs",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "className": "docs-version-current",
+          "path": "/docs",
           "tagsPath": "/docs/tags",
-          "versionBanner": null,
-          "versionBadge": false,
-          "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
@@ -25,6 +25,7 @@
               "sourceDirName": "access",
               "slug": "/access/api",
               "permalink": "/docs/access/api",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -50,6 +51,7 @@
               "sourceDirName": "access/configuration",
               "slug": "/access/configuration/",
               "permalink": "/docs/access/configuration/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -75,6 +77,7 @@
               "sourceDirName": "access/configuration",
               "slug": "/access/configuration/description-fallback",
               "permalink": "/docs/access/configuration/description-fallback",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -96,6 +99,7 @@
               "sourceDirName": "access/configuration",
               "slug": "/access/configuration/sources",
               "permalink": "/docs/access/configuration/sources",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -121,6 +125,7 @@
               "sourceDirName": "access/configuration",
               "slug": "/access/configuration/xml-extension",
               "permalink": "/docs/access/configuration/xml-extension",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -146,6 +151,7 @@
               "sourceDirName": "access",
               "slug": "/access/getting-started",
               "permalink": "/docs/access/getting-started",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -154,8 +160,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/sesamy-button-container Component"
+                "title": "sesamy-content-container Component",
+                "permalink": "/docs/news-widget/sesamy-content-container Component"
               },
               "next": {
                 "title": "API",
@@ -171,6 +177,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -179,7 +186,7 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "News Widets",
+                "title": "News Widgets",
                 "permalink": "/docs/news-widget/"
               }
             },
@@ -192,6 +199,7 @@
               "sourceDirName": "news-widget",
               "slug": "/news-widget/getting-started",
               "permalink": "/docs/news-widget/getting-started",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -200,7 +208,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "News Widets",
+                "title": "News Widgets",
                 "permalink": "/docs/news-widget/"
               },
               "next": {
@@ -211,12 +219,13 @@
             {
               "unversionedId": "news-widget/news-widget",
               "id": "news-widget/news-widget",
-              "title": "News Widets",
+              "title": "News Widgets",
               "description": "The news widgets are a collection of web components that are used to purchase and unlock content on 3rd party websites.",
               "source": "@site/docs/news-widget/news-widget.md",
               "sourceDirName": "news-widget",
               "slug": "/news-widget/",
               "permalink": "/docs/news-widget/",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -242,6 +251,7 @@
               "sourceDirName": "news-widget",
               "slug": "/news-widget/sesamy-button Component",
               "permalink": "/docs/news-widget/sesamy-button Component",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -267,6 +277,7 @@
               "sourceDirName": "news-widget",
               "slug": "/news-widget/sesamy-button-container Component",
               "permalink": "/docs/news-widget/sesamy-button-container Component",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -277,6 +288,32 @@
               "previous": {
                 "title": "sesamy-button Component",
                 "permalink": "/docs/news-widget/sesamy-button Component"
+              },
+              "next": {
+                "title": "sesamy-content-container Component",
+                "permalink": "/docs/news-widget/sesamy-content-container Component"
+              }
+            },
+            {
+              "unversionedId": "news-widget/sesamy-content-container Component",
+              "id": "news-widget/sesamy-content-container Component",
+              "title": "sesamy-content-container Component",
+              "description": "The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.",
+              "source": "@site/docs/news-widget/sesamy-content-container Component.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/sesamy-content-container Component",
+              "permalink": "/docs/news-widget/sesamy-content-container Component",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-button-container Component",
+                "permalink": "/docs/news-widget/sesamy-button-container Component"
               },
               "next": {
                 "title": "Getting Started",
@@ -292,6 +329,7 @@
               "sourceDirName": "news-widget",
               "slug": "/news-widget/sesamy-login Component",
               "permalink": "/docs/news-widget/sesamy-login Component",
+              "draft": false,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -309,6 +347,7 @@
               }
             }
           ],
+          "drafts": [],
           "sidebars": {
             "tutorialSidebar": [
               {
@@ -336,6 +375,10 @@
                   {
                     "type": "doc",
                     "id": "news-widget/sesamy-button-container Component"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "news-widget/sesamy-content-container Component"
                   }
                 ],
                 "link": {
@@ -384,9 +427,7 @@
                 ]
               }
             ]
-          },
-          "mainDocId": "intro",
-          "categoryGeneratedIndices": []
+          }
         }
       ]
     }
@@ -397,7 +438,8 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": null
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
     }
   },
   "docusaurus-plugin-content-pages": {
@@ -410,14 +452,17 @@
       {
         "type": "mdx",
         "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md"
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
       }
     ]
   },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  }
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
 }

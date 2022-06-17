@@ -43,6 +43,12 @@
             "label": "sesamy-button-container Component",
             "href": "/docs/news-widget/sesamy-button-container Component",
             "docId": "news-widget/sesamy-button-container Component"
+          },
+          {
+            "type": "link",
+            "label": "sesamy-content-container Component",
+            "href": "/docs/news-widget/sesamy-content-container Component",
+            "docId": "news-widget/sesamy-content-container Component"
           }
         ],
         "href": "/docs/news-widget/"
@@ -147,7 +153,7 @@
     },
     "news-widget/news-widget": {
       "id": "news-widget/news-widget",
-      "title": "News Widets",
+      "title": "News Widgets",
       "description": "The news widgets are a collection of web components that are used to purchase and unlock content on 3rd party websites.",
       "sidebar": "tutorialSidebar"
     },
@@ -161,6 +167,12 @@
       "id": "news-widget/sesamy-button-container Component",
       "title": "sesamy-button-container Component",
       "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/sesamy-content-container Component": {
+      "id": "news-widget/sesamy-content-container Component",
+      "title": "sesamy-content-container Component",
+      "description": "The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/sesamy-login Component": {

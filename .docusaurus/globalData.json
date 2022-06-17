@@ -66,13 +66,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "news-widget/sesamy-content-container Component",
+              "path": "/docs/news-widget/sesamy-content-container Component",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "news-widget/sesamy-login Component",
               "path": "/docs/news-widget/sesamy-login Component",
               "sidebar": "tutorialSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }
