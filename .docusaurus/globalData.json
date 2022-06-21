@@ -51,28 +51,48 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "news-widget/meta-tags",
+              "path": "/docs/news-widget/meta-tags",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "news-widget/news-widget",
               "path": "/docs/news-widget/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-button",
-              "path": "/docs/news-widget/sesamy-button",
+              "id": "news-widget/passes",
+              "path": "/docs/news-widget/passes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-button-container",
-              "path": "/docs/news-widget/sesamy-button-container",
+              "id": "news-widget/web-components/sesamy-button",
+              "path": "/docs/news-widget/web-components/sesamy-button",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-content-container",
-              "path": "/docs/news-widget/sesamy-content-container",
+              "id": "news-widget/web-components/sesamy-button-container",
+              "path": "/docs/news-widget/web-components/sesamy-button-container",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/sesamy-login",
-              "path": "/docs/news-widget/sesamy-login",
+              "id": "news-widget/web-components/sesamy-content-container",
+              "path": "/docs/news-widget/web-components/sesamy-content-container",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-entitlements",
+              "path": "/docs/news-widget/web-components/sesamy-entitlements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-login",
+              "path": "/docs/news-widget/web-components/sesamy-login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-profile",
+              "path": "/docs/news-widget/web-components/sesamy-profile",
               "sidebar": "tutorialSidebar"
             }
           ],

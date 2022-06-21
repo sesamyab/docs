@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# sesamy-content-container Component
+# sesamy-content-container
 
 The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.
 
@@ -10,7 +10,9 @@ The content container component displays either the locked preview version of th
 
 ### Basic usage
 
-The content container matches the current url against the users purchases and displays the content from the preview of the content slot depending on if the user has access.
+The content container can be used purely client side or by fetching the locked content from the server.
+
+The content container matches the current url against the users purchases. In client side mode it displays the content from the preview of the content slot depending on if the user has access.
 
 ```html
 <html>
@@ -38,6 +40,14 @@ The content container matches the current url against the users purchases and di
   </body>
 </html>
 ```
+
+### Lock Modes
+
+There are two different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
+
+- If the attribute `lock-mode="embedded"` (default behavior): the locked content is fetched from the content slot as in the example above.
+- If the attribute `lock-mode="signedUrl"`: the content is fetched from the publishers server using a signed url.
+- If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
 
 ### Gradient
 

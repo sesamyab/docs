@@ -160,8 +160,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-content-container Component",
-                "permalink": "/docs/news-widget/sesamy-content-container"
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
               },
               "next": {
                 "title": "API",
@@ -212,8 +212,34 @@
                 "permalink": "/docs/news-widget/"
               },
               "next": {
-                "title": "sesamy-login Component",
-                "permalink": "/docs/news-widget/sesamy-login"
+                "title": "Meta Tags",
+                "permalink": "/docs/news-widget/meta-tags"
+              }
+            },
+            {
+              "unversionedId": "news-widget/meta-tags",
+              "id": "news-widget/meta-tags",
+              "title": "Meta Tags",
+              "description": "When a new article or post is created it is added to the catalog of products using the meta tags of the page.",
+              "source": "@site/docs/news-widget/meta-tags.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/meta-tags",
+              "permalink": "/docs/news-widget/meta-tags",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/news-widget/getting-started"
+              },
+              "next": {
+                "title": "Passes",
+                "permalink": "/docs/news-widget/passes"
               }
             },
             {
@@ -243,14 +269,14 @@
               }
             },
             {
-              "unversionedId": "news-widget/sesamy-button",
-              "id": "news-widget/sesamy-button",
-              "title": "sesamy-button Component",
-              "description": "Usage",
-              "source": "@site/docs/news-widget/sesamy-button.md",
+              "unversionedId": "news-widget/passes",
+              "id": "news-widget/passes",
+              "title": "Passes",
+              "description": "A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a section of the content and it could be both single purchase or subscription.",
+              "source": "@site/docs/news-widget/passes.md",
               "sourceDirName": "news-widget",
-              "slug": "/news-widget/sesamy-button",
-              "permalink": "/docs/news-widget/sesamy-button",
+              "slug": "/news-widget/passes",
+              "permalink": "/docs/news-widget/passes",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -260,23 +286,49 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-login Component",
-                "permalink": "/docs/news-widget/sesamy-login"
+                "title": "Meta Tags",
+                "permalink": "/docs/news-widget/meta-tags"
               },
               "next": {
-                "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/sesamy-button-container"
+                "title": "sesamy-login",
+                "permalink": "/docs/news-widget/web-components/sesamy-login"
               }
             },
             {
-              "unversionedId": "news-widget/sesamy-button-container",
-              "id": "news-widget/sesamy-button-container",
-              "title": "sesamy-button-container Component",
+              "unversionedId": "news-widget/web-components/sesamy-button",
+              "id": "news-widget/web-components/sesamy-button",
+              "title": "sesamy-button",
               "description": "Usage",
-              "source": "@site/docs/news-widget/sesamy-button-container.md",
-              "sourceDirName": "news-widget",
-              "slug": "/news-widget/sesamy-button-container",
-              "permalink": "/docs/news-widget/sesamy-button-container",
+              "source": "@site/docs/news-widget/web-components/sesamy-button.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-button",
+              "permalink": "/docs/news-widget/web-components/sesamy-button",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-login",
+                "permalink": "/docs/news-widget/web-components/sesamy-login"
+              },
+              "next": {
+                "title": "sesamy-button-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-button-container"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-button-container",
+              "id": "news-widget/web-components/sesamy-button-container",
+              "title": "sesamy-button-container",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/web-components/sesamy-button-container.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-button-container",
+              "permalink": "/docs/news-widget/web-components/sesamy-button-container",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -286,23 +338,23 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-button Component",
-                "permalink": "/docs/news-widget/sesamy-button"
+                "title": "sesamy-button",
+                "permalink": "/docs/news-widget/web-components/sesamy-button"
               },
               "next": {
-                "title": "sesamy-content-container Component",
-                "permalink": "/docs/news-widget/sesamy-content-container"
+                "title": "sesamy-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
               }
             },
             {
-              "unversionedId": "news-widget/sesamy-content-container",
-              "id": "news-widget/sesamy-content-container",
-              "title": "sesamy-content-container Component",
+              "unversionedId": "news-widget/web-components/sesamy-content-container",
+              "id": "news-widget/web-components/sesamy-content-container",
+              "title": "sesamy-content-container",
               "description": "The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.",
-              "source": "@site/docs/news-widget/sesamy-content-container.md",
-              "sourceDirName": "news-widget",
-              "slug": "/news-widget/sesamy-content-container",
-              "permalink": "/docs/news-widget/sesamy-content-container",
+              "source": "@site/docs/news-widget/web-components/sesamy-content-container.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-content-container",
+              "permalink": "/docs/news-widget/web-components/sesamy-content-container",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -312,8 +364,34 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-button-container Component",
-                "permalink": "/docs/news-widget/sesamy-button-container"
+                "title": "sesamy-button-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-button-container"
+              },
+              "next": {
+                "title": "sesamy-profile",
+                "permalink": "/docs/news-widget/web-components/sesamy-profile"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-entitlements",
+              "id": "news-widget/web-components/sesamy-entitlements",
+              "title": "sesamy-entitlements",
+              "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website",
+              "source": "@site/docs/news-widget/web-components/sesamy-entitlements.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-entitlements",
+              "permalink": "/docs/news-widget/web-components/sesamy-entitlements",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-profile",
+                "permalink": "/docs/news-widget/web-components/sesamy-profile"
               },
               "next": {
                 "title": "Getting Started",
@@ -321,14 +399,14 @@
               }
             },
             {
-              "unversionedId": "news-widget/sesamy-login",
-              "id": "news-widget/sesamy-login",
-              "title": "sesamy-login Component",
+              "unversionedId": "news-widget/web-components/sesamy-login",
+              "id": "news-widget/web-components/sesamy-login",
+              "title": "sesamy-login",
               "description": "Usage",
-              "source": "@site/docs/news-widget/sesamy-login.md",
-              "sourceDirName": "news-widget",
-              "slug": "/news-widget/sesamy-login",
-              "permalink": "/docs/news-widget/sesamy-login",
+              "source": "@site/docs/news-widget/web-components/sesamy-login.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-login",
+              "permalink": "/docs/news-widget/web-components/sesamy-login",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -338,12 +416,38 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting Started",
-                "permalink": "/docs/news-widget/getting-started"
+                "title": "Passes",
+                "permalink": "/docs/news-widget/passes"
               },
               "next": {
-                "title": "sesamy-button Component",
-                "permalink": "/docs/news-widget/sesamy-button"
+                "title": "sesamy-button",
+                "permalink": "/docs/news-widget/web-components/sesamy-button"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-profile",
+              "id": "news-widget/web-components/sesamy-profile",
+              "title": "sesamy-profile",
+              "description": "The profile component displays the name and email of the current user. It could for instance be used on a user profile website",
+              "source": "@site/docs/news-widget/web-components/sesamy-profile.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-profile",
+              "permalink": "/docs/news-widget/web-components/sesamy-profile",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
+              },
+              "next": {
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
               }
             }
           ],
@@ -366,19 +470,43 @@
                   },
                   {
                     "type": "doc",
-                    "id": "news-widget/sesamy-login"
+                    "id": "news-widget/meta-tags"
                   },
                   {
                     "type": "doc",
-                    "id": "news-widget/sesamy-button"
+                    "id": "news-widget/passes"
                   },
                   {
-                    "type": "doc",
-                    "id": "news-widget/sesamy-button-container"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "news-widget/sesamy-content-container"
+                    "type": "category",
+                    "label": "Web Components",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-login"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-button"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-button-container"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-content-container"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-profile"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-entitlements"
+                      }
+                    ]
                   }
                 ],
                 "link": {
