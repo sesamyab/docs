@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b27'),
+    component: ComponentCreator('/docs', '702'),
     routes: [
       {
         path: '/docs/access/api',
@@ -101,26 +101,50 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-button',
-        component: ComponentCreator('/docs/news-widget/sesamy-button', '6ba'),
+        path: '/docs/news-widget/meta-tags',
+        component: ComponentCreator('/docs/news-widget/meta-tags', 'f9a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-button-container',
-        component: ComponentCreator('/docs/news-widget/sesamy-button-container', '034'),
+        path: '/docs/news-widget/passes',
+        component: ComponentCreator('/docs/news-widget/passes', '505'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-content-container',
-        component: ComponentCreator('/docs/news-widget/sesamy-content-container', '3cb'),
+        path: '/docs/news-widget/web-components/sesamy-button',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-button', '382'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/sesamy-login',
-        component: ComponentCreator('/docs/news-widget/sesamy-login', '2a5'),
+        path: '/docs/news-widget/web-components/sesamy-button-container',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-button-container', 'db9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-content-container',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-content-container', 'dba'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-entitlements',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-entitlements', '68f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-login',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-login', '881'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-profile',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-profile', '1cf'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

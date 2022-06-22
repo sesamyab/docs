@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-b27": {
+  "/docs-702": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsff-6-71a"
@@ -92,21 +92,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-getting-startede-81-0a3"
   },
-  "/docs/news-widget/sesamy-button-6ba": {
+  "/docs/news-widget/meta-tags-f9a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-sesamy-button-621-041"
+    "content": "content---docs-news-widget-meta-tags-541-a43"
   },
-  "/docs/news-widget/sesamy-button-container-034": {
+  "/docs/news-widget/passes-505": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-sesamy-button-container-427-070"
+    "content": "content---docs-news-widget-passesed-6-972"
   },
-  "/docs/news-widget/sesamy-content-container-3cb": {
+  "/docs/news-widget/web-components/sesamy-button-382": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-sesamy-content-container-5-c-7-c89"
+    "content": "content---docs-news-widget-web-components-sesamy-button-944-dba"
   },
-  "/docs/news-widget/sesamy-login-2a5": {
+  "/docs/news-widget/web-components/sesamy-button-container-db9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-sesamy-login-198-e8c"
+    "content": "content---docs-news-widget-web-components-sesamy-button-container-1-fe-a61"
+  },
+  "/docs/news-widget/web-components/sesamy-content-container-dba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-content-container-6-a-3-4d6"
+  },
+  "/docs/news-widget/web-components/sesamy-entitlements-68f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-entitlements-54-e-b67"
+  },
+  "/docs/news-widget/web-components/sesamy-login-881": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-login-008-f69"
+  },
+  "/docs/news-widget/web-components/sesamy-profile-1cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-profile-905-10e"
   },
   "/-572": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

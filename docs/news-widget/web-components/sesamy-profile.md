@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# sesamy-profile Component
+# sesamy-profile
 
 The profile component displays the name and email of the current user. It could for instance be used on a user profile website
 

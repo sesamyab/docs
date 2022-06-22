@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# sesamy-login Component
+# sesamy-login
 
 ## Usage
 

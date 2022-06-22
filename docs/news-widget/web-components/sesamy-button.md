@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# sesamy-button Component
+# sesamy-button
 
 ## Usage
 

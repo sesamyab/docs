@@ -28,27 +28,59 @@
           },
           {
             "type": "link",
-            "label": "sesamy-login Component",
-            "href": "/docs/news-widget/sesamy-login",
-            "docId": "news-widget/sesamy-login"
+            "label": "Meta Tags",
+            "href": "/docs/news-widget/meta-tags",
+            "docId": "news-widget/meta-tags"
           },
           {
             "type": "link",
-            "label": "sesamy-button Component",
-            "href": "/docs/news-widget/sesamy-button",
-            "docId": "news-widget/sesamy-button"
+            "label": "Passes",
+            "href": "/docs/news-widget/passes",
+            "docId": "news-widget/passes"
           },
           {
-            "type": "link",
-            "label": "sesamy-button-container Component",
-            "href": "/docs/news-widget/sesamy-button-container",
-            "docId": "news-widget/sesamy-button-container"
-          },
-          {
-            "type": "link",
-            "label": "sesamy-content-container Component",
-            "href": "/docs/news-widget/sesamy-content-container",
-            "docId": "news-widget/sesamy-content-container"
+            "type": "category",
+            "label": "Web Components",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "sesamy-login",
+                "href": "/docs/news-widget/web-components/sesamy-login",
+                "docId": "news-widget/web-components/sesamy-login"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-button",
+                "href": "/docs/news-widget/web-components/sesamy-button",
+                "docId": "news-widget/web-components/sesamy-button"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-button-container",
+                "href": "/docs/news-widget/web-components/sesamy-button-container",
+                "docId": "news-widget/web-components/sesamy-button-container"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-content-container",
+                "href": "/docs/news-widget/web-components/sesamy-content-container",
+                "docId": "news-widget/web-components/sesamy-content-container"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-profile",
+                "href": "/docs/news-widget/web-components/sesamy-profile",
+                "docId": "news-widget/web-components/sesamy-profile"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-entitlements",
+                "href": "/docs/news-widget/web-components/sesamy-entitlements",
+                "docId": "news-widget/web-components/sesamy-entitlements"
+              }
+            ]
           }
         ],
         "href": "/docs/news-widget/"
@@ -151,34 +183,58 @@
       "description": "Boilerplate",
       "sidebar": "tutorialSidebar"
     },
+    "news-widget/meta-tags": {
+      "id": "news-widget/meta-tags",
+      "title": "Meta Tags",
+      "description": "When a new article or post is created it is added to the catalog of products using the meta tags of the page.",
+      "sidebar": "tutorialSidebar"
+    },
     "news-widget/news-widget": {
       "id": "news-widget/news-widget",
       "title": "News Widgets",
       "description": "The news widgets are a collection of web components that are used to purchase and unlock content on 3rd party websites.",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/sesamy-button": {
-      "id": "news-widget/sesamy-button",
-      "title": "sesamy-button Component",
+    "news-widget/passes": {
+      "id": "news-widget/passes",
+      "title": "Passes",
+      "description": "A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a section of the content and it could be both single purchase or subscription.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-button": {
+      "id": "news-widget/web-components/sesamy-button",
+      "title": "sesamy-button",
       "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/sesamy-button-container": {
-      "id": "news-widget/sesamy-button-container",
-      "title": "sesamy-button-container Component",
+    "news-widget/web-components/sesamy-button-container": {
+      "id": "news-widget/web-components/sesamy-button-container",
+      "title": "sesamy-button-container",
       "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/sesamy-content-container": {
-      "id": "news-widget/sesamy-content-container",
-      "title": "sesamy-content-container Component",
+    "news-widget/web-components/sesamy-content-container": {
+      "id": "news-widget/web-components/sesamy-content-container",
+      "title": "sesamy-content-container",
       "description": "The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/sesamy-login": {
-      "id": "news-widget/sesamy-login",
-      "title": "sesamy-login Component",
+    "news-widget/web-components/sesamy-entitlements": {
+      "id": "news-widget/web-components/sesamy-entitlements",
+      "title": "sesamy-entitlements",
+      "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-login": {
+      "id": "news-widget/web-components/sesamy-login",
+      "title": "sesamy-login",
       "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-profile": {
+      "id": "news-widget/web-components/sesamy-profile",
+      "title": "sesamy-profile",
+      "description": "The profile component displays the name and email of the current user. It could for instance be used on a user profile website",
       "sidebar": "tutorialSidebar"
     }
   }
