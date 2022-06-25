@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '702'),
+    component: ComponentCreator('/docs', 'de5'),
     routes: [
       {
         path: '/docs/access/api',
@@ -109,6 +109,12 @@ export default [
       {
         path: '/docs/news-widget/passes',
         component: ComponentCreator('/docs/news-widget/passes', '505'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/unlocking content',
+        component: ComponentCreator('/docs/news-widget/unlocking content', '387'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
