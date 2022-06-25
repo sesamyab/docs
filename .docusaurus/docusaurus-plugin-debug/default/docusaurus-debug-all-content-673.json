@@ -290,14 +290,14 @@
                 "permalink": "/docs/news-widget/meta-tags"
               },
               "next": {
-                "title": "Unlocking content",
+                "title": "Unlocking Content",
                 "permalink": "/docs/news-widget/unlocking content"
               }
             },
             {
               "unversionedId": "news-widget/unlocking content",
               "id": "news-widget/unlocking content",
-              "title": "Unlocking content",
+              "title": "Unlocking Content",
               "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
               "source": "@site/docs/news-widget/unlocking content.md",
               "sourceDirName": "news-widget",
@@ -442,7 +442,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Unlocking content",
+                "title": "Unlocking Content",
                 "permalink": "/docs/news-widget/unlocking content"
               },
               "next": {

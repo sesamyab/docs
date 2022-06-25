@@ -49,6 +49,17 @@ There are two different flows for the displaying the locked content once the `se
 - If the attribute `lock-mode="signedUrl"`: the content is fetched from the publishers server using a signed url.
 - If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
 
+### Access Url
+
+When using the `lock-mode=signedUrl` lock mode the content is fetched from the server. By default it fetches the locked content from the article url using the signed url, but depending on how the content is hosted it can be more convinient to fetch the locked content from a separate api path. By specifying the `access-url` property on the content-container it will use this url to fetch the locked content and pass the signed url in the `x-sesamy-signed-url` header instead:
+
+```
+<sesamy-content-container
+    lock-mode="signedUrl"
+    access-url="https://example.com/api/access/test-article"
+>
+```
+
 ### Gradient
 
 The `sesamy-content-container` can show a gradient over the preview content by adding a gradient property to the tag.
