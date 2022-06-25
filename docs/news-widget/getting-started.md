@@ -56,19 +56,7 @@ Here we can see an example of the different elements that have to be integrated 
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -225,6 +213,10 @@ To overwrite the image and the description taken from the meta tags you can use 
 
 ### Component Scripts
 
+The components can either be fetched individually or by using the bundle that contains all components.
+
+This snippet imports all components individually.
+
 ```html
 <script
   defer
@@ -241,5 +233,22 @@ To overwrite the image and the description taken from the meta tags you can use 
 <script
   defer
   src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-profile.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-entitlements.min.js"
+></script>
+```
+
+This snippet imports the bundle with all components.
+
+```html
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
 ></script>
 ```
