@@ -220,7 +220,7 @@
               "unversionedId": "news-widget/meta-tags",
               "id": "news-widget/meta-tags",
               "title": "Meta Tags",
-              "description": "When a new article or post is created it is added to the catalog of products using the meta tags of the page.",
+              "description": "When a new article or post is created it is added to the catalog of products either by using the meta tags of the page or the sesamy-content-data tag.",
               "source": "@site/docs/news-widget/meta-tags.md",
               "sourceDirName": "news-widget",
               "slug": "/news-widget/meta-tags",
@@ -288,6 +288,32 @@
               "previous": {
                 "title": "Meta Tags",
                 "permalink": "/docs/news-widget/meta-tags"
+              },
+              "next": {
+                "title": "Unlocking Content",
+                "permalink": "/docs/news-widget/unlocking-content"
+              }
+            },
+            {
+              "unversionedId": "news-widget/unlocking-content",
+              "id": "news-widget/unlocking-content",
+              "title": "Unlocking Content",
+              "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
+              "source": "@site/docs/news-widget/unlocking-content.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/unlocking-content",
+              "permalink": "/docs/news-widget/unlocking-content",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Passes",
+                "permalink": "/docs/news-widget/passes"
               },
               "next": {
                 "title": "sesamy-login",
@@ -416,8 +442,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Passes",
-                "permalink": "/docs/news-widget/passes"
+                "title": "Unlocking Content",
+                "permalink": "/docs/news-widget/unlocking-content"
               },
               "next": {
                 "title": "sesamy-button",
@@ -475,6 +501,10 @@
                   {
                     "type": "doc",
                     "id": "news-widget/passes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "news-widget/unlocking-content"
                   },
                   {
                     "type": "category",

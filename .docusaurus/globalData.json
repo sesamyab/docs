@@ -66,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "news-widget/unlocking-content",
+              "path": "/docs/news-widget/unlocking-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "news-widget/web-components/sesamy-button",
               "path": "/docs/news-widget/web-components/sesamy-button",
               "sidebar": "tutorialSidebar"

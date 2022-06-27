@@ -39,6 +39,12 @@
             "docId": "news-widget/passes"
           },
           {
+            "type": "link",
+            "label": "Unlocking Content",
+            "href": "/docs/news-widget/unlocking-content",
+            "docId": "news-widget/unlocking-content"
+          },
+          {
             "type": "category",
             "label": "Web Components",
             "collapsible": true,
@@ -186,7 +192,7 @@
     "news-widget/meta-tags": {
       "id": "news-widget/meta-tags",
       "title": "Meta Tags",
-      "description": "When a new article or post is created it is added to the catalog of products using the meta tags of the page.",
+      "description": "When a new article or post is created it is added to the catalog of products either by using the meta tags of the page or the sesamy-content-data tag.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/news-widget": {
@@ -199,6 +205,12 @@
       "id": "news-widget/passes",
       "title": "Passes",
       "description": "A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a section of the content and it could be both single purchase or subscription.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/unlocking-content": {
+      "id": "news-widget/unlocking-content",
+      "title": "Unlocking Content",
+      "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-button": {

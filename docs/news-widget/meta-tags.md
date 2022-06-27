@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Meta Tags
 
-When a new article or post is created it is added to the catalog of products using the meta tags of the page.
+When a new article or post is created it is added to the catalog of products either by using the meta tags of the page or the `sesamy-content-data` tag.
 
 These tags are required to create a valid product `title`, `description`, `image`, `price` and `currency`.
 
