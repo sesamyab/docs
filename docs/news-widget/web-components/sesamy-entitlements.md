@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # sesamy-entitlements
 
-The purchases component displays a list of the users purchases. It could for instance be used on a user profile website
+The purchases component displays a list of the users purchases. It could for instance be used on a user profile website.
 
 ## Usage
 
@@ -18,7 +18,7 @@ The purchases component displays a list of the users purchases. It could for ins
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-purchases.min.js"
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-entitlements.min.js"
     ></script>
   </body>
 </html>
