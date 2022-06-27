@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'de5'),
+    component: ComponentCreator('/docs', '30c'),
     routes: [
       {
         path: '/docs/access/api',
@@ -113,8 +113,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/news-widget/unlocking content',
-        component: ComponentCreator('/docs/news-widget/unlocking content', '387'),
+        path: '/docs/news-widget/unlocking-content',
+        component: ComponentCreator('/docs/news-widget/unlocking-content', '9ee'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

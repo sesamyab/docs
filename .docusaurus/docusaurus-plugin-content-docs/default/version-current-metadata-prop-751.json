@@ -41,8 +41,8 @@
           {
             "type": "link",
             "label": "Unlocking Content",
-            "href": "/docs/news-widget/unlocking content",
-            "docId": "news-widget/unlocking content"
+            "href": "/docs/news-widget/unlocking-content",
+            "docId": "news-widget/unlocking-content"
           },
           {
             "type": "category",
@@ -207,8 +207,8 @@
       "description": "A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a section of the content and it could be both single purchase or subscription.",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/unlocking content": {
-      "id": "news-widget/unlocking content",
+    "news-widget/unlocking-content": {
+      "id": "news-widget/unlocking-content",
       "title": "Unlocking Content",
       "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
       "sidebar": "tutorialSidebar"

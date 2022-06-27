@@ -291,18 +291,18 @@
               },
               "next": {
                 "title": "Unlocking Content",
-                "permalink": "/docs/news-widget/unlocking content"
+                "permalink": "/docs/news-widget/unlocking-content"
               }
             },
             {
-              "unversionedId": "news-widget/unlocking content",
-              "id": "news-widget/unlocking content",
+              "unversionedId": "news-widget/unlocking-content",
+              "id": "news-widget/unlocking-content",
               "title": "Unlocking Content",
               "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
-              "source": "@site/docs/news-widget/unlocking content.md",
+              "source": "@site/docs/news-widget/unlocking-content.md",
               "sourceDirName": "news-widget",
-              "slug": "/news-widget/unlocking content",
-              "permalink": "/docs/news-widget/unlocking content",
+              "slug": "/news-widget/unlocking-content",
+              "permalink": "/docs/news-widget/unlocking-content",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -443,7 +443,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Unlocking Content",
-                "permalink": "/docs/news-widget/unlocking content"
+                "permalink": "/docs/news-widget/unlocking-content"
               },
               "next": {
                 "title": "sesamy-button",
@@ -504,7 +504,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "news-widget/unlocking content"
+                    "id": "news-widget/unlocking-content"
                   },
                   {
                     "type": "category",
