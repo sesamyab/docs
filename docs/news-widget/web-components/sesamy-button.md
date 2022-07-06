@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# sesamy-button Component
+# sesamy-button
 
 ## Usage
 
@@ -19,7 +19,10 @@ Place the `sesamy-button` element and load the script. The button will be render
   <body>
     <sesamy-button></sesamy-button>
 
-    <script type="module" src="./dist/sesamy-button.min.js"></script>
+    <script
+      type="module"
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
   </body>
 </html>
 ```
@@ -32,13 +35,16 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 <html>
   <head></head>
   <body>
-    <sesamy-button 
-      text="Unlock content!" 
-      price="10" 
+    <sesamy-button
+      text="Unlock content!"
+      price="10"
       currency="EUR"
     ></sesamy-button>
 
-    <script type="module" src="./dist/sesamy-button.min.js"></script>
+    <script
+      type="module"
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
   </body>
 </html>
 ```
@@ -53,11 +59,14 @@ By default, the item displayed in the checkout iframe that is opened when the bu
 <html>
   <head></head>
   <body>
-    <sesamy-button 
+    <sesamy-button
       item-src="https://www-realtid-se-news-demo.vercel.app/artikel/112273"
     ></sesamy-button>
 
-    <script type="module" src="./dist/sesamy-button.min.js"></script>
+    <script
+      type="module"
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
   </body>
 </html>
 ```
@@ -70,11 +79,12 @@ There are three different flows for the checkout once the `sesamy-button` is cli
 - If the attribute `checkout-mode="popup"` or the button is being displayed in a mobile device: The checkout is opened in a new popup.
 - If the attribute `checkout-mode="embed"` (default behavior): The checkout is opened embedded on an iframe on the website.
 
-#### Unlock Message 
+#### Unlock Message
 
 This message is shown after the article is buyed, replacing the button.
 
 The `direction` and the `aligment` of the unlock message can be configured by:
+
 - `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
 - `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
 
@@ -110,4 +120,3 @@ The list of CSS custom properties are:
   }
 </style>
 ```
-

@@ -28,113 +28,39 @@ Here we can see an example of the different elements that have to be integrated 
       }
     </style>
     <script>
-      document.addEventListener('sesamy-unlock', function (e) {
+      document.addEventListener("sesamy-unlock", function (e) {
         console.log(e.detail);
       });
     </script>
   </head>
   <body>
+    <sesamy-login client-id="demo"></sesamy-login>
     <sesamy-content-container>
-      <p>...</p>
-      <p>...</p>
-      <p>...</p>
+      <div slot="preview">
+        <p>Preview content</p>
+      </div>
+      <div slot="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut nunc
+          ante. Proin dignissim non diam a iaculis. Vivamus nec tincidunt nisl.
+          Curabitur vel vehicula felis. Donec iaculis tincidunt varius.
+          Curabitur tincidunt varius purus, a malesuada quam fermentum eleifend.
+          Maecenas eget lorem justo.
+        </p>
+      </div>
     </sesamy-content-container>
 
     <sesamy-button-container>
       <sesamy-button></sesamy-button>
     </sesamy-button-container>
-    
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
   </body>
 </html>
 ```
-
-
-
-## Inside the `HEAD` tag 
-
-###  Add Meta tags
-
-It's needed to get the `title`, `description`, `image`, `price` and `currency`.
-
-The priority to get those values are:
-
-#### `title`
-1. `sesamy:title` meta tag
-```html
-<meta property="sesamy:title" content="any title" />
-```
-2. `og:title` meta tag
-```html
-<meta property="og:title" content="any title" />
-```
-3. <title\> tag 
-```html
-<title>any title</title>
-```
-4. First <H1\> finded
-```html
-<h1>any title</h1>
-```
-
-#### `description`
-1. `sesamy:description` meta tag
-```html
-<meta property="sesamy:description" content="any description" />
-```
-2. `og:description` meta tag
-```html
-<meta property="og:description" content="any description" />
-```
-3. `description` meta tag 
-```html
-<meta property="description" content="any description" />
-```
-
-#### `image`
-1. `sesamy:image` meta tag
-```html
-<meta property="sesamy:image" content="[IMAGE_URL]" />
-```
-2. `og:image` meta tag
-```html
-<meta property="og:image" content="[IMAGE_URL]" />
-```
-3. `image` meta tag 
-```html
-<meta property="image" content="[IMAGE_URL]" />
-```
-
-#### `price`
-1. `sesamy:price` meta tag
-```html
-<meta property="sesamy:price" content="10" />
-```
-2. `og:price` meta tag
-```html
-<meta property="og:price" content="10" />
-```
-3. `price` meta tag
-```html
-<meta property="price" content="10" />
-```
-
-#### `currency` (`DKK`, `EUR` and `SEK`)
-1. `sesamy:currency` meta tag
-```html
-<meta property="sesamy:currency" content="EUR" />
-```
-2. `og:currency` meta tag
-```html
-<meta property="og:currency" content="EUR" />
-```
-3. `currency` meta tag 
-```html
-<meta property="currency" content="EUR" />
-```
-
 
 ### Styling
 
@@ -166,7 +92,7 @@ Once the checkout flow in the iframe is finished and the item was succesfully pu
 
 ```html
 <script>
-  document.addEventListener('sesamy-unlock', function (e) {
+  document.addEventListener("sesamy-unlock", function (e) {
     console.log(e.detail);
   });
 </script>
@@ -201,17 +127,27 @@ The `sesamy-content-container` element is used to hide content on the client-sid
   </head>
   <body>
     <sesamy-content-container>
-      <p>...</p>
-      <p>...</p>
-      <p>...</p>
+      <div slot="preview">
+        <p>Preview content</p>
+      </div>
+      <div slot="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut nunc
+          ante. Proin dignissim non diam a iaculis. Vivamus nec tincidunt nisl.
+          Curabitur vel vehicula felis. Donec iaculis tincidunt varius.
+          Curabitur tincidunt varius purus, a malesuada quam fermentum eleifend.
+          Maecenas eget lorem justo.
+        </p>
+      </div>
     </sesamy-content-container>
-    
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
+
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+    ></script>
   </body>
 </html>
 ```
-
-By default, the content inside `sesamy-content-container` will be hidden until the checkout flow is finished. The attribute `show-childs-count` could be used to show the the number of visible children elements when locked, and the attribute `gradient` with the value "true" (`gradient="true"`) to show a gradient effect at the bottom of the inner content.
 
 ### <sesamy-button\>
 
@@ -229,8 +165,11 @@ This component show the button to buy the article. When it's clicked, the widget
   </head>
   <body>
     <sesamy-button></sesamy-button>
-    
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
   </body>
 </html>
 ```
@@ -255,11 +194,17 @@ If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the 
   </head>
   <body>
     <sesamy-button-container>
-        <sesamy-button></sesamy-button>
+      <sesamy-button></sesamy-button>
     </sesamy-button-container>
-    
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-    <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+    ></script>
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
   </body>
 </html>
 ```
@@ -268,8 +213,42 @@ To overwrite the image and the description taken from the meta tags you can use 
 
 ### Component Scripts
 
+The components can either be fetched individually or by using the bundle that contains all components.
+
+This snippet imports all components individually.
+
 ```html
-<script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"></script>
-<script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-<script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-profile.min.js"
+></script>
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-entitlements.min.js"
+></script>
+```
+
+This snippet imports the bundle with all components.
+
+```html
+<script
+  defer
+  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
+></script>
 ```

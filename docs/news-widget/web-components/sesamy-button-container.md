@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
-# sesamy-button-container Component
+# sesamy-button-container
 
 ## Usage
 
@@ -12,15 +12,21 @@ If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the 
 
 ```html
 <html>
-    <head></head>
-    <body>
-        <sesamy-button-container>
-            <sesamy-button></sesamy-button>
-        </sesamy-button-container>
-        
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"></script>
-        <script defer src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"></script>
-    </body>
+  <head></head>
+  <body>
+    <sesamy-button-container>
+      <sesamy-button></sesamy-button>
+    </sesamy-button-container>
+
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+    ></script>
+    <script
+      defer
+      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+    ></script>
+  </body>
 </html>
 ```
 
@@ -28,10 +34,10 @@ To overwrite the image and the description taken from the meta tags you can use 
 
 ```html
 <sesamy-button-container
-    description="Any description"
-    item-src="https://www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
+  description="Any description"
+  item-src="https://www.nwt.se/inger-om-vardet-pa-lerintavlorna-det-fanns-inte-i-mitt-huvud-alltsa"
 >
-    <sesamy-button></sesamy-button>
+  <sesamy-button></sesamy-button>
 </sesamy-button-container>
 ```
 
@@ -57,4 +63,3 @@ The list of CSS custom properties are:
   }
 </style>
 ```
-

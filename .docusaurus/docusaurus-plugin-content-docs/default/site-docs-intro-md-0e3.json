@@ -7,6 +7,7 @@
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -15,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/docs/news-widget/getting-started"
+    "title": "News Widgets",
+    "permalink": "/docs/news-widget/"
   }
 }

@@ -46,23 +46,73 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/button-sesamy Component",
-              "path": "/docs/news-widget/button-sesamy Component",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "news-widget/button-sesamy-container Component",
-              "path": "/docs/news-widget/button-sesamy-container Component",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "news-widget/getting-started",
               "path": "/docs/news-widget/getting-started",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/meta-tags",
+              "path": "/docs/news-widget/meta-tags",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/news-widget",
+              "path": "/docs/news-widget/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/passes",
+              "path": "/docs/news-widget/passes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/unlocking-content",
+              "path": "/docs/news-widget/unlocking-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-button",
+              "path": "/docs/news-widget/web-components/sesamy-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-button-container",
+              "path": "/docs/news-widget/web-components/sesamy-button-container",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-content-container",
+              "path": "/docs/news-widget/web-components/sesamy-content-container",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-entitlements",
+              "path": "/docs/news-widget/web-components/sesamy-entitlements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-login",
+              "path": "/docs/news-widget/web-components/sesamy-login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-profile",
+              "path": "/docs/news-widget/web-components/sesamy-profile",
+              "sidebar": "tutorialSidebar"
             }
-          ]
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
         }
-      ]
+      ],
+      "breadcrumbs": true
     }
   }
 }
