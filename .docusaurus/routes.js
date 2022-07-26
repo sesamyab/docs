@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '30c'),
+    component: ComponentCreator('/docs', '0d2'),
     routes: [
       {
         path: '/docs/access/api',
@@ -79,6 +79,42 @@ export default [
       {
         path: '/docs/access/getting-started',
         component: ComponentCreator('/docs/access/getting-started', '622'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/getting-started',
+        component: ComponentCreator('/docs/authentication/getting-started', '222'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/oauth2/',
+        component: ComponentCreator('/docs/authentication/oauth2/', '48e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/oauth2/client-credentials',
+        component: ComponentCreator('/docs/authentication/oauth2/client-credentials', 'c2c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/oauth2/code-grant',
+        component: ComponentCreator('/docs/authentication/oauth2/code-grant', '082'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/oauth2/implicit-grant',
+        component: ComponentCreator('/docs/authentication/oauth2/implicit-grant', 'ae2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/authentication/scopes',
+        component: ComponentCreator('/docs/authentication/scopes', '049'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -133,6 +169,12 @@ export default [
       {
         path: '/docs/news-widget/web-components/sesamy-content-container',
         component: ComponentCreator('/docs/news-widget/web-components/sesamy-content-container', 'dba'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-content-data',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-content-data', '3d6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

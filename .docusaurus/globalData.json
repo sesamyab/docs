@@ -41,6 +41,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "authentication/getting-started",
+              "path": "/docs/authentication/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "authentication/oauth2/client-credentials",
+              "path": "/docs/authentication/oauth2/client-credentials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "authentication/oauth2/code-grant",
+              "path": "/docs/authentication/oauth2/code-grant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "authentication/oauth2/implicit-grant",
+              "path": "/docs/authentication/oauth2/implicit-grant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "authentication/oauth2/oauth2",
+              "path": "/docs/authentication/oauth2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "authentication/scopes",
+              "path": "/docs/authentication/scopes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -83,6 +113,11 @@
             {
               "id": "news-widget/web-components/sesamy-content-container",
               "path": "/docs/news-widget/web-components/sesamy-content-container",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-content-data",
+              "path": "/docs/news-widget/web-components/sesamy-content-data",
               "sidebar": "tutorialSidebar"
             },
             {
