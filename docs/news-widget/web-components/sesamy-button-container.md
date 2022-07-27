@@ -20,11 +20,11 @@ If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the 
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
