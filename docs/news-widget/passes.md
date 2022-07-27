@@ -47,19 +47,19 @@ The passes work the same way as the posts by adding metatags to the page:
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
@@ -114,19 +114,19 @@ Once a pass has been created it can be referenced in other posts. The posts will
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>

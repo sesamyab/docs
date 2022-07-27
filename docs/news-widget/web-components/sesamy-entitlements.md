@@ -18,7 +18,7 @@ The purchases component displays a list of the users purchases. It could for ins
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-entitlements.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-entitlements.min.js"
     ></script>
   </body>
 </html>

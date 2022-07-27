@@ -18,7 +18,7 @@ The profile component displays the name and email of the current user. It could 
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-profile.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-profile.min.js"
     ></script>
   </body>
 </html>

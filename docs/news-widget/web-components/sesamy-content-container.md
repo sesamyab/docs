@@ -35,7 +35,7 @@ The content container matches the current url against the users purchases. In cl
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
     ></script>
   </body>
 </html>
@@ -85,7 +85,7 @@ The `sesamy-content-container` can show a gradient over the preview content by a
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
     ></script>
   </body>
 </html>

@@ -56,7 +56,7 @@ Here we can see an example of the different elements that have to be integrated 
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -143,7 +143,7 @@ The `sesamy-content-container` element is used to hide content on the client-sid
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
     ></script>
   </body>
 </html>
@@ -168,7 +168,7 @@ This component show the button to buy the article. When it's clicked, the widget
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
@@ -199,11 +199,11 @@ If the `sesamy-button` element is wrapped by the `sesamy-button-container`, the 
 
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
     ></script>
     <script
       defer
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
@@ -220,27 +220,27 @@ This snippet imports all components individually.
 ```html
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-content-container.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
 ></script>
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button-container.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
 ></script>
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
 ></script>
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-login.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
 ></script>
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-profile.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-profile.min.js"
 ></script>
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-entitlements.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-entitlements.min.js"
 ></script>
 ```
 
@@ -249,6 +249,6 @@ This snippet imports the bundle with all components.
 ```html
 <script
   defer
-  src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-bundle.min.js"
+  src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
 ></script>
 ```
