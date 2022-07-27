@@ -21,7 +21,7 @@ Place the `sesamy-button` element and load the script. The button will be render
 
     <script
       type="module"
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
@@ -43,7 +43,7 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 
     <script
       type="module"
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>
@@ -65,7 +65,7 @@ By default, the item displayed in the checkout iframe that is opened when the bu
 
     <script
       type="module"
-      src="https://assets.sesamy.dev/scripts/checkout-button/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
     ></script>
   </body>
 </html>

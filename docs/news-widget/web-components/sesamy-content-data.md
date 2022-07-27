@@ -23,7 +23,7 @@ The `sesamay-content-data` tag is also used by the Sesamy Catalog when indexing 
       price="9"
       currency="SEK"
       item-src="https://example.com/test-article"
-      image="ttps://example.com/test-article.jpg"
+      image="https://example.com/test-article.jpg"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut nuncante. Proin dignissim non diam a iaculis. Vivamus nec tincidunt nisl. Vivamus nec tincidunt nisl. Curabitur vel vehicula felis. Donec iaculis tincidunt varius. Curabitur tincidunt varius purus, a malesuada quam fermentum eleifend. Maecenas eget lorem justo."
     ></sesamy-content-data>
     <sesamy-content-container pid="123">

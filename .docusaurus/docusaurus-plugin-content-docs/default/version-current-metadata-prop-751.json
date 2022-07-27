@@ -82,6 +82,12 @@
               },
               {
                 "type": "link",
+                "label": "sesamy-content-data",
+                "href": "/docs/news-widget/web-components/sesamy-content-data",
+                "docId": "news-widget/web-components/sesamy-content-data"
+              },
+              {
+                "type": "link",
                 "label": "sesamy-entitlements",
                 "href": "/docs/news-widget/web-components/sesamy-entitlements",
                 "docId": "news-widget/web-components/sesamy-entitlements"
@@ -137,6 +143,53 @@
             "href": "/docs/access/configuration/"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Authentication",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/authentication/getting-started",
+            "docId": "authentication/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "Scopes",
+            "href": "/docs/authentication/scopes",
+            "docId": "authentication/scopes"
+          },
+          {
+            "type": "category",
+            "label": "OAuth2",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Implicit Grant",
+                "href": "/docs/authentication/oauth2/implicit-grant",
+                "docId": "authentication/oauth2/implicit-grant"
+              },
+              {
+                "type": "link",
+                "label": "Code Grant",
+                "href": "/docs/authentication/oauth2/code-grant",
+                "docId": "authentication/oauth2/code-grant"
+              },
+              {
+                "type": "link",
+                "label": "Client Credentials",
+                "href": "/docs/authentication/oauth2/client-credentials",
+                "docId": "authentication/oauth2/client-credentials"
+              }
+            ],
+            "href": "/docs/authentication/oauth2/"
+          }
+        ]
       }
     ]
   },
@@ -175,6 +228,42 @@
       "id": "access/getting-started",
       "title": "Getting Started",
       "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/getting-started": {
+      "id": "authentication/getting-started",
+      "title": "Getting Started",
+      "description": "Sesamy authentication service is an easy and secure way to add user management to any app or website. The user accounts are common for all websites using the Sesamy Authentication making it easier for the customers to get started with a new service.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/oauth2/client-credentials": {
+      "id": "authentication/oauth2/client-credentials",
+      "title": "Client Credentials",
+      "description": "The Client Credentials grant is used when applications request an access token to access their own resources, not on behalf of a user.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/oauth2/code-grant": {
+      "id": "authentication/oauth2/code-grant",
+      "title": "Code Grant",
+      "description": "The code grant flow works similar to the implicit grant flow, but instead of returning the access token directly to the browser a code is returned. This code can be resolved to a token using the client_secret.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/oauth2/implicit-grant": {
+      "id": "authentication/oauth2/implicit-grant",
+      "title": "Implicit Grant",
+      "description": "With the implicit grant flow the user is redirected from the login form to the publishers website with the token passed as query string.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/oauth2/oauth2": {
+      "id": "authentication/oauth2/oauth2",
+      "title": "Oauth 2",
+      "description": "OAuth is an open standard to authorization. OAuth provides client applications a ‘secure delegated access’ to server resources on behalf of a resource owner. It specifies a process for resource owners to authorize third-party access to their server resources without sharing their credentials.",
+      "sidebar": "tutorialSidebar"
+    },
+    "authentication/scopes": {
+      "id": "authentication/scopes",
+      "title": "Scopes",
+      "description": "When creating a new user session it is possible to specify what the user will be able to access during this session by requesting various scopes.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -231,10 +320,16 @@
       "description": "The content container component displays either the locked preview version of the content or the the actual content depending on if the user has access.",
       "sidebar": "tutorialSidebar"
     },
+    "news-widget/web-components/sesamy-content-data": {
+      "id": "news-widget/web-components/sesamy-content-data",
+      "title": "sesamy-content-data",
+      "description": "The content data web component is only used as a central storage for other web components and doesn't contain any other functionality.",
+      "sidebar": "tutorialSidebar"
+    },
     "news-widget/web-components/sesamy-entitlements": {
       "id": "news-widget/web-components/sesamy-entitlements",
       "title": "sesamy-entitlements",
-      "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website",
+      "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-login": {
