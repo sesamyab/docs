@@ -20,13 +20,13 @@ The links consists of four parts:
 - Signature of the previous parts of the url
 
 This is a sample of a signed link:
-`https://test.example.com/test-article?se=1656098737770&si=113&ss=PTKUZuGiT/iGt8EvS/l7wAYvx1kyqsYrX8lGEI40PnLKhWQfamdzqnXsyyrefaoiqCHKwl01AbR5DPsQF+YsmZxj7zFQUUyhQRCaxaCNnXV/+imP9CRfO+Pk3aGVHP/ijqzyuCe9AHy3XitGuGX6JYuo7etwNcwtXspTJbPHo/h9ln4JEWJW/hEA/+cujt2cD1RKAgQ8kAfcDmyxsmaZG3ZrAYa2fVCKCu77BJQe8lWuOxzNlHWzkU+1G3mvU8E/qBtQG7ZC845t9KD2kr0lo1MiPirpp/o/YJRZ3hfbXDb5DQ3BUFvVZITCKBVZsOizL/Yc3ZwlUhWBudddpEurYg=="`
+`https://test.example.com/test-article?se=TIMESTAMP&si=PUBLISHER_PRODUCT_ID&ss=RSA_256_HASH`
 
 The `https://test.example.com/test-article` is the url of purchased article, `si=113` is the publisher product id, `se=1656098737770` is the expire of the url and `ss=...` is the signature.
 
 ## Validation of the signature
 
-The urls are signed with a `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `https://assets.sesamy.dev/content-jwks.json`
+The urls are signed with a `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `ttps://assets.sesamy.com/vault-jwks.json`
 
 This is an example of how to verify the signed url in node-js with typescript:
 
@@ -35,7 +35,7 @@ import { verify, createPublicKey, KeyObject } from 'crypto';
 import jwkToPem from 'jwk-to-pem';
 
 async function fetchPublicKey() {
-const response = await fetch('https://assets.sesamy.dev/vault-jwks.json');
+const response = await fetch('https://assets.sesamy.com/vault-jwks.json');
 
     if (!response.ok) {
         throw new Error('Failed to fetch public key');
