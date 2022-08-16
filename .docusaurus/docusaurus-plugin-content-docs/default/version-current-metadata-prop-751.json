@@ -190,6 +190,27 @@
             "href": "/docs/authentication/oauth2/"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Analytics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Events",
+            "href": "/docs/analytics/events",
+            "docId": "analytics/events"
+          },
+          {
+            "type": "link",
+            "label": "GDPR",
+            "href": "/docs/analytics/GDPR",
+            "docId": "analytics/GDPR"
+          }
+        ],
+        "href": "/docs/analytics/"
       }
     ]
   },
@@ -228,6 +249,24 @@
       "id": "access/getting-started",
       "title": "Getting Started",
       "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/analytics": {
+      "id": "analytics/analytics",
+      "title": "Analytics",
+      "description": "Sesamy Analytics is a lightweight solution for tracking page views, custom events and identifying visitors. It is intended to be a complement to other analytics solution to better understand how the content is consumed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/events": {
+      "id": "analytics/events",
+      "title": "Events",
+      "description": "The analytics registers three types of events:",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/GDPR": {
+      "id": "analytics/GDPR",
+      "title": "GDPR",
+      "description": "Sesamy Analytics is designed from the start to be GDPR complient. It does not rely on Cookies and does not require any end user consent.",
       "sidebar": "tutorialSidebar"
     },
     "authentication/getting-started": {

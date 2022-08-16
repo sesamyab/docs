@@ -173,6 +173,80 @@
               }
             },
             {
+              "unversionedId": "analytics/analytics",
+              "id": "analytics/analytics",
+              "title": "Analytics",
+              "description": "Sesamy Analytics is a lightweight solution for tracking page views, custom events and identifying visitors. It is intended to be a complement to other analytics solution to better understand how the content is consumed.",
+              "source": "@site/docs/analytics/analytics.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/",
+              "permalink": "/docs/analytics/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Client Credentials",
+                "permalink": "/docs/authentication/oauth2/client-credentials"
+              },
+              "next": {
+                "title": "Events",
+                "permalink": "/docs/analytics/events"
+              }
+            },
+            {
+              "unversionedId": "analytics/events",
+              "id": "analytics/events",
+              "title": "Events",
+              "description": "The analytics registers three types of events:",
+              "source": "@site/docs/analytics/events.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/events",
+              "permalink": "/docs/analytics/events",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics/"
+              },
+              "next": {
+                "title": "GDPR",
+                "permalink": "/docs/analytics/GDPR"
+              }
+            },
+            {
+              "unversionedId": "analytics/GDPR",
+              "id": "analytics/GDPR",
+              "title": "GDPR",
+              "description": "Sesamy Analytics is designed from the start to be GDPR complient. It does not rely on Cookies and does not require any end user consent.",
+              "source": "@site/docs/analytics/GDPR.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/GDPR",
+              "permalink": "/docs/analytics/GDPR",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Events",
+                "permalink": "/docs/analytics/events"
+              }
+            },
+            {
               "unversionedId": "authentication/getting-started",
               "id": "authentication/getting-started",
               "title": "Getting Started",
@@ -218,6 +292,10 @@
               "previous": {
                 "title": "Code Grant",
                 "permalink": "/docs/authentication/oauth2/code-grant"
+              },
+              "next": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics/"
               }
             },
             {
@@ -809,6 +887,26 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "Analytics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "analytics/events"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analytics/GDPR"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "analytics/analytics"
+                }
               }
             ]
           }
