@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0d2'),
+    component: ComponentCreator('/docs', '750'),
     routes: [
       {
         path: '/docs/access/api',
@@ -79,6 +79,24 @@ export default [
       {
         path: '/docs/access/getting-started',
         component: ComponentCreator('/docs/access/getting-started', '622'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/analytics/',
+        component: ComponentCreator('/docs/analytics/', 'f74'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/analytics/events',
+        component: ComponentCreator('/docs/analytics/events', 'f90'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/analytics/GDPR',
+        component: ComponentCreator('/docs/analytics/GDPR', 'dc7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
