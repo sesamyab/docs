@@ -39,10 +39,10 @@ The API exposes a `track` function that takes an event name and a json object as
 
 ```
 // Basic event tracking
-analytics.track('buttonClicked')
+sesamyAnalytics.track('buttonClicked')
 
 // Event tracking with payload
-analytics.track('itemPurchased', {
+sesamyAnalytics.track('itemPurchased', {
   price: 11,
   sku: '1234'
 })
