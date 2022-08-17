@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '750'),
+    component: ComponentCreator('/docs', 'dfa'),
     routes: [
       {
         path: '/docs/access/api',
@@ -181,6 +181,12 @@ export default [
       {
         path: '/docs/news-widget/web-components/sesamy-button-container',
         component: ComponentCreator('/docs/news-widget/web-components/sesamy-button-container', 'db9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/news-widget/web-components/sesamy-config',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-config', '76b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
