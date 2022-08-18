@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # sesamy-content-data
 
-The content data web component is only used as a central storage for other web components and doesn't contain any other functionality.
+The content data web component is only used as a central metadata storage for an article that other web components can fall back to and doesn't contain any other functionality.
 
 The other web components have a fallback flow where they for each property uses the value defined directly and then falls back to the value specified on a `sesamy-content-data` tag with an `id` matching the `pid` components property.
 

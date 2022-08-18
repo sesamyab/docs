@@ -164,8 +164,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-entitlements",
-                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+                "title": "sesamy-config",
+                "permalink": "/docs/news-widget/web-components/sesamy-config"
               },
               "next": {
                 "title": "API",
@@ -607,6 +607,32 @@
               }
             },
             {
+              "unversionedId": "news-widget/web-components/sesamy-config",
+              "id": "news-widget/web-components/sesamy-config",
+              "title": "sesamy-config",
+              "description": "The config web component is only used as a central storage for common configuration for a website, such as client-id and language.",
+              "source": "@site/docs/news-widget/web-components/sesamy-config.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-config",
+              "permalink": "/docs/news-widget/web-components/sesamy-config",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              }
+            },
+            {
               "unversionedId": "news-widget/web-components/sesamy-content-container",
               "id": "news-widget/web-components/sesamy-content-container",
               "title": "sesamy-content-container",
@@ -636,7 +662,7 @@
               "unversionedId": "news-widget/web-components/sesamy-content-data",
               "id": "news-widget/web-components/sesamy-content-data",
               "title": "sesamy-content-data",
-              "description": "The content data web component is only used as a central storage for other web components and doesn't contain any other functionality.",
+              "description": "The content data web component is only used as a central metadata storage for an article that other web components can fall back to and doesn't contain any other functionality.",
               "source": "@site/docs/news-widget/web-components/sesamy-content-data.md",
               "sourceDirName": "news-widget/web-components",
               "slug": "/news-widget/web-components/sesamy-content-data",
@@ -680,8 +706,8 @@
                 "permalink": "/docs/news-widget/web-components/sesamy-content-data"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
+                "title": "sesamy-config",
+                "permalink": "/docs/news-widget/web-components/sesamy-config"
               }
             },
             {
@@ -799,6 +825,10 @@
                       {
                         "type": "doc",
                         "id": "news-widget/web-components/sesamy-entitlements"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-config"
                       }
                     ]
                   }
