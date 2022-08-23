@@ -45,7 +45,7 @@ The content container matches the current url against the users purchases. In cl
 
 There are two different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
 
-- If the attribute `lock-mode="embedded"` (default behavior): the locked content is fetched from the content slot as in the example above.
+- If the attribute `lock-mode="embed"` (default behavior): the locked content is fetched from the content slot as in the example above.
 - If the attribute `lock-mode="signedUrl"`: the content is fetched from the publishers server using a signed url.
 - If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
 
