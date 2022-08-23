@@ -75,9 +75,9 @@ By default, the item displayed in the checkout iframe that is opened when the bu
 
 There are three different flows for the checkout once the `sesamy-button` is clicked:
 
-- If the attribute `checkout-mode="redirect"`: the navigation of current window will be redirected to the checkout standalone version.
+- If the attribute `checkout-mode="redirect"` (default behavior): the navigation of current window will be redirected to the checkout standalone version.
 - If the attribute `checkout-mode="popup"` or the button is being displayed in a mobile device: The checkout is opened in a new popup.
-- If the attribute `checkout-mode="embed"` (default behavior): The checkout is opened embedded on an iframe on the website.
+- If the attribute `checkout-mode="embed"`: The checkout is opened embedded on an iframe on the website.
 
 #### Unlock Message
 
