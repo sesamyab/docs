@@ -22,11 +22,14 @@ The links consists of four parts:
 This is a sample of a signed link:
 `https://test.example.com/test-article?se=TIMESTAMP&si=PUBLISHER_PRODUCT_ID&ss=RSA_256_HASH`
 
-The `https://test.example.com/test-article` is the url of purchased article, `si=113` is the publisher product id, `se=1656098737770` is the expire of the url and `ss=...` is the signature.
+The `https://test.example.com/test-article` is the url of purchased article, `se=1656098737770` is the expire of the url and `ss=...` is the signature.
+
+If a publisher provided a Publihser Content ID in the metatags this ID will also be passed as a `sp` querystring parameter in the signed link:
+`https://test.example.com/test-article?sp=PUBLISHER_CONTENT_ID&se=TIMESTAMP&si=PUBLISHER_PRODUCT_ID&ss=RSA_256_HASH`
 
 ## Validation of the signature
 
-The urls are signed with a `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `ttps://assets.sesamy.com/vault-jwks.json`
+The urls are signed with a `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `https://assets.sesamy.com/vault-jwks.json`
 
 This is an example of how to verify the signed url in node-js with typescript:
 
@@ -70,4 +73,4 @@ const publicKey = await getPublicKey();
 If an article is part of a pass (for instance an subscription) the signed link will be for the pass rather than the article. This way a signed link can be reused for all articles within a subscription until the link is expired. In this case the backend need to validate that article is part of the pass before serving the content.
 
 The signed link is passed to he backend as a pass query string (the signature is shortened for brevity):
-`https://test.example.com/test-article?pass=https%3A%2F%2Ftest.example.com%2Fsubscription%3Fse%3D1656098737770%26si%3D113%26ss%3DPTKUZ`
+`https://test.example.com/test-article?pass=https%3A%2F%2Ftest.example.com%2Fsubscription%3Fse%3D1656098737770%26si%3D113%26ss%3DPTKUZ...`

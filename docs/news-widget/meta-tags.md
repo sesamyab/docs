@@ -131,3 +131,23 @@ The default value is `SINGLE_PAYMENT`
 ```html
 <meta property="sesamy:product-type" content="[SINGLE_PAYMENT | RECURRING]" />
 ```
+
+### Client ID
+
+The client id used for [Sesamy Authentication](/docs/authentication/getting-started.md)
+
+1. `sesamy:client-id` meta tag
+
+```html
+<meta property="sesamy:client-id" content="[CLIENT_ID]" />
+```
+
+### Publisher Content ID
+
+The publisher ID for the content. Indexed and passed back to the website when [unlocking content](/docs/news-widget/unlocking-content.md)
+
+1. `sesamy:publisher-content-id` meta tag
+
+```html
+<meta property="sesamy:publisher-content-id" content="[PUBLISHER_CONTENT_ID]" />
+```
