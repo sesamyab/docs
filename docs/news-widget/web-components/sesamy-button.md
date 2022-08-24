@@ -71,6 +71,25 @@ By default, the item displayed in the checkout iframe that is opened when the bu
 </html>
 ```
 
+It is also possible to pass a Sesamy product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-button
+      item-src="isbn:9789164234858"
+      text="Au Pif! Den sanna historien om Agnetas kloster"
+    ></sesamy-button>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 #### Checkout modes
 
 There are three different flows for the checkout once the `sesamy-button` is clicked:
