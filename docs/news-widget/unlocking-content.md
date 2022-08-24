@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Unlocking Content
 
-When a user has purchased a post the unlocked content can be displayed using the `sesamy-content-container` compont. The content can either be embedded directly on the page or fetched from the server using a signed url.
+When a user has purchased a post the unlocked content can be displayed using the `sesamy-content-container` component. The content can either be embedded directly on the page or fetched from the server using a signed url.
 
 The signed url's can for instance be shared in a order confirmation email and renders a page without any further authentication. To avoid that the signed links are being distributed that have a limited expiery.
 
