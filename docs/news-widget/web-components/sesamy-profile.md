@@ -23,3 +23,7 @@ The profile component displays the name and email of the current user. It could 
   </body>
 </html>
 ```
+
+### Client Id
+
+The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
