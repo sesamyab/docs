@@ -13,7 +13,7 @@ Place the `sesamy-login` element and load the script. The login button will be r
 ```html
 <html>
   <body>
-    <sesamy-login client-id="demo"></sesamy-login>
+    <sesamy-login></sesamy-login>
 
     <script
       type="module"
@@ -25,7 +25,7 @@ Place the `sesamy-login` element and load the script. The login button will be r
 
 ### Client Id
 
-The client id is provided by Sesamy and specifies on which domains the login will be available.
+The client id is provided by Sesamy and specifies on which domains the login will be available. The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
 
 ### Passing custom attributes
 
@@ -35,7 +35,7 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 <html>
   <head></head>
   <body>
-    <sesamy-login login-text="Logga in" logout-text="Logga out"></sesamy-login>
+    <sesamy-login variant="Picture"></sesamy-login>
 
     <script
       type="module"
@@ -59,3 +59,17 @@ The list of CSS custom properties are:
   }
 </style>
 ```
+
+## Passing custom attributes
+
+### Variants
+
+The login component can be rendred in differnt variants with different visaul appearance. The variants are specified as a property on the web component:
+
+- Picture (default): Displays the user name and an avatar
+- Logut: Displays a logout link
+- SesamyText: Displays the user name and a logout link
+
+### Profile Href
+
+The profile href defines where the login component will link to when a logged in user clicks it.

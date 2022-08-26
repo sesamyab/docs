@@ -41,6 +41,16 @@ The content container matches the current url against the users purchases. In cl
 </html>
 ```
 
+## Passing custom attributes
+
+### Publisher content ID
+
+The ID of the content on the publisher side. It can be used to fetch data about the content from a [sesamy-content-data](/docs/news-widget/web-components/sesamy-content-data.md) web component with a matching ID.
+
+### Public
+
+By setting the public property the article will be unlocked for all users.
+
 ### Lock Modes
 
 There are two different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
@@ -48,6 +58,10 @@ There are two different flows for the displaying the locked content once the `se
 - If the attribute `lock-mode="embed"` (default behavior): the locked content is fetched from the content slot as in the example above.
 - If the attribute `lock-mode="signedUrl"`: the content is fetched from the publishers server using a signed url.
 - If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
+
+### Pass
+
+The pass property is a semi-colon concatenated list of the [passes](/docs/news-widget/passes.md) that the article is part of.
 
 ### Access Url
 
@@ -59,6 +73,15 @@ When using the `lock-mode=signedUrl` lock mode the content is fetched from the s
     access-url="https://example.com/api/access/test-article"
 >
 ```
+
+### Unlock Message
+
+This message is shown below the article once it is unlocked.
+
+The `direction` and the `aligment` of the unlock message can be configured by:
+
+- `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
+- `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
 
 ### Gradient
 
