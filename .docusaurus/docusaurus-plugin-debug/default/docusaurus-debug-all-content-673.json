@@ -12,9 +12,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
-          "contentPath": "/Users/markusahlstrand/Projects/sesamy/docs/docs",
-          "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/sidebars.js",
+          "contentPath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/docs",
+          "contentPathLocalized": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "access/api",
@@ -164,8 +164,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-config",
-                "permalink": "/docs/news-widget/web-components/sesamy-config"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               },
               "next": {
                 "title": "API",
@@ -532,7 +532,7 @@
               "unversionedId": "news-widget/unlocking-content",
               "id": "news-widget/unlocking-content",
               "title": "Unlocking Content",
-              "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
+              "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container component. The content can either be embedded directly on the page or fetched from the server using a signed url.",
               "source": "@site/docs/news-widget/unlocking-content.md",
               "sourceDirName": "news-widget",
               "slug": "/news-widget/unlocking-content",
@@ -607,32 +607,6 @@
               }
             },
             {
-              "unversionedId": "news-widget/web-components/sesamy-config",
-              "id": "news-widget/web-components/sesamy-config",
-              "title": "sesamy-config",
-              "description": "The config web component is only used as a central storage for common configuration for a website, such as client-id and language.",
-              "source": "@site/docs/news-widget/web-components/sesamy-config.md",
-              "sourceDirName": "news-widget/web-components",
-              "slug": "/news-widget/web-components/sesamy-config",
-              "permalink": "/docs/news-widget/web-components/sesamy-config",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {
-                "sidebar_position": 8
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "sesamy-entitlements",
-                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
-              },
-              "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
-              }
-            },
-            {
               "unversionedId": "news-widget/web-components/sesamy-content-container",
               "id": "news-widget/web-components/sesamy-content-container",
               "title": "sesamy-content-container",
@@ -685,6 +659,32 @@
               }
             },
             {
+              "unversionedId": "news-widget/web-components/sesamy-content-listing",
+              "id": "news-widget/web-components/sesamy-content-listing",
+              "title": "sesamy-content-listing",
+              "description": "The content listings component is used for tracking which articles have been viewed in a list of articles.",
+              "source": "@site/docs/news-widget/web-components/sesamy-content-listing.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-content-listing",
+              "permalink": "/docs/news-widget/web-components/sesamy-content-listing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              }
+            },
+            {
               "unversionedId": "news-widget/web-components/sesamy-entitlements",
               "id": "news-widget/web-components/sesamy-entitlements",
               "title": "sesamy-entitlements",
@@ -706,8 +706,8 @@
                 "permalink": "/docs/news-widget/web-components/sesamy-content-data"
               },
               "next": {
-                "title": "sesamy-config",
-                "permalink": "/docs/news-widget/web-components/sesamy-config"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               }
             },
             {
@@ -828,7 +828,7 @@
                       },
                       {
                         "type": "doc",
-                        "id": "news-widget/web-components/sesamy-config"
+                        "id": "news-widget/web-components/sesamy-content-listing"
                       }
                     ]
                   }

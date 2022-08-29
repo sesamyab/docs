@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #4628f0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary-darker: #231478;
+  --ifm-color-primary-darkest: #150c48;
+  --ifm-color-primary-light: #6b53f3;
+  --ifm-color-primary-lighter: #907ef6;
+  --ifm-color-primary-lightest: #b5a9f9;
   --ifm-code-font-size: 95%;
 }
 
@@ -23,6 +23,35 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #131313;
+}
+
+.navbar {
+  --ifm-navbar-background-color: #131313;
+  padding: 0 12px;
+}
+
+.navbar__title.text--truncate {
+  color: #fff;
+}
+
+.navbar__item.navbar__link.navbar__link--active {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3px;
+  height: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__items {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

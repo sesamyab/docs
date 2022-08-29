@@ -126,11 +126,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "news-widget/web-components/sesamy-config",
-              "path": "/docs/news-widget/web-components/sesamy-config",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "news-widget/web-components/sesamy-content-container",
               "path": "/docs/news-widget/web-components/sesamy-content-container",
               "sidebar": "tutorialSidebar"
@@ -138,6 +133,11 @@
             {
               "id": "news-widget/web-components/sesamy-content-data",
               "path": "/docs/news-widget/web-components/sesamy-content-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-content-listing",
+              "path": "/docs/news-widget/web-components/sesamy-content-listing",
               "sidebar": "tutorialSidebar"
             },
             {

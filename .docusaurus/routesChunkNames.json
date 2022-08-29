@@ -1,58 +1,58 @@
 {
-  "/__docusaurus/debug-300": {
+  "/__docusaurus/debug-8d7": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/__docusaurus/debug/config-5af": {
+  "/__docusaurus/debug/config-df1": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/__docusaurus/debug/content-ff1": {
+  "/__docusaurus/debug/content-bd6": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-060": {
+  "/__docusaurus/debug/globalData-581": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/__docusaurus/debug/metadata-b20": {
+  "/__docusaurus/debug/metadata-e1e": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/__docusaurus/debug/registry-e76": {
+  "/__docusaurus/debug/registry-2ff": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/__docusaurus/debug/routes-281": {
+  "/__docusaurus/debug/routes-920": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugad-5-11b"
+      "plugin": "plugin---docusaurus-debug-0-cf-670"
     }
   },
-  "/markdown-page-ee4": {
+  "/markdown-page-788": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-851-96e"
+      "plugin": "plugin---markdown-pagee-43-d82"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dfa": {
+  "/docs-8e2": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docsff-6-71a"
+      "plugin": "plugin---docsd-75-cc4"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -148,10 +148,6 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-button-container-1-fe-a61"
   },
-  "/docs/news-widget/web-components/sesamy-config-76b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-news-widget-web-components-sesamy-configda-6-9ab"
-  },
   "/docs/news-widget/web-components/sesamy-content-container-dba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-content-container-6-a-3-4d6"
@@ -159,6 +155,10 @@
   "/docs/news-widget/web-components/sesamy-content-data-3d6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-content-dataaf-8-572"
+  },
+  "/docs/news-widget/web-components/sesamy-content-listing-602": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-content-listingb-42-836"
   },
   "/docs/news-widget/web-components/sesamy-entitlements-68f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -172,10 +172,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-profile-905-10e"
   },
-  "/-572": {
+  "/-415": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---markdown-page-851-96e"
+      "plugin": "plugin---markdown-pagee-43-d82"
     },
     "config": "config---5-e-9-4f3"
   }
