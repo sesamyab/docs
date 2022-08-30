@@ -94,9 +94,9 @@
               },
               {
                 "type": "link",
-                "label": "sesamy-config",
-                "href": "/docs/news-widget/web-components/sesamy-config",
-                "docId": "news-widget/web-components/sesamy-config"
+                "label": "sesamy-content-listing",
+                "href": "/docs/news-widget/web-components/sesamy-content-listing",
+                "docId": "news-widget/web-components/sesamy-content-listing"
               }
             ]
           }
@@ -344,7 +344,7 @@
     "news-widget/unlocking-content": {
       "id": "news-widget/unlocking-content",
       "title": "Unlocking Content",
-      "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
+      "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container component. The content can either be embedded directly on the page or fetched from the server using a signed url.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-button": {
@@ -359,12 +359,6 @@
       "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
-    "news-widget/web-components/sesamy-config": {
-      "id": "news-widget/web-components/sesamy-config",
-      "title": "sesamy-config",
-      "description": "The config web component is only used as a central storage for common configuration for a website, such as client-id and language.",
-      "sidebar": "tutorialSidebar"
-    },
     "news-widget/web-components/sesamy-content-container": {
       "id": "news-widget/web-components/sesamy-content-container",
       "title": "sesamy-content-container",
@@ -375,6 +369,12 @@
       "id": "news-widget/web-components/sesamy-content-data",
       "title": "sesamy-content-data",
       "description": "The content data web component is only used as a central metadata storage for an article that other web components can fall back to and doesn't contain any other functionality.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-content-listing": {
+      "id": "news-widget/web-components/sesamy-content-listing",
+      "title": "sesamy-content-listing",
+      "description": "The content listings component is used for tracking which articles have been viewed in a list of articles.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-entitlements": {
