@@ -8,7 +8,7 @@ sidebar_position: 4
 
 ### Basic usage
 
-The `sesamy-locked-content-container` component is used to wrapped a block that should only be available once the item is locked.
+The `sesamy-locked-content-container` component is used for wrapping a block that should only be available once the item is locked.
 
 ```html
 <html>
