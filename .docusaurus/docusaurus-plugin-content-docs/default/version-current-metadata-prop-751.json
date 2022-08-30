@@ -91,6 +91,12 @@
                 "label": "sesamy-entitlements",
                 "href": "/docs/news-widget/web-components/sesamy-entitlements",
                 "docId": "news-widget/web-components/sesamy-entitlements"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-content-listing",
+                "href": "/docs/news-widget/web-components/sesamy-content-listing",
+                "docId": "news-widget/web-components/sesamy-content-listing"
               }
             ]
           }
@@ -190,6 +196,27 @@
             "href": "/docs/authentication/oauth2/"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Analytics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Events",
+            "href": "/docs/analytics/events",
+            "docId": "analytics/events"
+          },
+          {
+            "type": "link",
+            "label": "GDPR",
+            "href": "/docs/analytics/GDPR",
+            "docId": "analytics/GDPR"
+          }
+        ],
+        "href": "/docs/analytics/"
       }
     ]
   },
@@ -228,6 +255,24 @@
       "id": "access/getting-started",
       "title": "Getting Started",
       "description": "Sesamy Access makes it possible to sell single episodes, seasons and bundles of shows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/analytics": {
+      "id": "analytics/analytics",
+      "title": "Analytics",
+      "description": "Sesamy Analytics is a lightweight solution for tracking page views, custom events and identifying visitors. It is intended to be a complement to other analytics solution to better understand how the content is consumed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/events": {
+      "id": "analytics/events",
+      "title": "Events",
+      "description": "The analytics registers three types of events:",
+      "sidebar": "tutorialSidebar"
+    },
+    "analytics/GDPR": {
+      "id": "analytics/GDPR",
+      "title": "GDPR",
+      "description": "Sesamy Analytics is designed from the start to be GDPR complient. It does not rely on Cookies and does not require any end user consent.",
       "sidebar": "tutorialSidebar"
     },
     "authentication/getting-started": {
@@ -299,7 +344,7 @@
     "news-widget/unlocking-content": {
       "id": "news-widget/unlocking-content",
       "title": "Unlocking Content",
-      "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
+      "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container component. The content can either be embedded directly on the page or fetched from the server using a signed url.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-button": {
@@ -323,7 +368,13 @@
     "news-widget/web-components/sesamy-content-data": {
       "id": "news-widget/web-components/sesamy-content-data",
       "title": "sesamy-content-data",
-      "description": "The content data web component is only used as a central storage for other web components and doesn't contain any other functionality.",
+      "description": "The content data web component is only used as a central metadata storage for an article that other web components can fall back to and doesn't contain any other functionality.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-content-listing": {
+      "id": "news-widget/web-components/sesamy-content-listing",
+      "title": "sesamy-content-listing",
+      "description": "The content listings component is used for tracking which articles have been viewed in a list of articles.",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-entitlements": {

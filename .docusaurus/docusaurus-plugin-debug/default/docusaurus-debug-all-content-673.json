@@ -12,9 +12,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
-          "contentPath": "/Users/markusahlstrand/Projects/sesamy/docs/docs",
-          "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/sidebars.js",
+          "contentPath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/docs",
+          "contentPathLocalized": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "access/api",
@@ -164,12 +164,86 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-entitlements",
-                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               },
               "next": {
                 "title": "API",
                 "permalink": "/docs/access/api"
+              }
+            },
+            {
+              "unversionedId": "analytics/analytics",
+              "id": "analytics/analytics",
+              "title": "Analytics",
+              "description": "Sesamy Analytics is a lightweight solution for tracking page views, custom events and identifying visitors. It is intended to be a complement to other analytics solution to better understand how the content is consumed.",
+              "source": "@site/docs/analytics/analytics.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/",
+              "permalink": "/docs/analytics/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Client Credentials",
+                "permalink": "/docs/authentication/oauth2/client-credentials"
+              },
+              "next": {
+                "title": "Events",
+                "permalink": "/docs/analytics/events"
+              }
+            },
+            {
+              "unversionedId": "analytics/events",
+              "id": "analytics/events",
+              "title": "Events",
+              "description": "The analytics registers three types of events:",
+              "source": "@site/docs/analytics/events.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/events",
+              "permalink": "/docs/analytics/events",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics/"
+              },
+              "next": {
+                "title": "GDPR",
+                "permalink": "/docs/analytics/GDPR"
+              }
+            },
+            {
+              "unversionedId": "analytics/GDPR",
+              "id": "analytics/GDPR",
+              "title": "GDPR",
+              "description": "Sesamy Analytics is designed from the start to be GDPR complient. It does not rely on Cookies and does not require any end user consent.",
+              "source": "@site/docs/analytics/GDPR.md",
+              "sourceDirName": "analytics",
+              "slug": "/analytics/GDPR",
+              "permalink": "/docs/analytics/GDPR",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Events",
+                "permalink": "/docs/analytics/events"
               }
             },
             {
@@ -218,6 +292,10 @@
               "previous": {
                 "title": "Code Grant",
                 "permalink": "/docs/authentication/oauth2/code-grant"
+              },
+              "next": {
+                "title": "Analytics",
+                "permalink": "/docs/analytics/"
               }
             },
             {
@@ -454,7 +532,7 @@
               "unversionedId": "news-widget/unlocking-content",
               "id": "news-widget/unlocking-content",
               "title": "Unlocking Content",
-              "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container compont. The content can either be embedded directly on the page or fetched from the server using a signed url.",
+              "description": "When a user has purchased a post the unlocked content can be displayed using the sesamy-content-container component. The content can either be embedded directly on the page or fetched from the server using a signed url.",
               "source": "@site/docs/news-widget/unlocking-content.md",
               "sourceDirName": "news-widget",
               "slug": "/news-widget/unlocking-content",
@@ -558,7 +636,7 @@
               "unversionedId": "news-widget/web-components/sesamy-content-data",
               "id": "news-widget/web-components/sesamy-content-data",
               "title": "sesamy-content-data",
-              "description": "The content data web component is only used as a central storage for other web components and doesn't contain any other functionality.",
+              "description": "The content data web component is only used as a central metadata storage for an article that other web components can fall back to and doesn't contain any other functionality.",
               "source": "@site/docs/news-widget/web-components/sesamy-content-data.md",
               "sourceDirName": "news-widget/web-components",
               "slug": "/news-widget/web-components/sesamy-content-data",
@@ -578,6 +656,32 @@
               "next": {
                 "title": "sesamy-entitlements",
                 "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-content-listing",
+              "id": "news-widget/web-components/sesamy-content-listing",
+              "title": "sesamy-content-listing",
+              "description": "The content listings component is used for tracking which articles have been viewed in a list of articles.",
+              "source": "@site/docs/news-widget/web-components/sesamy-content-listing.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-content-listing",
+              "permalink": "/docs/news-widget/web-components/sesamy-content-listing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
               }
             },
             {
@@ -602,8 +706,8 @@
                 "permalink": "/docs/news-widget/web-components/sesamy-content-data"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               }
             },
             {
@@ -721,6 +825,10 @@
                       {
                         "type": "doc",
                         "id": "news-widget/web-components/sesamy-entitlements"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-content-listing"
                       }
                     ]
                   }
@@ -809,6 +917,26 @@
                     }
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "Analytics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "analytics/events"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "analytics/GDPR"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "analytics/analytics"
+                }
               }
             ]
           }

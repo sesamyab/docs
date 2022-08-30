@@ -41,6 +41,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "analytics/analytics",
+              "path": "/docs/analytics/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analytics/events",
+              "path": "/docs/analytics/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analytics/GDPR",
+              "path": "/docs/analytics/GDPR",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "authentication/getting-started",
               "path": "/docs/authentication/getting-started",
               "sidebar": "tutorialSidebar"
@@ -118,6 +133,11 @@
             {
               "id": "news-widget/web-components/sesamy-content-data",
               "path": "/docs/news-widget/web-components/sesamy-content-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-content-listing",
+              "path": "/docs/news-widget/web-components/sesamy-content-listing",
               "sidebar": "tutorialSidebar"
             },
             {

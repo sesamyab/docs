@@ -12,7 +12,7 @@ A client can retrieve an access token by making a POST request to the token endp
 POST https://token.sesamy.com/oauth/token
 Content-Type: application/x-www-form-urlencoded
 
-client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&code=CODE&grant_type=client_credentials
+client_id=YOUR_CLIENT_ID&client_secret=YOUR_CLIENT_SECRET&scope=SCOPES&grant_type=client_credentials
 ```
 
 The following query properties are available:
