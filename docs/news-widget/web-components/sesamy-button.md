@@ -30,7 +30,7 @@ Place the `sesamy-button` element and load the script. The button will be render
 
 ### Passing custom attributes
 
-The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes.
+The text, price and currency of the button can be replaced by attributes.
 
 ```html
 <html>
@@ -50,7 +50,31 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 </html>
 ```
 
-The code above will render a button with the text "Unlock content!", and with the price "10" and the currency "EUR".
+The code above will render a button with the Sesamy icon, the text "Unlock content!", and with the price "10" and the currency "EUR".
+
+### Passing a custom text and hide the price
+
+You can also modify the content of the button by sending a custom HTML block as a child wrapped in a `div` with `slot="button-text"` as follows:
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-button hide-price="true">
+      <div slot="button-text">
+        <span>BUY NOW!</span>
+      </div>
+    </sesamy-button>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+    ></script>
+  </body>
+</html>
+```
+
+The code above will render a button with the `span` `"BUY NOW!"` inside, and will hide the price.
 
 ### Passing an external item in the checkout
 
