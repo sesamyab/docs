@@ -50,7 +50,7 @@ The text, price and currency of the button can be replaced by attributes.
 </html>
 ```
 
-The code above will render a button with the Sesamy iconm, the text "Unlock content!", and with the price "10" and the currency "EUR".
+The code above will render a button with the Sesamy icon, the text "Unlock content!", and with the price "10" and the currency "EUR".
 
 ### Passing a custom text and hide the price
 
