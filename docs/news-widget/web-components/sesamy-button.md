@@ -30,9 +30,10 @@ Place the `sesamy-button` element and load the script. The button will be render
 
 The language of the button and the checkout is defined by the lang attribute on the html tag:
 
-html```
-
-<html lang = “en”>…</html>
+```html
+<html lang="en">
+  …
+</html>
 ```
 
 If no language is specified the language will default to english.

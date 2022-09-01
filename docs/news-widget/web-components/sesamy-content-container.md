@@ -85,9 +85,10 @@ The `direction` and the `aligment` of the unlock message can be configured by:
 
 The language of the unlock message is defined by the lang attribute on the html tag:
 
-html```
-
-<html lang = “en”>…</html>
+```html
+<html lang="en">
+  …
+</html>
 ```
 
 If no language is specified the language will default to english.
