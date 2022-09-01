@@ -83,6 +83,15 @@ The `direction` and the `aligment` of the unlock message can be configured by:
 - `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
 - `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
 
+The language of the unlock message is defined by the lang attribute on the html tag:
+
+html```
+
+<html lang = “en”>…</html>
+```
+
+If no language is specified the language will default to english.
+
 ### Gradient
 
 The `sesamy-content-container` can show a gradient over the preview content by adding a gradient property to the tag.
