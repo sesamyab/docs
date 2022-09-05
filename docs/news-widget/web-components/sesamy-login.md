@@ -29,13 +29,15 @@ The client id is provided by Sesamy and specifies on which domains the login wil
 
 ### Passing custom attributes
 
+## Text
+
 The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes.
 
 ```html
 <html>
   <head></head>
   <body>
-    <sesamy-login variant="Picture"></sesamy-login>
+    <sesamy-login text="Start here!"></sesamy-login>
 
     <script
       type="module"
@@ -45,7 +47,18 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 </html>
 ```
 
-The code above will render a button with the text "Logga In".
+The code above will render a button with the text "Start here!".
+
+### Variants
+
+The login component can be rendred in differnt variants with different visaul appearance. The variants are specified as a property on the web component:
+
+- Text (default) (`variant="text"`): Displays the user name and a logout link
+- Picture (`variant="picture"`): Displays the user name and an avatar
+
+### Profile Href
+
+The profile href defines where the login component will link to when a logged in user clicks it (e.g.: `profile-href="/profile"`).
 
 ### Styling
 
@@ -59,17 +72,3 @@ The list of CSS custom properties are:
   }
 </style>
 ```
-
-## Passing custom attributes
-
-### Variants
-
-The login component can be rendred in differnt variants with different visaul appearance. The variants are specified as a property on the web component:
-
-- Picture (default): Displays the user name and an avatar
-- Logut: Displays a logout link
-- SesamyText: Displays the user name and a logout link
-
-### Profile Href
-
-The profile href defines where the login component will link to when a logged in user clicks it.
