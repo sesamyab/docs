@@ -12,9 +12,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/sidebars.js",
-          "contentPath": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/docs",
-          "contentPathLocalized": "/Users/marcoscolladoseguracolladosegura/Documents/Work/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/markusahlstrand/Projects/sesamy/docs/sidebars.js",
+          "contentPath": "/Users/markusahlstrand/Projects/sesamy/docs/docs",
+          "contentPathLocalized": "/Users/markusahlstrand/Projects/sesamy/docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "access/api",
@@ -164,8 +164,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-content-listing",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
+                "title": "Javascript API",
+                "permalink": "/docs/news-widget/javascript-api"
               },
               "next": {
                 "title": "API",
@@ -451,6 +451,32 @@
               }
             },
             {
+              "unversionedId": "news-widget/javascript-api",
+              "id": "news-widget/javascript-api",
+              "title": "Javascript API",
+              "description": "The web components library exposes an API on window.sesamy to query the purchases of the user.",
+              "source": "@site/docs/news-widget/javascript-api.md",
+              "sourceDirName": "news-widget",
+              "slug": "/news-widget/javascript-api",
+              "permalink": "/docs/news-widget/javascript-api",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/access/getting-started"
+              }
+            },
+            {
               "unversionedId": "news-widget/meta-tags",
               "id": "news-widget/meta-tags",
               "title": "Meta Tags",
@@ -566,14 +592,14 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-login",
-                "permalink": "/docs/news-widget/web-components/sesamy-login"
+                "title": "sesamy-logout",
+                "permalink": "/docs/news-widget/web-components/sesamy-logout"
               },
               "next": {
                 "title": "sesamy-button-container",
@@ -592,9 +618,9 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 5,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 5
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -602,8 +628,8 @@
                 "permalink": "/docs/news-widget/web-components/sesamy-button"
               },
               "next": {
-                "title": "sesamy-content-container",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
+                "title": "sesamy-locked-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-locked-content-container"
               }
             },
             {
@@ -618,18 +644,18 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 7,
               "frontMatter": {
-                "sidebar_position": 5
+                "sidebar_position": 7
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-button-container",
-                "permalink": "/docs/news-widget/web-components/sesamy-button-container"
+                "title": "sesamy-locked-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-locked-content-container"
               },
               "next": {
-                "title": "sesamy-profile",
-                "permalink": "/docs/news-widget/web-components/sesamy-profile"
+                "title": "sesamy-content-data",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-data"
               }
             },
             {
@@ -644,18 +670,18 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 8,
               "frontMatter": {
-                "sidebar_position": 7
+                "sidebar_position": 8
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-profile",
-                "permalink": "/docs/news-widget/web-components/sesamy-profile"
+                "title": "sesamy-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
               },
               "next": {
-                "title": "sesamy-entitlements",
-                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               }
             },
             {
@@ -676,12 +702,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-entitlements",
-                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
+                "title": "sesamy-content-data",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-data"
               },
               "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/access/getting-started"
+                "title": "sesamy-profile",
+                "permalink": "/docs/news-widget/web-components/sesamy-profile"
               }
             },
             {
@@ -696,18 +722,44 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 7,
+              "sidebarPosition": 11,
               "frontMatter": {
-                "sidebar_position": 7
+                "sidebar_position": 11
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-content-data",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-data"
+                "title": "sesamy-profile",
+                "permalink": "/docs/news-widget/web-components/sesamy-profile"
               },
               "next": {
-                "title": "sesamy-content-listing",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
+                "title": "Javascript API",
+                "permalink": "/docs/news-widget/javascript-api"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-locked-content-container",
+              "id": "news-widget/web-components/sesamy-locked-content-container",
+              "title": "sesamy-locked-content-container",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/web-components/sesamy-locked-content-container.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-locked-content-container",
+              "permalink": "/docs/news-widget/web-components/sesamy-locked-content-container",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-button-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-button-container"
+              },
+              "next": {
+                "title": "sesamy-content-container",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
               }
             },
             {
@@ -732,6 +784,32 @@
                 "permalink": "/docs/news-widget/unlocking-content"
               },
               "next": {
+                "title": "sesamy-logout",
+                "permalink": "/docs/news-widget/web-components/sesamy-logout"
+              }
+            },
+            {
+              "unversionedId": "news-widget/web-components/sesamy-logout",
+              "id": "news-widget/web-components/sesamy-logout",
+              "title": "sesamy-logout",
+              "description": "Usage",
+              "source": "@site/docs/news-widget/web-components/sesamy-logout.md",
+              "sourceDirName": "news-widget/web-components",
+              "slug": "/news-widget/web-components/sesamy-logout",
+              "permalink": "/docs/news-widget/web-components/sesamy-logout",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "sesamy-login",
+                "permalink": "/docs/news-widget/web-components/sesamy-login"
+              },
+              "next": {
                 "title": "sesamy-button",
                 "permalink": "/docs/news-widget/web-components/sesamy-button"
               }
@@ -748,18 +826,18 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 6,
+              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 6
+                "sidebar_position": 10
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "sesamy-content-container",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-container"
+                "title": "sesamy-content-listing",
+                "permalink": "/docs/news-widget/web-components/sesamy-content-listing"
               },
               "next": {
-                "title": "sesamy-content-data",
-                "permalink": "/docs/news-widget/web-components/sesamy-content-data"
+                "title": "sesamy-entitlements",
+                "permalink": "/docs/news-widget/web-components/sesamy-entitlements"
               }
             }
           ],
@@ -804,6 +882,10 @@
                       },
                       {
                         "type": "doc",
+                        "id": "news-widget/web-components/sesamy-logout"
+                      },
+                      {
+                        "type": "doc",
                         "id": "news-widget/web-components/sesamy-button"
                       },
                       {
@@ -812,11 +894,11 @@
                       },
                       {
                         "type": "doc",
-                        "id": "news-widget/web-components/sesamy-content-container"
+                        "id": "news-widget/web-components/sesamy-locked-content-container"
                       },
                       {
                         "type": "doc",
-                        "id": "news-widget/web-components/sesamy-profile"
+                        "id": "news-widget/web-components/sesamy-content-container"
                       },
                       {
                         "type": "doc",
@@ -824,13 +906,21 @@
                       },
                       {
                         "type": "doc",
-                        "id": "news-widget/web-components/sesamy-entitlements"
+                        "id": "news-widget/web-components/sesamy-content-listing"
                       },
                       {
                         "type": "doc",
-                        "id": "news-widget/web-components/sesamy-content-listing"
+                        "id": "news-widget/web-components/sesamy-profile"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "news-widget/web-components/sesamy-entitlements"
                       }
                     ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "news-widget/javascript-api"
                   }
                 ],
                 "link": {

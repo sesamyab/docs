@@ -15,12 +15,12 @@ The signed url's requires that the cms hosting the content can validate the sign
 The links consists of four parts:
 
 - Url of the content
-- Optional information, such as the publishers product id
+- Optional information, such as the publishers content id
 - Expire timestamp
 - Signature of the previous parts of the url
 
 This is a sample of a signed link:
-`https://test.example.com/test-article?se=TIMESTAMP&si=PUBLISHER_PRODUCT_ID&ss=RSA_256_HASH`
+`https://test.example.com/test-article?se=TIMESTAMP&si=PUBLISHER_CONTENT_ID&ss=RSA_256_HASH`
 
 The `https://test.example.com/test-article` is the url of purchased article, `se=1656098737770` is the expire of the url and `ss=...` is the signature.
 
@@ -74,3 +74,18 @@ If an article is part of a pass (for instance an subscription) the signed link w
 
 The signed link is passed to he backend as a pass query string (the signature is shortened for brevity):
 `https://test.example.com/test-article?pass=https%3A%2F%2Ftest.example.com%2Fsubscription%3Fse%3D1656098737770%26si%3D113%26ss%3DPTKUZ...`
+
+## Serving locked content via API
+
+By setting the lock mode of the content-container web component to `signedUrl` the content is fetched from the server. By default it fetches the locked content from the article url using the signed url, but by specifying the `access-url` property on the content-container it will use this url to fetch the locked content and pass the signed url in the `x-sesamy-signed-url` header instead:
+
+```
+<sesamy-content-container
+    lock-mode="signedUrl"
+    access-url="https://example.com/api/access/test-article"
+>
+```
+
+### Cross-Origin Resource Sharing (CORS)
+
+Cross-Origin Resource Sharing (CORS) is a browser mechanism which enables controlled access to resources located outside of the browser domain. When serving content from an API endpoint on a separate domain the API needs to handle [preflight requests](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request).

@@ -58,6 +58,12 @@
               },
               {
                 "type": "link",
+                "label": "sesamy-logout",
+                "href": "/docs/news-widget/web-components/sesamy-logout",
+                "docId": "news-widget/web-components/sesamy-logout"
+              },
+              {
+                "type": "link",
                 "label": "sesamy-button",
                 "href": "/docs/news-widget/web-components/sesamy-button",
                 "docId": "news-widget/web-components/sesamy-button"
@@ -70,15 +76,15 @@
               },
               {
                 "type": "link",
-                "label": "sesamy-content-container",
-                "href": "/docs/news-widget/web-components/sesamy-content-container",
-                "docId": "news-widget/web-components/sesamy-content-container"
+                "label": "sesamy-locked-content-container",
+                "href": "/docs/news-widget/web-components/sesamy-locked-content-container",
+                "docId": "news-widget/web-components/sesamy-locked-content-container"
               },
               {
                 "type": "link",
-                "label": "sesamy-profile",
-                "href": "/docs/news-widget/web-components/sesamy-profile",
-                "docId": "news-widget/web-components/sesamy-profile"
+                "label": "sesamy-content-container",
+                "href": "/docs/news-widget/web-components/sesamy-content-container",
+                "docId": "news-widget/web-components/sesamy-content-container"
               },
               {
                 "type": "link",
@@ -88,17 +94,29 @@
               },
               {
                 "type": "link",
-                "label": "sesamy-entitlements",
-                "href": "/docs/news-widget/web-components/sesamy-entitlements",
-                "docId": "news-widget/web-components/sesamy-entitlements"
-              },
-              {
-                "type": "link",
                 "label": "sesamy-content-listing",
                 "href": "/docs/news-widget/web-components/sesamy-content-listing",
                 "docId": "news-widget/web-components/sesamy-content-listing"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-profile",
+                "href": "/docs/news-widget/web-components/sesamy-profile",
+                "docId": "news-widget/web-components/sesamy-profile"
+              },
+              {
+                "type": "link",
+                "label": "sesamy-entitlements",
+                "href": "/docs/news-widget/web-components/sesamy-entitlements",
+                "docId": "news-widget/web-components/sesamy-entitlements"
               }
             ]
+          },
+          {
+            "type": "link",
+            "label": "Javascript API",
+            "href": "/docs/news-widget/javascript-api",
+            "docId": "news-widget/javascript-api"
           }
         ],
         "href": "/docs/news-widget/"
@@ -323,6 +341,12 @@
       "description": "Boilerplate",
       "sidebar": "tutorialSidebar"
     },
+    "news-widget/javascript-api": {
+      "id": "news-widget/javascript-api",
+      "title": "Javascript API",
+      "description": "The web components library exposes an API on window.sesamy to query the purchases of the user.",
+      "sidebar": "tutorialSidebar"
+    },
     "news-widget/meta-tags": {
       "id": "news-widget/meta-tags",
       "title": "Meta Tags",
@@ -383,9 +407,21 @@
       "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website.",
       "sidebar": "tutorialSidebar"
     },
+    "news-widget/web-components/sesamy-locked-content-container": {
+      "id": "news-widget/web-components/sesamy-locked-content-container",
+      "title": "sesamy-locked-content-container",
+      "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
     "news-widget/web-components/sesamy-login": {
       "id": "news-widget/web-components/sesamy-login",
       "title": "sesamy-login",
+      "description": "Usage",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-logout": {
+      "id": "news-widget/web-components/sesamy-logout",
+      "title": "sesamy-logout",
       "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
