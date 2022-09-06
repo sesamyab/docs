@@ -2,6 +2,8 @@
 sidebar_position: 7
 ---
 
+# Javascript API
+
 The web components library exposes an API on `window.sesamy` to query the purchases of the user.
 
 ## getEntitlement

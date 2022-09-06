@@ -108,7 +108,7 @@ The external item could be both be an article on a separate url or a [pass](/doc
 </html>
 ```
 
-It is also possible to pass a Sesamy product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
+It is also possible to pass a Sesamy Product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
 
 ```html
 <html>
