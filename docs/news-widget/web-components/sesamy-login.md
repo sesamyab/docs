@@ -69,6 +69,18 @@ The list of CSS custom properties are:
 ```html
 <style>
   sesamy-login {
+    --background: #436cad;
+    --background-hover: #436cad;
+    --opacity-hover: 0.8;
+    --color: #fff;
+    --border: 1px solid #436cad;
+    --border-radius: 30px;
+    --font-family: sans-serif;
+    --font-size: 16px;
+    --width: 300px;
+    --min-width: 300px;
+    --max-width: 100%;
+    --height: 50px;
   }
 </style>
 ```

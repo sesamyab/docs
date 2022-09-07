@@ -27,3 +27,16 @@ The profile component displays the name and email of the current user. It could 
 ### Client Id
 
 The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
+
+### Styling
+
+The `sesamy-profile` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+
+The list of CSS custom properties are:
+
+```html
+<style>
+  sesamy-profile {
+  }
+</style>
+```

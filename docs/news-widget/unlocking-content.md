@@ -68,6 +68,46 @@ const publicKey = await getPublicKey();
 
 ```
 
+This is an example of how to verify the signed url in php:
+
+```
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Jose\Component\Core\JWK;
+use Jose\Component\Core\AlgorithmManager;
+use Jose\Component\Signature\Algorithm\RS256;
+
+function verify_signature($url)
+{
+    $url_to_sign = explode('&ss=', $url)[0];
+    $signature = explode('&ss=', $url)[1];
+
+    $parsed_url = parse_url($url);
+    parse_str($parsed_url['query'], $parsed_query);
+
+    $expire = $parsed_query['se'];
+    if ($expire  < time()) {
+        return new Exception('Link is expired');
+    }
+
+    $algorithm_manager = new AlgorithmManager([
+        new RS256()
+    ]);
+
+    $rs256 = $algorithm_manager->get('RS256');
+    $json = '{
+        "kty": "RSA",
+        "n": "sFATY4fG4n822Zn8bQpszyF9navI_O5lwEg12fEHJGq69EKEfX1xFBXYNj8xEg6ROe4Zl-ssG1Co3Mb3M8zSE9shGSNmMB86oqPOZ9RZTYmiGg_Uh6FqGuP_-SzUC6k8gGVzoo1gn06dqv_S06cT7GW616T57DVHS280FPZ1JLmu88VaBhY_8kgCAqEWgdveLYYWzJhuiTcocCUVRbIElKwWzLbze4BpUQtLQmW5QL-zwYOYXlbamnN-2VP7ZshTqRZEG-LCwI9DEWVUZsdSBdDtG0xH8aTf1BxCAcdcFdPJM2lNa9DmQnNlcB420jL3vKu2mFxxE1Zn_5PIu19pmQ",
+        "e": "AQAB"
+        }';
+    $jwk = JWK::createFromJson($json);
+    return $rs256->verify($jwk, $url_to_sign, base64_decode($signature));
+}
+
+```
+
 ### Signed link with pass
 
 If an article is part of a pass (for instance an subscription) the signed link will be for the pass rather than the article. This way a signed link can be reused for all articles within a subscription until the link is expired. In this case the backend need to validate that article is part of the pass before serving the content.
