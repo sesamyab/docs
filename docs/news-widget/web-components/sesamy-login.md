@@ -68,19 +68,37 @@ The list of CSS custom properties are:
 
 ```html
 <style>
-  sesamy-login {
-    --background: #436cad;
-    --background-hover: #436cad;
-    --opacity-hover: 0.8;
-    --color: #fff;
-    --border: 1px solid #436cad;
-    --border-radius: 30px;
-    --font-family: sans-serif;
-    --font-size: 16px;
-    --width: 300px;
-    --min-width: 300px;
-    --max-width: 100%;
-    --height: 50px;
+  .user {
+    background-color: var(--logged-background, transparent);
+    border-radius: var(--border-radius, 50px);
+    height: var(--height, 40px);
+    font-size: var(--font-size, 14px);
+    line-height: var(--line-height, 1.5);
+  }
+  .user span {
+    color: var(--logged-color, #131313);
+  }
+  .user img {
+    border-radius: var(--img-border-radius, 50px);
+  }
+  .login {
+    background-color: var(--primary-color, #131313);
+    color: var(--color, #f3f3f3);
+    padding: var(--padding, 0.5rem 2rem);
+    border-radius: var(--border-radius, 50px);
+    height: var(--height, 40px);
+    font-size: var(--font-size, 14px);
+    line-height: var(--line-height, 1.5);
+  }
+  .login > div {
+    font-weight: var(--font-weight, normal);
+    color: var(--color, #f3f3f3);
+  }
+  .logo {
+    margin-right: var(--margin-right, 9px);
+  }
+  .logo path {
+    fill: var(--color, #f3f3f3);
   }
 </style>
 ```

@@ -71,9 +71,16 @@ The list of CSS custom properties are:
 
 ```html
 <style>
-  sesamy-logout {
-    --color: #131313;
-    --margin, 0 12px;
+  sesamy-logout button {
+    margin: var(--margin, 0 12px);
+  }
+
+  sesamy-logout svg {
+    fill: var(--color, #131313);
+  }
+
+  sesamy-logout p {
+    color: var(--color, #131313);
   }
 </style>
 ```
