@@ -44,7 +44,7 @@ sesamy.isLoggedIn()
 
 **Returns:**
 
-(Promise<boolean>): The logged in state
+(Promise\<boolean\>): The logged in state
 
 **Example:**
 
