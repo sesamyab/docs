@@ -68,20 +68,20 @@ The list of CSS custom properties are:
 
 ```html
 <style>
-  .user {
+  sesamy-login .user {
     background-color: var(--logged-background, transparent);
     border-radius: var(--border-radius, 50px);
     height: var(--height, 40px);
     font-size: var(--font-size, 14px);
     line-height: var(--line-height, 1.5);
   }
-  .user span {
+  sesamy-login .user span {
     color: var(--logged-color, #131313);
   }
-  .user img {
+  sesamy-login .user img {
     border-radius: var(--img-border-radius, 50px);
   }
-  .login {
+  sesamy-login .login {
     background-color: var(--primary-color, #131313);
     color: var(--color, #f3f3f3);
     padding: var(--padding, 0.5rem 2rem);
@@ -90,14 +90,14 @@ The list of CSS custom properties are:
     font-size: var(--font-size, 14px);
     line-height: var(--line-height, 1.5);
   }
-  .login > div {
+  sesamy-login .login > div {
     font-weight: var(--font-weight, normal);
     color: var(--color, #f3f3f3);
   }
-  .logo {
+  sesamy-login .logo {
     margin-right: var(--margin-right, 9px);
   }
-  .logo path {
+  sesamy-login .logo path {
     fill: var(--color, #f3f3f3);
   }
 </style>
