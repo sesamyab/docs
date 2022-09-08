@@ -55,6 +55,7 @@ The login component can be rendred in differnt variants with different visaul ap
 
 - Text (default) (`variant="text"`): Displays the user name and a logout link
 - Picture (`variant="picture"`): Displays the user name and an avatar
+- Link (`variant="link`): Displays a text link to the login page.
 
 ### Profile Href
 
