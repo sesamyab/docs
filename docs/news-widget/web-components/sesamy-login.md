@@ -67,38 +67,5 @@ The `sesamy-login` element are packaged with base styles, which can be adjusted 
 The list of CSS custom properties are:
 
 ```html
-<style>
-  sesamy-login .user {
-    background-color: var(--logged-background, transparent);
-    border-radius: var(--border-radius, 50px);
-    height: var(--height, 40px);
-    font-size: var(--font-size, 14px);
-    line-height: var(--line-height, 1.5);
-  }
-  sesamy-login .user span {
-    color: var(--logged-color, #131313);
-  }
-  sesamy-login .user img {
-    border-radius: var(--img-border-radius, 50px);
-  }
-  sesamy-login .login {
-    background-color: var(--primary-color, #131313);
-    color: var(--color, #f3f3f3);
-    padding: var(--padding, 0.5rem 2rem);
-    border-radius: var(--border-radius, 50px);
-    height: var(--height, 40px);
-    font-size: var(--font-size, 14px);
-    line-height: var(--line-height, 1.5);
-  }
-  sesamy-login .login > div {
-    font-weight: var(--font-weight, normal);
-    color: var(--color, #f3f3f3);
-  }
-  sesamy-login .logo {
-    margin-right: var(--margin-right, 9px);
-  }
-  sesamy-login .logo path {
-    fill: var(--color, #f3f3f3);
-  }
-</style>
+<style></style>
 ```
