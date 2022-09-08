@@ -67,8 +67,5 @@ The `sesamy-login` element are packaged with base styles, which can be adjusted 
 The list of CSS custom properties are:
 
 ```html
-<style>
-  sesamy-login {
-  }
-</style>
+<style></style>
 ```

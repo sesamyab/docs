@@ -27,6 +27,28 @@ sesamy.getEntitlement(ARTICLE_SRC, PASSES_ARRAY)
 **Example:**
 
 ```
-// Event tracking with payload
+// Get a list of entitlements
 const entitlement = sesamy.getEntitlements('https://example.com/article', ['https://example.com/subscription'])
+```
+
+## isLoggedIn
+
+The `isLoggedIn` function returns if the user currently is logged in with a valid session:
+
+```
+// Check if a user is logged in. Returns a Promise<boolean>
+sesamy.isLoggedIn()
+```
+
+**Arguments:**
+
+**Returns:**
+
+(Promise<boolean\>): The logged in state
+
+**Example:**
+
+```
+// Get if the user is logged int
+sesamy.isLoggedIn().then(result => console.log(result))
 ```

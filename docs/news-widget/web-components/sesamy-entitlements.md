@@ -23,3 +23,13 @@ The purchases component displays a list of the users purchases. It could for ins
   </body>
 </html>
 ```
+
+### Styling
+
+The `sesamy-logout` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+
+The list of CSS custom properties are:
+
+```html
+<style></style>
+```

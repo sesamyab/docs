@@ -70,10 +70,5 @@ The `sesamy-logout` element are packaged with base styles, which can be adjusted
 The list of CSS custom properties are:
 
 ```html
-<style>
-  sesamy-logout {
-    --color: #131313;
-    --margin, 0 12px;
-  }
-</style>
+
 ```
