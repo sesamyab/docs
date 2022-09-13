@@ -36,7 +36,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --background: transparent; // Container background
     --items-gap: 16px; // Gap between the items
     --item-width: 300px; // Item min-width (Minimum allowed value = 185px)
-    --font-family: 'Verdana'; // Texts font family
+    --font-family: 'Helvetica'; // Texts font family
     --title-color: #131313; // Title color
     --summary-color, #22222260; // Summary color
     --type-color: #22222270; // Product type color

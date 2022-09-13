@@ -42,7 +42,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --padding: 23px 32px 32px 32px; // Container padding
     --border: 1px solid #e4e4e5; // Container border
     --background: transparent; // Container background
-    --font-family: "Inter"; // Texts font family
+    --font-family: "Helvetica"; // Texts font family
     --title-color: #222222; // Title font color
     --avatar-size: 182px; // Avatar size
     --avatar-border: 0; // Avatar border
