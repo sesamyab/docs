@@ -1,10 +1,10 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
-# sesamy-entitlements
+# sesamy-transactions
 
-The entitlements component displays a list of all the content the user has access to. It could for instance be used on a user profile website.
+The transactions component displays a list of the users orders with links to the receipts. It could for instance be used on a user profile website.
 
 ## Usage
 
@@ -14,11 +14,11 @@ The entitlements component displays a list of all the content the user has acces
 <html>
   <head></head>
   <body>
-    <sesamy-entitlements></sesamy-entitlements>
+    <sesamy-transactions></sesamy-transactions>
 
     <script
       defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-entitlements.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-transactions.min.js"
     ></script>
   </body>
 </html>
@@ -26,13 +26,13 @@ The entitlements component displays a list of all the content the user has acces
 
 ### Styling
 
-The `sesamy-entitlements` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+The `sesamy-transactions` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
 The list of CSS custom properties are (the value set is the `default` value, if the property is not presented it will take that value):
 
 ```html
 <style>
-  sesamy-entitlements {
+  sesamy-transactions {
     --background: transparent; // Container background
     --items-gap: 16px; // Gap between the items
     --item-width: 300px; // Item min-width (Minimum allowed value = 185px)
