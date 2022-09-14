@@ -31,13 +31,13 @@ The client id is provided by Sesamy and specifies on which domains the login wil
 
 ## Text
 
-The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes.
+The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes. You can also pass the `hide-logo` attribute to hide the logo.
 
 ```html
 <html>
   <head></head>
   <body>
-    <sesamy-login text="Start here!"></sesamy-login>
+    <sesamy-login text="Start here!" hide-logo></sesamy-login>
 
     <script
       type="module"
@@ -77,7 +77,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
       #131313
     ); // button background (hover state)
     --color: #f3f3f3; // button font + icon color
-    --font-family: "Verdana"; // button font family
+    --font-family: "Helvetica"; // button font family
     --font-size: 14px; // button font size
     --font-weight: 400; // button font weight
     --width: "auto"; // button width
@@ -89,7 +89,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --opacity-hover: 1; // button opacity (hover state)
     // User attributes (User is logged in)
     --user-color: #222222; // user name font color
-    --user-font-family: "Verdana"; // user name font family
+    --user-font-family: "Helvetica"; // user name font family
     --user-font-size: 14px; // user name font size
     --user-font-weight: 400; // user name font weight
     --avatar-border: 0; // user avatar border

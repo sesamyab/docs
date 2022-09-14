@@ -33,7 +33,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 ```html
 <style>
   sesamy-transactions {
-    --font-family: "Inter"; // Font family
+    --font-family: "Helvetica"; // Texts font family
     --color: #222222; // Font color
     --row-hover: #f8f8f8; // Row background hover
     --header-font-size: "12px"; // Header font size

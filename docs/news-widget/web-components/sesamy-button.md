@@ -38,9 +38,9 @@ The language of the button and the checkout is defined by the lang attribute on 
 
 If no language is specified the language will default to english.
 
-### Passing custom attributes
+### Passing custom attributes, and hide the price and the logo
 
-The text, price and currency of the button can be replaced by attributes.
+The `text`, `price` and `currency` of the button can be replaced by attributes. You can also pass the `hide-price` and `hide-logo` attributes to hide the price and the logo respectively.
 
 ```html
 <html>
@@ -50,6 +50,8 @@ The text, price and currency of the button can be replaced by attributes.
       text="Unlock content!"
       price="10"
       currency="EUR"
+      hide-price
+      hide-logo
     ></sesamy-button>
 
     <script
@@ -62,7 +64,7 @@ The text, price and currency of the button can be replaced by attributes.
 
 The code above will render a button with the Sesamy icon, the text "Unlock content!", and with the price "10" and the currency "EUR".
 
-### Passing a custom text and hide the price
+### Passing a custom text
 
 You can also modify the content of the button by sending a custom HTML block as a child wrapped in a `div` with `slot="button-text"` as follows:
 
@@ -70,7 +72,7 @@ You can also modify the content of the button by sending a custom HTML block as 
 <html>
   <head></head>
   <body>
-    <sesamy-button hide-price="true">
+    <sesamy-button>
       <div slot="button-text">
         <span>BUY NOW!</span>
       </div>
@@ -150,7 +152,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
       #131313
     ); // button background (hover state)
     --color: #f3f3f3; // button font + icon color
-    --font-family: "Verdana"; // button font family
+    --font-family: "Helvetica"; // button font family
     --font-size: 14px; // button font size
     --font-weight: 400; // button font weight
     --width: "auto"; // button width

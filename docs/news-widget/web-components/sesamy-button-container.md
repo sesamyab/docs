@@ -52,7 +52,7 @@ The list of CSS custom properties are:
   sesamy-button {
     --background: #ffffff;
     --color: #000000;
-    --font-family: sans-serif;
+    --font-family: "Helvetica";
     --font-size: 16px;
     --font-weight: 600;
     --border: 1px solid #e3e3e3;
