@@ -33,18 +33,15 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 ```html
 <style>
   sesamy-transactions {
-    --background: transparent; // Container background
-    --items-gap: 16px; // Gap between the items
-    --item-width: 300px; // Item min-width (Minimum allowed value = 185px)
-    --font-family: 'Verdana'; // Texts font family
-    --title-color: #131313; // Title color
-    --summary-color, #22222260; // Summary color
-    --type-color: #22222270; // Product type color
-    --date-color: #22222260; // Date color
-    --image-size: 95px; // Item's image size
-    --image-border-radius: 12px; // Item's image border radius
-    --divider-color: #70707023; // Item's divider color
-    --divider-width: 1px; // Item's divider width
+    --font-family: "Inter"; // Font family
+    --color: #222222; // Font color
+    --row-hover: #f8f8f8; // Row background hover
+    --header-font-size: "12px"; // Header font size
+    --header-color: #222222; // Header font color
+    --header-opacity: 0.7; // Header font opacity
+    --border-top: 1px solid #e4e4e5; // Row border top
+    --row-font-size: 14px; // Row font size
+    --currency-opacity: 0.7; // Currency opacity
   }
 </style>
 ```
