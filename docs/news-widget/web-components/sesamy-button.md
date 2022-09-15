@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # sesamy-button
@@ -28,9 +28,19 @@ Place the `sesamy-button` element and load the script. The button will be render
 </html>
 ```
 
-### Passing custom attributes
+The language of the button and the checkout is defined by the lang attribute on the html tag:
 
-The text, price and currency of the button can be replaced by attributes.
+```html
+<html lang="en">
+  …
+</html>
+```
+
+If no language is specified the language will default to english.
+
+### Passing custom attributes, and hide the price and the logo
+
+The `text`, `price` and `currency` of the button can be replaced by attributes. You can also pass the `hide-price` and `hide-logo` attributes to hide the price and the logo respectively.
 
 ```html
 <html>
@@ -40,6 +50,8 @@ The text, price and currency of the button can be replaced by attributes.
       text="Unlock content!"
       price="10"
       currency="EUR"
+      hide-price
+      hide-logo
     ></sesamy-button>
 
     <script
@@ -52,7 +64,7 @@ The text, price and currency of the button can be replaced by attributes.
 
 The code above will render a button with the Sesamy icon, the text "Unlock content!", and with the price "10" and the currency "EUR".
 
-### Passing a custom text and hide the price
+### Passing a custom text
 
 You can also modify the content of the button by sending a custom HTML block as a child wrapped in a `div` with `slot="button-text"` as follows:
 
@@ -60,7 +72,7 @@ You can also modify the content of the button by sending a custom HTML block as 
 <html>
   <head></head>
   <body>
-    <sesamy-button hide-price="true">
+    <sesamy-button>
       <div slot="button-text">
         <span>BUY NOW!</span>
       </div>
@@ -98,7 +110,7 @@ The external item could be both be an article on a separate url or a [pass](/doc
 </html>
 ```
 
-It is also possible to pass a Sesamy product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
+It is also possible to pass a Sesamy Product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
 
 ```html
 <html>
@@ -129,31 +141,27 @@ There are three different flows for the checkout once the `sesamy-button` is cli
 
 The `sesamy-button` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
-The list of CSS custom properties are:
+The list of CSS custom properties are (the value set is the `default` value, if the property is not presented it will take that value):
 
 ```html
 <style>
   sesamy-button {
-    --background: #436cad;
-    --background-hover: #436cad;
-    --opacity-hover: 0.8;
-    --color: #fff;
-    --border: 1px solid #436cad;
-    --border-radius: 30px;
-    --font-family: sans-serif;
-    --font-size: 16px;
-    --width: 300px;
-    --min-width: 300px;
-    --max-width: 100%;
-    --height: 50px;
-    --checkout-primary-button-color: #436cad;
-    --checkout-primary-button-hover: #436cad;
-    --checkout-primary-button-border-color: #436cad;
-    --checkout-primary-button-border-radius: 10px;
-    --checkout-secondary-button-color: #436cad;
-    --checkout-secondary-button-hover: #436cad;
-    --checkout-secondary-button-border-color: #436cad;
-    --checkout-secondary-button-border-radius: 5px;
+    --background: #131313; // button background
+    --background-hover: var(
+      --background,
+      #131313
+    ); // button background (hover state)
+    --color: #f3f3f3; // button font + icon color
+    --font-family: "Helvetica"; // button font family
+    --font-size: 14px; // button font size
+    --font-weight: 400; // button font weight
+    --width: "auto"; // button width
+    --max-width: 100%; // button width
+    --height: "auto"; // button height
+    --border: 0; // button border
+    --border-radius: 50px; // button border radius
+    --padding: 14px 30px; // button padding
+    --opacity-hover: 1; // button opacity (hover state)
   }
 </style>
 ```

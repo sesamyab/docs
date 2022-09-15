@@ -33,16 +33,16 @@ The web components generates article specific events for a set of user interacti
 
 ## Javascript API
 
-The analytics library exposes an API on `window.sesamyAnalytics` from tracking of customer events in the client.
+The analytics library exposes an API on `window.sesamy.analytics` from tracking of customer events in the client.
 
 The API exposes a `track` function that takes an event name and a json object as payload:
 
 ```
 // Basic event tracking
-sesamyAnalytics.track('buttonClicked')
+sesamy.analytics.track('buttonClicked')
 
 // Event tracking with payload
-sesamyAnalytics.track('itemPurchased', {
+sesamy.analytics.track('itemPurchased', {
   price: 11,
   sku: '1234'
 })

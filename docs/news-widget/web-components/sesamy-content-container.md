@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
 # sesamy-content-container
@@ -76,12 +76,29 @@ When using the `lock-mode=signedUrl` lock mode the content is fetched from the s
 
 ### Unlock Message
 
-This message is shown below the article once it is unlocked.
+This message is shown below the article once it is unlocked, it contains a link to the confirmation screen of the checkout where te item was purchased.
+It can be hidden by including the attribute `hide-unlock-message` in the sesamy-content-container tag (`<sesamy-content-container hide-unlock-message>`).
 
-The `direction` and the `aligment` of the unlock message can be configured by:
+The styling of the unlocke message can be configured with the following css variables:
 
-- `unlock-message-direction`: 'vertical' or 'horizontal'. By default, 'horizontal'.
-- `unlock-message-alignment`: 'left', 'center' or 'right'. By default, 'center'.
+```html
+<style>
+  sesamy-content-container {
+    --unlock-message-flex-direction: column; // default value is `row`
+    --unlock-message-align-items: flex-start; // default value is `center`
+  }
+</style>
+```
+
+The language of the unlock message is defined by the lang attribute on the html tag:
+
+```html
+<html lang="en">
+  …
+</html>
+```
+
+If no language is specified the language will default to english.
 
 ### Gradient
 
