@@ -17,7 +17,7 @@ There are three solutions for indexing content:
 An article can be queued for indexing by making a POST request with the url of the article as parameters:
 
 ```
-POST https://api.sesamy.com/suppliers/hooks/article/sesamy/VENDOR_ID
+POST https://api.sesamy.com/suppliers/hooks/article/VENDOR_ID
 Content-Type: application/json
 
 {
