@@ -1,58 +1,58 @@
 {
-  "/__docusaurus/debug-8d7": {
+  "/__docusaurus/debug-300": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/__docusaurus/debug/config-df1": {
+  "/__docusaurus/debug/config-5af": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/__docusaurus/debug/content-bd6": {
+  "/__docusaurus/debug/content-ff1": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-581": {
+  "/__docusaurus/debug/globalData-060": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/__docusaurus/debug/metadata-e1e": {
+  "/__docusaurus/debug/metadata-b20": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/__docusaurus/debug/registry-2ff": {
+  "/__docusaurus/debug/registry-e76": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/__docusaurus/debug/routes-920": {
+  "/__docusaurus/debug/routes-281": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-0-cf-670"
+      "plugin": "plugin---docusaurus-debugad-5-11b"
     }
   },
-  "/markdown-page-788": {
+  "/markdown-page-ee4": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pagee-43-d82"
+      "plugin": "plugin---markdown-page-851-96e"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-8e2": {
+  "/docs-c4d": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docsd-75-cc4"
+      "plugin": "plugin---docsff-6-71a"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -128,6 +128,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-getting-startede-81-0a3"
   },
+  "/docs/news-widget/indexing/-8b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-indexing-23-f-388"
+  },
   "/docs/news-widget/meta-tags-f9a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-meta-tags-541-a43"
@@ -164,6 +168,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-entitlements-54-e-b67"
   },
+  "/docs/news-widget/web-components/sesamy-locked-content-container-b78": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-news-widget-web-components-sesamy-locked-content-container-5-b-3-a06"
+  },
   "/docs/news-widget/web-components/sesamy-login-881": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-login-008-f69"
@@ -172,10 +180,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-news-widget-web-components-sesamy-profile-905-10e"
   },
-  "/-415": {
+  "/-572": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---markdown-pagee-43-d82"
+      "plugin": "plugin---markdown-page-851-96e"
     },
     "config": "config---5-e-9-4f3"
   }

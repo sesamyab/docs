@@ -70,6 +70,12 @@
               },
               {
                 "type": "link",
+                "label": "sesamy-locked-content-container",
+                "href": "/docs/news-widget/web-components/sesamy-locked-content-container",
+                "docId": "news-widget/web-components/sesamy-locked-content-container"
+              },
+              {
+                "type": "link",
                 "label": "sesamy-content-container",
                 "href": "/docs/news-widget/web-components/sesamy-content-container",
                 "docId": "news-widget/web-components/sesamy-content-container"
@@ -99,6 +105,12 @@
                 "docId": "news-widget/web-components/sesamy-content-listing"
               }
             ]
+          },
+          {
+            "type": "link",
+            "label": "Indexing",
+            "href": "/docs/news-widget/indexing/",
+            "docId": "news-widget/indexing/indexing"
           }
         ],
         "href": "/docs/news-widget/"
@@ -323,6 +335,12 @@
       "description": "Boilerplate",
       "sidebar": "tutorialSidebar"
     },
+    "news-widget/indexing/indexing": {
+      "id": "news-widget/indexing/indexing",
+      "title": "Indexing",
+      "description": "In order to sell a news artcile it needs to be added to the Sesamy product catalog. This is done by indexing content metadata from the publishers website.",
+      "sidebar": "tutorialSidebar"
+    },
     "news-widget/meta-tags": {
       "id": "news-widget/meta-tags",
       "title": "Meta Tags",
@@ -381,6 +399,12 @@
       "id": "news-widget/web-components/sesamy-entitlements",
       "title": "sesamy-entitlements",
       "description": "The purchases component displays a list of the users purchases. It could for instance be used on a user profile website.",
+      "sidebar": "tutorialSidebar"
+    },
+    "news-widget/web-components/sesamy-locked-content-container": {
+      "id": "news-widget/web-components/sesamy-locked-content-container",
+      "title": "sesamy-locked-content-container",
+      "description": "Usage",
       "sidebar": "tutorialSidebar"
     },
     "news-widget/web-components/sesamy-login": {

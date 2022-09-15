@@ -96,6 +96,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "news-widget/indexing/indexing",
+              "path": "/docs/news-widget/indexing/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "news-widget/meta-tags",
               "path": "/docs/news-widget/meta-tags",
               "sidebar": "tutorialSidebar"
@@ -143,6 +148,11 @@
             {
               "id": "news-widget/web-components/sesamy-entitlements",
               "path": "/docs/news-widget/web-components/sesamy-entitlements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "news-widget/web-components/sesamy-locked-content-container",
+              "path": "/docs/news-widget/web-components/sesamy-locked-content-container",
               "sidebar": "tutorialSidebar"
             },
             {

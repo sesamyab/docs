@@ -4,47 +4,47 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '8d7'),
+    component: ComponentCreator('/__docusaurus/debug', '300'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'df1'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5af'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'bd6'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'ff1'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '581'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '060'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'e1e'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'b20'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '2ff'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'e76'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '920'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '281'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '788'),
+    component: ComponentCreator('/markdown-page', 'ee4'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '8e2'),
+    component: ComponentCreator('/docs', 'c4d'),
     routes: [
       {
         path: '/docs/access/api',
@@ -155,6 +155,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/news-widget/indexing/',
+        component: ComponentCreator('/docs/news-widget/indexing/', '8b1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/news-widget/meta-tags',
         component: ComponentCreator('/docs/news-widget/meta-tags', 'f9a'),
         exact: true,
@@ -209,6 +215,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/news-widget/web-components/sesamy-locked-content-container',
+        component: ComponentCreator('/docs/news-widget/web-components/sesamy-locked-content-container', 'b78'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/news-widget/web-components/sesamy-login',
         component: ComponentCreator('/docs/news-widget/web-components/sesamy-login', '881'),
         exact: true,
@@ -224,7 +236,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '415'),
+    component: ComponentCreator('/', '572'),
     exact: true
   },
   {
