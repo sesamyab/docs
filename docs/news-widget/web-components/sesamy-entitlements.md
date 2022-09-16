@@ -24,6 +24,30 @@ The entitlements component displays a list of all the content the user has acces
 </html>
 ```
 
+### Passing custom attributes
+
+#### Product Type
+
+By passing a `product-type` attribute the entitlements components will filter the entitlements by product type. This way it's possible to add separate listings of for instance articles and podcasts.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <h1>Articles</h1>
+    <sesamy-entitlements product-type="artile"></sesamy-entitlements>
+
+    <h1>Podcasts</h1>
+    <sesamy-entitlements product-type="podcast"></sesamy-entitlements>
+
+    <script
+      defer
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-entitlements.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 ### Styling
 
 The `sesamy-entitlements` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
