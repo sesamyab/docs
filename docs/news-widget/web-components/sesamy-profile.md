@@ -44,9 +44,13 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --background: transparent; // Container background
     --font-family: "Helvetica"; // Texts font family
     --title-color: #222222; // Title font color
+    --left-block-max-width: 300px; // Image container max width
+    --left-block-border-right: 1px solid #e4e4e5; // Image container right border (divider)
     --avatar-size: 182px; // Avatar size
     --avatar-border: 0; // Avatar border
     --avatar-border-radius: 50%; // Avatar border radius
+    --input-margin-bottom: 20px; // Input bottom margin
+    --input-background: transparent; // Input background
     --input-height: 50px; // Input height
     --input-color: #222222; // Input font color
     --input-font-size: 15px; // Input font size
@@ -54,6 +58,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --input-border-radius: 4px; // Input border radius
     --label-color: #22222250; // Label font color
     --label-font-size: 15px; // Label font size
+    --contact-color: #22222299; // Contact text color
     --link-color: #0d66d0; // Link font color
   }
 </style>
