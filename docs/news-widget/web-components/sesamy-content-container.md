@@ -53,11 +53,35 @@ By setting the public property the article will be unlocked for all users.
 
 ### Lock Modes
 
-There are two different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
+There are three different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
 
 - If the attribute `lock-mode="embed"` (default behavior): the locked content is fetched from the content slot as in the example above.
 - If the attribute `lock-mode="signedUrl"`: the content is fetched from the publishers server using a signed url.
 - If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
+
+### Event lock mode
+
+If the `lock-mode="event"` is used, once the checkout flow is finished and the item was succesfully purchased, instead of displaying the unlocked content, a custom event `sesamyAccess` will be dispatched. The `detail` property of the event will contain the information regarding the unlocked article.
+
+```html
+<script>
+  document.addEventListener("sesamyAccess", function (e) {
+    console.log(e.detail);
+  });
+</script>
+```
+
+#### Event payload structure
+
+The `detail` property of the `sesamyAccess` event will contain an object with two properties:
+
+##### - `signedURL` (`String`)
+
+The signed URL with the unlocked content.
+
+##### - `itemSrc` (`String`)
+
+An item source (url or sku) that identifies the purchased item.
 
 ### Pass
 

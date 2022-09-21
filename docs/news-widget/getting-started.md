@@ -81,30 +81,6 @@ Check all the CSS custom properties of every component in the component page.
 </style>
 ```
 
-### Handling Unlock Data
-
-Once the checkout flow is finished and the item was succesfully purchased, a custom event `sesamyAccess` will be dispatched, the button element can listen to that event and handle as appropriate. The `detail` property of the event will contain the information regarding the unlocked article.
-
-```html
-<script>
-  document.addEventListener("sesamyAccess", function (e) {
-    console.log(e.detail);
-  });
-</script>
-```
-
-#### Event payload structure
-
-The `detail` property of the `sesamyAccess` event will contain an object with two properties:
-
-##### - `signedURL` (`String`)
-
-The signed URL with the unlocked content.
-
-##### - `itemSrc` (`String`)
-
-An item source (url or sku) that identifies the purchased item.
-
 ## Inside the `BODY` tag
 
 ### <sesamy-content-container\>
