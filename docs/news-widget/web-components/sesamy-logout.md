@@ -72,7 +72,10 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 ```html
 <style>
   sesamy-logout {
-    --color: #222222; // Font + icon color
+    --color: #f3f3f3; // button font + icon color
+    --font-family: "Helvetica"; // button font family
+    --font-size: 14px; // button font size
+    --font-weight: 400; // button font weight
   }
 </style>
 ```
