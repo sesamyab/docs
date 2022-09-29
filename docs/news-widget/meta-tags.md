@@ -6,11 +6,11 @@ sidebar_position: 2
 
 When a new article or post is created it is added to the catalog of products either by using the meta tags of the page or the `sesamy-content-data` tag.
 
-These tags are required to create a valid product `title`, `description`, `image`, `price` and `currency`.
+These tags are required to create a valid product: `title`, `description`, `image`, `price` and `currency`.
 
-In addition there are optional fields that for instance can used to create subscriptions.
+In addition, there are optional fields that for instance can be used to create subscriptions.
 
-The fiels are fetched with fallback so for instance the `title` field is fetched from the `sesamy:title` meta tag if available. If it isn't available it falls back to the `og:title` meta tag and so on.
+The fields are fetched with fallback so for instance the `title` field is fetched from the `sesamy:title` meta tag if available. If it isn't available it falls back to the `og:title` meta tag and so on.
 
 ## Required Fields
 
@@ -34,7 +34,7 @@ The fiels are fetched with fallback so for instance the `title` field is fetched
 <title>any title</title>
 ```
 
-4. First <H1\> finded
+4. First <H1\> found
 
 ```html
 <h1>any title</h1>
