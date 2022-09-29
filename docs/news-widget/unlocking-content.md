@@ -6,16 +6,16 @@ sidebar_position: 4
 
 When a user has purchased a post the unlocked content can be displayed using the `sesamy-content-container` component. The content can either be embedded directly on the page or fetched from the server using a signed url.
 
-The signed url's can for instance be shared in a order confirmation email and renders a page without any further authentication. To avoid that the signed links are being distributed that have a limited expiery.
+The signed Urls can be shared in an order confirmation email and render a page without any further authentication. To avoid the signed links being distributed they have a limited expiry.
 
-The signed url's requires that the cms hosting the content can validate the signature and serve the locked content for valid requests.
+The signed Urls require that the CMS hosting the content can validate the signature and serve the locked content for valid requests.
 
 ## Signed link validation
 
 The links consists of four parts:
 
 - Url of the content
-- Optional information, such as the publishers content id
+- Optional information, such as the publisher's content id
 - Expire timestamp
 - Signature of the previous parts of the url
 
