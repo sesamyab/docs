@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### Basic usage
 
-Place the `sesamy-login` element and load the script. The login button will be rendered with the default styling and with the message "Login" when the user isn't logged in. Once the user is logged in it will show the current users name and a link to log out.
+Place the `sesamy-login` element and load the script. The login button will be rendered with the default styling and with the message "Login" when the user isn't logged in. Once the user is logged in it will show the current user's name and a link to log out.
 
 ```html
 <html>
@@ -51,7 +51,7 @@ The code above will render a button with the text "Start here!".
 
 ### Variants
 
-The login component can be rendred in differnt variants with different visaul appearance. The variants are specified as a property on the web component:
+The login component can be rendered in different variants with different visual appearances. The variants are specified as a property on the web component:
 
 - Text (default) (`variant="text"`): Displays the user name and a logout link
 - Picture (`variant="picture"`): Displays the user name and an avatar
@@ -59,11 +59,11 @@ The login component can be rendred in differnt variants with different visaul ap
 
 ### Profile Href
 
-The profile href defines where the login component will link to when a logged in user clicks it (e.g.: `profile-href="/profile"`).
+The profile href defines where the login component will link to when a logged-in user clicks it (e.g.: `profile-href="/profile"`).
 
 ### Styling
 
-The `sesamy-login` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+The `sesamy-login` element is packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
 The list of CSS custom properties are (the value set is the `default` value, if the property is not presented it will take that value):
 
