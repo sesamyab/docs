@@ -43,7 +43,23 @@ The content of the text can be replaced with the `text` attribute.
 </html>
 ```
 
-The code above will render a button with the text "Exit here!".
+#### Hide the icon
+
+You can pass the `hide-icon` to hide the icon of the logout button.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-logout hide-icon text="Exit here!"></sesamy-logout>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+    ></script>
+  </body>
+</html>
+```
 
 #### Return To
 
@@ -72,7 +88,10 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 ```html
 <style>
   sesamy-logout {
-    --color: #222222; // Font + icon color
+    --color: #f3f3f3; // button font + icon color
+    --font-family: "Helvetica"; // button font family
+    --font-size: 14px; // button font size
+    --font-weight: 400; // button font weight
   }
 </style>
 ```

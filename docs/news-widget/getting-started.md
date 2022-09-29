@@ -27,11 +27,6 @@ Here we can see an example of the different elements that have to be integrated 
         --border-radius: 30px;
       }
     </style>
-    <script>
-      document.addEventListener("sesamy-unlock", function (e) {
-        console.log(e.detail);
-      });
-    </script>
   </head>
   <body>
     <sesamy-login client-id="demo"></sesamy-login>
@@ -85,30 +80,6 @@ Check all the CSS custom properties of every component in the component page.
   }
 </style>
 ```
-
-### Handling Unlock Data
-
-Once the checkout flow in the iframe is finished and the item was succesfully purchased, a custom event `sesamy-unlock` will be dispatched, the button element can listen to that event and handle as appropriate. The `detail` property of the event will contain the information regarding the unlocked article.
-
-```html
-<script>
-  document.addEventListener("sesamy-unlock", function (e) {
-    console.log(e.detail);
-  });
-</script>
-```
-
-#### Event payload structure
-
-The `detail` property of the `sesamy-unlock` event will contain an object with two properties:
-
-##### - `itemId` (`String`)
-
-An sku that identifies the purchased item.
-
-##### - `checkoutId` (`String`)
-
-The id of the checkout from which the item was purchased.
 
 ## Inside the `BODY` tag
 
