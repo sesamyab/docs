@@ -43,7 +43,23 @@ The content of the text can be replaced with the `text` attribute.
 </html>
 ```
 
-The code above will render a button with the text "Exit here!".
+#### Hide the icon
+
+You can pass the `hide-icon` to hide the icon of the logout button.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-logout hide-icon text="Exit here!"></sesamy-logout>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+    ></script>
+  </body>
+</html>
+```
 
 #### Return To
 
