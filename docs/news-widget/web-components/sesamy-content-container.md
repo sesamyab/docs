@@ -98,12 +98,18 @@ When using the `lock-mode=signedUrl` lock mode the content is fetched from the s
 >
 ```
 
-### Unlock Message
+### Recipt Link
 
 This message is shown below the article once it is unlocked, it contains a link to the confirmation screen of the checkout where te item was purchased.
-It can be hidden by including the attribute `hide-unlock-message` in the sesamy-content-container tag (`<sesamy-content-container hide-unlock-message>`).
+It can be configured by setting the attribute `receipt-link` in the sesamy-content-container tag (`<sesamy-content-container receipt-link="none">`).
 
-The styling of the unlocke message can be configured with the following css variables:
+The followin options are available fo the `receipt-link` attribute:
+
+- Text (default) (`receipt-link="text"`): Displays a `powered by Sesamy` message
+- Embed (`receipt-link="embed"`): Displays a recipt in a embedded window
+- None (`receipt-link="none"`): Removed the reciept link message
+
+The styling of the unlocked message can be configured with the following css variables:
 
 ```html
 <style>
