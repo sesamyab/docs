@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: undefined,
+          editUrl: "https://github.com/sesamyab/docs/blob/dev",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
