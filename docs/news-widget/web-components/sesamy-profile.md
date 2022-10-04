@@ -24,6 +24,44 @@ The profile component displays the name and email of the current user. It could 
 </html>
 ```
 
+### Passing custom attributes
+
+#### Hide Profile Image
+
+By specifying a `hide-profile-image` attribute the profile image will not be shown.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile hide-profile-image></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
+#### Manage Subscriptions
+
+By specifying a `manage-subscriptions` attribute a link to the subscription portal will be displayed.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile manage-subscriptions></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 ### Client Id
 
 The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
