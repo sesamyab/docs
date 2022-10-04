@@ -81,7 +81,7 @@ By specifying a `return-to` attribute it is possible to set the page that the us
 
 ### Styling
 
-The `sesamy-logout` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+The `sesamy-logout` element is packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
 The list of CSS custom properties are (the value set is the `default` value, if the property is not presented it will take that value):
 
