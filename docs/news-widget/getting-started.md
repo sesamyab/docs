@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Boilerplate
 
-Here we can see an example of the different elements that have to be integrated to show the button an the widget.
+Here we can see an example of the different elements that have to be integrated to show the button and the widget.
 
 ```html
 <html>

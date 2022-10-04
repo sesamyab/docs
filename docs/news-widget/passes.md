@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Passes
 
-A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a section of the content and it could be both single purchase or subscription.
+A pass is used to package a set of posts in a bundle. The typical use case is to offer a subscription for all articles on a website, but it could be used to package just a selection of the content and it could be either single purchase or subscription.
 
 The passes work the same way as the posts by adding metatags to the page:
 
@@ -65,7 +65,7 @@ The passes work the same way as the posts by adding metatags to the page:
 </html>
 ```
 
-Once a pass has been created it can be referenced in other posts. The posts will be unlocked either if the user has purchased the article directly or any of the passes attatched to the article.
+Once a pass has been created it can be referenced in other posts. The posts will be unlocked either if the user has purchased the article directly or any of the passes attached to the article.
 
 ```html
 <html>
