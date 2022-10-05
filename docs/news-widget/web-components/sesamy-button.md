@@ -90,7 +90,7 @@ The code above will render a button with the `span` `"BUY NOW!"` inside, and wil
 
 ### Passing an external item in the checkout
 
-By default, the item displayed in the checkout iframe that is opened when the button is clicked will be get from the current URL, if the button is used to pay an external item, then the product could be get from the `item-src` attribute.
+By default, the item displayed in the checkout iframe that is opened when the button is clicked will be taken from the current URL, if the button is used to pay for an external item, then the product could be got from the `item-src` attribute.
 
 The external item could be both be an article on a separate url or a [pass](/docs/news-widget/passes.md)
 
@@ -133,13 +133,13 @@ It is also possible to pass a Sesamy Product ID in the `item-src` attribute. Thi
 
 There are three different flows for the checkout once the `sesamy-button` is clicked:
 
-- If the attribute `checkout-mode="redirect"` (default behavior): the navigation of current window will be redirected to the checkout standalone version.
+- If the attribute `checkout-mode="redirect"` (default behavior): the current window will be redirected to the checkout standalone version.
 - If the attribute `checkout-mode="popup"` or the button is being displayed in a mobile device: The checkout is opened in a new popup.
 - If the attribute `checkout-mode="embed"`: The checkout is opened embedded on an iframe on the website.
 
 ## Styling
 
-The `sesamy-button` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+The `sesamy-button` element is packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
 The list of CSS custom properties are (the value set is the `default` value, if the property is not presented it will take that value):
 

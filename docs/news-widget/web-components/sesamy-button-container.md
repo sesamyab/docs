@@ -43,7 +43,7 @@ To overwrite the image and the description taken from the meta tags you can use 
 
 ### Styling
 
-The `sesamy-button-container` element are packaged with base styles, which can be adjusted by modifying CSS custom properties.
+The `sesamy-button-container` element is packaged with base styles, which can be adjusted by modifying CSS custom properties.
 
 The list of CSS custom properties are:
 

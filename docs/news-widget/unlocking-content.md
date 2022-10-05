@@ -6,30 +6,30 @@ sidebar_position: 4
 
 When a user has purchased a post the unlocked content can be displayed using the `sesamy-content-container` component. The content can either be embedded directly on the page or fetched from the server using a signed url.
 
-The signed url's can for instance be shared in a order confirmation email and renders a page without any further authentication. To avoid that the signed links are being distributed that have a limited expiery.
+The signed Urls can be shared in an order confirmation email and render a page without any further authentication. To avoid the signed links being distributed they have a limited expiry.
 
-The signed url's requires that the cms hosting the content can validate the signature and serve the locked content for valid requests.
+The signed Urls require that the CMS hosting the content can validate the signature and serve the locked content for valid requests.
 
 ## Signed link validation
 
 The links consists of four parts:
 
 - Url of the content
-- Optional information, such as the publishers content id
-- Expire timestamp
+- Optional information, such as the Publisher's Content ID
+- Expiration timestamp
 - Signature of the previous parts of the url
 
 This is a sample of a signed link:
 `https://test.example.com/test-article?se=TIMESTAMP&si=PUBLISHER_CONTENT_ID&ss=RSA_256_HASH`
 
-The `https://test.example.com/test-article` is the url of purchased article, `se=1656098737770` is the expire of the url and `ss=...` is the signature.
+The `https://test.example.com/test-article` is the url of the purchased article, `se=1656098737770` is the expiration timestamp of the url and `ss=...` is the signature.
 
-If a publisher provided a Publihser Content ID in the metatags this ID will also be passed as a `sp` querystring parameter in the signed link:
+If a publisher provided a Publisher Content ID in the metatags this ID will also be passed as an `sp` querystring parameter in the signed link:
 `https://test.example.com/test-article?sp=PUBLISHER_CONTENT_ID&se=TIMESTAMP&si=PUBLISHER_PRODUCT_ID&ss=RSA_256_HASH`
 
 ## Validation of the signature
 
-The urls are signed with a `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `https://assets.sesamy.com/vault-jwks.json`
+The urls are signed with an `RSA256` asymetric key that can be verified with the public Sesamy key. The public key is published in a jwks-format here: `https://assets.sesamy.com/vault-jwks.json`
 
 This is an example of how to verify the signed url in node-js with typescript:
 
@@ -110,9 +110,9 @@ function verify_signature($url)
 
 ### Signed link with pass
 
-If an article is part of a pass (for instance an subscription) the signed link will be for the pass rather than the article. This way a signed link can be reused for all articles within a subscription until the link is expired. In this case the backend need to validate that article is part of the pass before serving the content.
+If an article is part of a pass (for instance a subscription) the signed link will be for the pass rather than the article. This way a signed link can be reused for all articles within a subscription until the link has expired. In this case the backend needs to validate that the article is part of the pass before serving the content.
 
-The signed link is passed to he backend as a pass query string (the signature is shortened for brevity):
+The signed link is passed to the backend as a pass query string (the signature is shortened for brevity):
 `https://test.example.com/test-article?pass=https%3A%2F%2Ftest.example.com%2Fsubscription%3Fse%3D1656098737770%26si%3D113%26ss%3DPTKUZ...`
 
 ## Serving locked content via API
