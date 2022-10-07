@@ -26,6 +26,24 @@ The profile component displays the name and email of the current user. It could 
 
 ### Passing custom attributes
 
+#### Title
+
+By specifying a `title` attribute the title of the component can be set. If the attribute is set to an empty string the title is removed.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile title="Another title"></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 #### Hide Profile Image
 
 By specifying a `hide-profile-image` attribute the profile image will not be shown.
