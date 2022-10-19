@@ -44,6 +44,42 @@ By specifying a `title` attribute the title of the component can be set. If the 
 </html>
 ```
 
+#### Contact Us Message
+
+By specifying a `contact-us-message` attribute the message for contacting support can be modified.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile contact-us-message="Contact us!"></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
+#### Contact Us Email
+
+By specifying a `contact-us-email` attribute the email for contacting support can be modified.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile contact-us-email="hello@example.com"></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 #### Hide Profile Image
 
 By specifying a `hide-profile-image` attribute the profile image will not be shown.
