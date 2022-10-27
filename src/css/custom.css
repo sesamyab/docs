@@ -48,6 +48,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   font-weight: 700;
   display: flex;
   align-items: center;
+  margin-left: 102px;
 }
 
 .navbar__items {

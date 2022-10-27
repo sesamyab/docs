@@ -37,7 +37,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Sesamy",
         logo: {
           alt: "Sesamy",
           src: "img/logo.svg",
