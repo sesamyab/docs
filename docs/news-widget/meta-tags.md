@@ -122,6 +122,60 @@ The fields are fetched with fallback so for instance the `title` field is fetche
 
 ## Optional Fields
 
+### Section / Category
+
+1. `sesamy:section` meta tag is used to specify the category of a given article.
+
+```html
+<meta property="sesamy:section" content="Technology" />
+```
+
+2. `article:section` meta tag according to the Opengraph Standard
+
+```html
+<meta property="article:section" content="Technology" />
+```
+
+### Tags
+
+1. `sesamy:tag` meta tag, multiple of these tags can be used to specify several tags.
+
+```html
+<meta property="sesamy:tag" content="Technology" />
+```
+
+```html
+<meta property="sesamy:tag" content="Technology" />
+<meta property="sesamy:tag" content="Apple" />
+<meta property="sesamy:tag" content="Iphone" />
+```
+
+2. `article:tag` meta tag according to the Opengraph Standard, this can be used multiple times to specify several tags.
+
+```html
+<meta property="article:tag" content="Technology" />
+```
+
+```html
+<meta property="article:tag" content="Technology" />
+<meta property="article:tag" content="Apple" />
+<meta property="article:tag" content="Iphone" />
+```
+
+### Publish date and time
+
+1. `sesamy:published_time` meta tag is used to specify the date and time when the article was published. Ex: `2022-10-31T20:30:02Z`
+
+```html
+<meta property="sesamy:published_time" content="2022-10-31T20:30:02Z" />
+```
+
+2. `article:published_time` meta tag according to the Opengraph Standard
+
+```html
+<meta property="article:published_time" content="2022-10-31T20:30:02Z" />
+```
+
 ### Product Type
 
 The default value is `SINGLE_PAYMENT`
