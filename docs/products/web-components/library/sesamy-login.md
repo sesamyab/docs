@@ -25,7 +25,7 @@ Place the `sesamy-login` element and load the script. The login button will be r
 
 ### Client Id
 
-The client id is provided by Sesamy and specifies on which domains the login will be available. The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
+The client id is provided by Sesamy and specifies on which domains the login will be available. The client-id is required and specified using the [meta tags](/docs/integration/indexing/meta-tags.md)
 
 ### Passing custom attributes
 

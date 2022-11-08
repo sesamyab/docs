@@ -16,7 +16,7 @@ The following query properties are available:
 
 - client_id (required)
 - response_type (required). Needs to be set to token.
-- scope (required). A set of scopes that the generating token will have. See [scopes](/docs//authentication/scopes.md) for more info.
+- scope (required). A set of scopes that the generating token will have. See [scopes](/docs/products/authentication/scopes.md) for more info.
 - redirect_uri (required). The url where the user will be redirected once the authentication is completed.
 - state (optional). Pass a state that will be returned in the redirect querystring.
 

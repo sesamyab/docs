@@ -198,7 +198,7 @@ The client id used for [Sesamy Authentication](/docs/products/authentication)
 
 ### Publisher Content ID
 
-The publisher ID for the content. Indexed and passed back to the website when [unlocking content](/docs/integration/CMS/unlocking-content.md)
+The publisher ID for the content. Indexed and passed back to the website when [unlocking content](/docs/integration/cms/unlocking-content.md)
 
 1. `sesamy:publisher-content-id` meta tag
 

@@ -92,7 +92,7 @@ The code above will render a button with the `span` `"BUY NOW!"` inside, and wil
 
 By default, the item displayed in the checkout iframe that is opened when the button is clicked will be taken from the current URL, if the button is used to pay for an external item, then the product could be got from the `item-src` attribute.
 
-The external item could be both be an article on a separate url or a [pass](/docs/news-widget/passes.md)
+The external item could be both be an article on a separate url or a [pass](/docs/integration/indexing/passes.md)
 
 ```html
 <html>
@@ -168,4 +168,4 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 
 ### Client Id
 
-The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
+The client-id is required and specified using the [meta tags](/docs/integration/indexing/meta-tags.md)
