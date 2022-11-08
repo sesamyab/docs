@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Code Grant
 
-The code grant flow works similar to the [implicit grant flow](/docs/authentication/oauth2/implicit-grant.md), but instead of returning the access token directly to the browser a code is returned. This code can be resolved to a token using the client_secret.
+The code grant flow works similar to the [implicit grant flow](/docs/products/authentication/oauth2/implicit-grant.md), but instead of returning the access token directly to the browser a code is returned. This code can be resolved to a token using the client_secret.
 
 A authorization code grant flow is initiated by redirecting the user to the login service:
 
@@ -16,7 +16,7 @@ The following query properties are available:
 
 - client_id (required)
 - response_type (required). Needs to be set to code.
-- scope (required). A set of scopes that the generating token will have. See [scopes](/docs//authentication/scopes.md) for more info.
+- scope (required). A set of scopes that the generating token will have. See [scopes](/docs/products/authentication/scopes.md) for more info.
 - redirect_uri (required). The url where the user will be redirected once the authentication is completed.
 - state (optional). Pass a state that will be returned in the redirect querystring.
 

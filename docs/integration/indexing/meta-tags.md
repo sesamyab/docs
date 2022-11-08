@@ -188,7 +188,7 @@ The default value is `SINGLE_PAYMENT`
 
 ### Client ID
 
-The client id used for [Sesamy Authentication](/docs/authentication/getting-started.md)
+The client id used for [Sesamy Authentication](/docs/products/authentication)
 
 1. `sesamy:client-id` meta tag
 
@@ -198,7 +198,7 @@ The client id used for [Sesamy Authentication](/docs/authentication/getting-star
 
 ### Publisher Content ID
 
-The publisher ID for the content. Indexed and passed back to the website when [unlocking content](/docs/news-widget/unlocking-content.md)
+The publisher ID for the content. Indexed and passed back to the website when [unlocking content](/docs/integration/cms/unlocking-content.md)
 
 1. `sesamy:publisher-content-id` meta tag
 

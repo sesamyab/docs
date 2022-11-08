@@ -118,7 +118,7 @@ By specifying a `manage-subscriptions` attribute a link to the subscription port
 
 ### Client Id
 
-The client-id is required and specified using the [meta tags](/docs/news-widget/meta-tags.md)
+The client-id is required and specified using the [meta tags](/docs/integration/indexing/meta-tags.md)
 
 ### Styling
 

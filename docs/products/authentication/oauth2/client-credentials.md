@@ -20,7 +20,7 @@ The following query properties are available:
 - client_id (required)
 - client_secret (required)
 - grant_type (required). Needs to be set to client_credentials.
-- scope (required). A set of scopes that the generating token will have. See [scopes](/docs//authentication/scopes.md) for more info.
+- scope (required). A set of scopes that the generating token will have. See [scopes](/docs/products/authentication/scopes.md) for more info.
 
 The request will return the following response:
 

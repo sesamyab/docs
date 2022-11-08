@@ -45,7 +45,7 @@ The content container matches the current url against the user's purchases. In c
 
 ### Publisher content ID
 
-The ID of the content on the publisher side. It can be used to fetch data about the content from a [sesamy-content-data](/docs/news-widget/web-components/sesamy-content-data.md) web component with a matching ID.
+The ID of the content on the publisher side. It can be used to fetch data about the content from a [sesamy-content-data](/docs/products/web-components/library/sesamy-content-data.md) web component with a matching ID.
 
 ### Public
 
@@ -85,7 +85,7 @@ An item source (url or sku) that identifies the purchased item.
 
 ### Pass
 
-The pass property is a semi-colon concatenated list of the [passes](/docs/news-widget/passes.md) that the article is part of.
+The pass property is a semi-colon concatenated list of the [passes](/docs/integration/indexing/passes.md) that the article is part of.
 
 ### Access Url
 
