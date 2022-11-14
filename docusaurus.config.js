@@ -24,7 +24,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/sesamyab/docs/blob/dev",
+          editUrl: "https://github.com/sesamyab/docs/blob/main",
+          docLayoutComponent: "@theme/DocPage",
+          docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi-docs
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -48,6 +50,21 @@ const config = {
             position: "left",
             label: "Documentation",
           },
+          {
+            type: "dropdown",
+            label: "API",
+            position: "left",
+            items: [
+              {
+                label: "API Zoo",
+                to: "/category/petstore-api",
+              },
+              {
+                label: "Petstore (versioned)",
+                to: "/category/petstore-versioned-api",
+              },
+            ],
+          },
         ],
       },
       footer: {
@@ -60,6 +77,29 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [
+    [
+      "docusaurus-plugin-openapi-docs",
+      {
+        id: "apiDocs",
+        docsPluginId: "classic",
+        config: {
+          petstore: {
+            specPath: "examples/petstore.yaml",
+            outputDir: "docs/petstore",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+            template: "api.mustache", // Customize API MDX with mustache template
+            downloadUrl:
+              "https://raw.githubusercontent.com/PaloAltoNetworks/docusaurus-openapi-docs/main/demo/examples/petstore.yaml",
+          },
+        },
+      },
+    ],
+  ],
+  themes: ["docusaurus-theme-openapi-docs"], // Allows use of @theme/ApiItem and other components
 };
 
 module.exports = config;
