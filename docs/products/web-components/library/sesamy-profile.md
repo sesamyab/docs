@@ -98,15 +98,15 @@ By specifying a `hide-profile-image` attribute the profile image will not be sho
 </html>
 ```
 
-#### Prevent contact email edition
+#### Prevent contact email editing
 
-By specifying a `contact-email-non-editable` attribute the contact email field will be disabled.
+By specifying a `read-only-contact-email` attribute the contact email field will be disabled.
 
 ```html
 <html>
   <head></head>
   <body>
-    <sesamy-profile contanct-email-non-editable></sesamy-profile>
+    <sesamy-profile read-only-contact-email></sesamy-profile>
 
     <script
       type="module"
