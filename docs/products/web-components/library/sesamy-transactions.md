@@ -42,6 +42,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --border-top: 1px solid #e4e4e5; // Row border top
     --row-font-size: 14px; // Row font size
     --currency-opacity: 0.7; // Currency opacity
+    --icon-color: var(--icon-color, var(--color, #222222)); // > icon color
   }
 </style>
 ```
