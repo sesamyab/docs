@@ -53,9 +53,9 @@ The code above will render a button with the text "Start here!".
 
 The login component can be rendered in different variants with different visual appearances. The variants are specified as a property on the web component:
 
-- Text (default) (`variant="text"`): Displays the user name and a logout link
-- Picture (`variant="picture"`): Displays the user name and an avatar
-- Link (`variant="link`): Displays a text link to the login page.
+- Text (default) (`variant="text"`): Displays the user name and a profile link
+- Picture (`variant="picture"`): Displays an avatar
+- Link (`variant="link"`): Displays a text link to the login page.
 
 ### Profile Href
 
