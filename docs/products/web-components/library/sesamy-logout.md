@@ -88,10 +88,13 @@ The list of CSS custom properties are (the value set is the `default` value, if 
 ```html
 <style>
   sesamy-logout {
-    --color: #f3f3f3; // button font + icon color
-    --font-family: "Helvetica"; // button font family
-    --font-size: 14px; // button font size
-    --font-weight: 400; // button font weight
+    --color: #f3f3f3; // Button font + icon color
+    --font-family: "Helvetica"; // Button font family
+    --font-size: 14px; // Button font size
+    --font-weight: 400; // Button font weight
+    --button-margin: 0 12px; // Button margin
+    --button-padding: 0 6px; // Button padding
+    --text-margin: 13px 0; // Text margin
   }
 </style>
 ```
