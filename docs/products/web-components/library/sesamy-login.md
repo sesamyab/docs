@@ -29,15 +29,15 @@ The client id is provided by Sesamy and specifies on which domains the login wil
 
 ### Passing custom attributes
 
-## Text
+#### Text
 
-The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes. You can also pass the `hide-logo` attribute to hide the logo.
+The content of the button (except for the sesamy logo at the beginning) can be replaced by attributes.
 
 ```html
 <html>
   <head></head>
   <body>
-    <sesamy-login text="Start here!" hide-logo></sesamy-login>
+    <sesamy-login text="Start here!"></sesamy-login>
 
     <script
       type="module"
@@ -48,6 +48,24 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 ```
 
 The code above will render a button with the text "Start here!".
+
+#### Hide logo
+
+You can also pass the `hide-logo` attribute to hide the logo.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-login hide-logo></sesamy-login>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-login.min.js"
+    ></script>
+  </body>
+</html>
+```
 
 ### Variants
 
