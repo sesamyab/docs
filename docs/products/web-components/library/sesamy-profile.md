@@ -98,6 +98,24 @@ By specifying a `hide-profile-image` attribute the profile image will not be sho
 </html>
 ```
 
+#### Prevent contact email editing
+
+By specifying a `read-only-contact-email` attribute the contact email field will be disabled.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-profile read-only-contact-email></sesamy-profile>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 #### Manage Subscriptions
 
 By specifying a `manage-subscriptions` attribute a link to the subscription portal will be displayed.
