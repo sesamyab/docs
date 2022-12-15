@@ -38,7 +38,7 @@ By specifying a `title` attribute the title of the component can be set. If the 
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -56,7 +56,7 @@ By specifying a `contact-us-message` attribute the message for contacting suppor
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -74,7 +74,7 @@ By specifying a `contact-us-email` attribute the email for contacting support ca
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -92,7 +92,7 @@ By specifying a `hide-profile-image` attribute the profile image will not be sho
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -110,7 +110,7 @@ By specifying a `read-only-contact-email` attribute the contact email field will
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -128,7 +128,7 @@ By specifying a `manage-subscriptions` attribute a link to the subscription port
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-bundle.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>

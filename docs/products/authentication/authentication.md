@@ -17,7 +17,7 @@ The recommennded way of adding authentication and user management to a website i
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
   </body>
 </html>

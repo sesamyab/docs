@@ -17,7 +17,7 @@ Place the `sesamy-logout` element and load the script. The logout text w/icon wi
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-logout.min.js"
     ></script>
   </body>
 </html>
@@ -37,7 +37,7 @@ The content of the text can be replaced with the `text` attribute.
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-logout.min.js"
     ></script>
   </body>
 </html>
@@ -55,7 +55,7 @@ You can pass the `hide-icon` to hide the icon of the logout button.
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-logout.min.js"
     ></script>
   </body>
 </html>
@@ -73,7 +73,7 @@ By specifying a `return-to` attribute it is possible to set the page that the us
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-logout.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-logout.min.js"
     ></script>
   </body>
 </html>

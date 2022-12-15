@@ -17,7 +17,7 @@ Place the `sesamy-login` element and load the script. The login button will be r
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
   </body>
 </html>
@@ -41,7 +41,7 @@ The content of the button (except for the sesamy logo at the beginning) can be r
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
   </body>
 </html>
@@ -61,7 +61,7 @@ You can also pass the `hide-logo` attribute to hide the logo.
 
     <script
       type="module"
-      src="https://assets.sesamy.com/scripts/checkout-button/sesamy-login.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
     ></script>
   </body>
 </html>
