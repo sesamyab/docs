@@ -6,6 +6,57 @@ sidebar_position: 7
 
 The web components library exposes an API on `window.sesamy` to query the purchases of the user.
 
+## getUserProfile
+
+The `getUserProfile` function queries for the profile endpoint for the currents users profile:
+
+```
+// Get user profile
+sesamy.getUserProfile()
+```
+
+**Returns:**
+
+(Promise<object|null\>): A user profile or null
+
+**Example:**
+
+```
+// Get the user profile for the current user
+const userProfile = await sesamy.getUserProfile()
+```
+
+The userProfile will be in the following format
+
+```
+{
+  "version": 1,
+  "tz": "Europe/Madrid",
+  "entity": "Profile",
+  "email": "name@example.com",
+  "fullName": "name@example.com",
+  "picture": "https://s.gravatar.com/avatar/fc7c7179a07fe38c0feebd68c8d54e63?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fma.png",
+  "created": "2022-06-13T09:48:41.824Z",
+  "identities": [
+    {
+      "source": "auth0",
+      "profileData": {},
+      "provider": "auth0",
+      "userId": "61715b8ebe82f0006ab0613b"
+    }
+  ],
+  "email_verified": true,
+  "externalId": {
+    "auth0.auth0": "61715b8ebe82f0006ab0613b",
+    "auth0.email": "63beae22c2ff41bf4309c69c"
+  },
+  "modified": "2022-11-15T09:58:12.877Z",
+  "nickname": "nick",
+  "userId": "auth0|61715b8ebe82f0006ab0613b",
+  "lastIdpSync": "2023-01-16T10:19:38.804Z"
+}
+```
+
 ## getEntitlement
 
 The `getEntitlement` function queries for the entitlement object that defines the customers access to the content:
