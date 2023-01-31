@@ -1,26 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Wordpress Plugin
+# Lock Modes
 
-The wordpress plugin is a wrapper around the web components to offer user management, single purchase and subscriptions.
+There are different solutions for locking the content depending on the customer needs:
 
-The latest version of the plugin is available here:
-https://assets.sesamy.com/scripts/wordpress-sesamy/sesamy-wordpress.zip
-
-## Pre Install Configuration
-
-Before the plugin can be installed the follwing steps are required:
-
-- Register a Sesamy client.
-- Add a user as admin of the client.
-- Whitelist the domain of the website for the Sesamy indexing service.
-
-Contact support@sesamy.com with the information about the domain and the user.
-
-## Configuration
-
-Once the plugin is installed the Sesamy configuration page is available in the WordPress admin
-
-[Sesamy Admin](/static/img/wordpress/wp-config.png)
+- SignedURL (default). The locked content is fetched on a per user basis from an API endpoint. This is the most secure option.
+- Embed. The locked content is embedded on the public website. It is less secure but has SEO benefits as the entire content will be indexed by the search engines.
+- Event. A custom event is emitted when a user has access. This can be used to integrate with existing paywalls.
+- None. The paywall is not rendred and the content is not hidden.
