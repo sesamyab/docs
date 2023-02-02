@@ -35,5 +35,5 @@ There are different solutions for locking the content depending on the customer 
 
 - SignedURL (default). The locked content is fetched on a per user basis from an API endpoint. This is the most secure option.
 - Embed. The locked content is embedded on the public website. It is less secure but has SEO benefits as the entire content will be indexed by the search engines.
-- Event. A custom event is emitted when the article is unlocked but the locked content is not rendred. This is for instance used for integrating with existing paywalls.
+- Event. A custom event is emitted when the article is unlocked but the locked content is not rendered. This is for instance used for integrating with existing paywalls.
 - None. No paywall is displayed and the the content of the article is not modifed, but an event is emitted if the article is unlocked.

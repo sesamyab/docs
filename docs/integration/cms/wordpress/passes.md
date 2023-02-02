@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Passes
 
-A pass is used to provide access to multiple articles over a time period, typically all locked content for for instance a month.
+A pass is used to provide access to multiple articles over a time period.
 
-The passes can be defined direclty in wordpress.
+The passes can be defined directly in wordpress.
 
 ![passes](/img/wordpress/wp-passes.png)
 
