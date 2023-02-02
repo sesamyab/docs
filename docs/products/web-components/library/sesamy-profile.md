@@ -159,6 +159,7 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --avatar-size: 182px; // Avatar size
     --avatar-border: 0; // Avatar border
     --avatar-border-radius: 50%; // Avatar border radius
+    --right-block-flex: none; // Data container flex
     --input-margin-bottom: 20px; // Input bottom margin
     --input-background: transparent; // Input background
     --input-height: 50px; // Input height
@@ -170,6 +171,22 @@ The list of CSS custom properties are (the value set is the `default` value, if 
     --label-font-size: 15px; // Label font size
     --contact-color: #22222299; // Contact text color
     --link-color: #0d66d0; // Link font color
+    --button-background: #ffffff; // Button background
+    --button-background-hover: var(
+      --button-background-hover,
+      var(--button-background, #22222220)
+    ); // Button background (hover state)
+    --button-opacity-hover: 1; // Button opacity (hover state)
+    --button-color: #222222; // Button font color
+    --button-font-family: "Helvetica"; // Button font family
+    --button-font-size: 15px; // Button font size
+    --button-font-weight: 400; // Button font weight
+    --button-width: 100%; // Button width
+    --button-max-width: 100%; // Button max width
+    --button-height: 45px; // Button height
+    --button-border: 1px solid #b3b3b3; // Button border
+    --button-border-radius: 50px; // Button border radius
+    --button-padding: 14px 30px; // Button padding
   }
 </style>
 ```
