@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Zapier
+# Zapier Webhooks
 
 Sesamy's integrates with Zapier and allows you to listen to certain events that you can use to synchronize data with hundreds of third party services like MailChimp, Slack or Gmail.
 
@@ -71,6 +71,7 @@ Sample hook payload:
     checkoutId: 'abc-xyz',
     totalPrice: 100,
     currency: 'SEK',
+    createdAt: '2022-11-08T12:49:11.190Z',
     user: {
         userId: '123',
         firstName: 'Bob',
@@ -112,6 +113,7 @@ Sample hook payload:
     origin: 'CHECKOUT',
     originId: 'xyz-568',
     status: 'VALID',
+    createdAt: '2022-11-08T12:49:11.190Z',
     user: {
         userId: '123',
         firstName: 'Bob',
