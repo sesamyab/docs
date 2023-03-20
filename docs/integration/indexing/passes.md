@@ -47,19 +47,7 @@ The passes work the same way as the posts by adding metatags to the page:
 
     <script
       defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
@@ -114,20 +102,45 @@ Once a pass has been created it can be referenced in other posts. The posts will
 
     <script
       defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-content-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-button-container.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-login.min.js"
-    ></script>
-    <script
-      defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
 ```
+
+## Index passes using
+
+The passes can also be made avaialble for indexing using a json endpoint.
+
+This is an example of a yearly recurring pass in a json format:
+
+```json
+{
+  "id": "prenumeration",
+  "title": "Prenumeration",
+  "description": "",
+  "price": "999",
+  "currency": "SEK",
+  "image": "https://example.com/wp-content/uploads/2023/03/icon-logo-badge.png",
+  "url": "https://example.com/prenumerera",
+  "item_src": "https://example.com/wp-json/sesamy/v1/passes/prenumeration",
+  "period": "yearly",
+  "time": "1",
+  "product_type": "PASS",
+  "purchase_type": "RECURRING"
+}
+```
+
+The following properties are supported:
+
+- id (required). The id used as sku for the pass
+- title (required). The title of the pass visible to the customers.
+- price (required).
+- currency (required).
+- item_src (required). The link to the json endpoint.
+- product_type (required). Should be "PASS".
+- purchase_type (required). Should be "RECURRING".
+- image. The image used in the checkout and receipts.
+- url. A link to a website describing the pass
+- period. The periodicity of a recurring pass. Defaults to monthly.
+- time. The amount of periods for each recurring interval. Defaults to 1.
