@@ -10,6 +10,8 @@ sidebar_position: 4
 
 Place the `sesamy-button` element and load the script. The button will be rendered with the default styling and with the message "Unlock Article". The price will be taken from the meta tags of the website, as well as the item that the button will load on the checkout iframe.
 
+![sesamy-button](/img/web-components/purchase-button.png)
+
 ```html
 <html>
   <head>

@@ -129,3 +129,33 @@ sesamy.isLoggedIn()
 // Get if the user is logged int
 sesamy.isLoggedIn().then(result => console.log(result))
 ```
+
+## login
+
+The `login` function redirects the user to the login page:
+
+**Arguments:**
+
+**Returns:**
+
+**Example:**
+
+```
+// Redirect the user to the login page
+sesamy.login()
+```
+
+## logout
+
+The `logout` function clears the user session and bounces the user to the sesamy logout page to clear the cookie there as well.:
+
+**Arguments:**
+
+**Returns:**
+
+**Example:**
+
+```
+// Logout user
+sesamy.logout()
+```
