@@ -10,9 +10,9 @@ The web components library exposes an API on `window.sesamy` to query the purcha
 
 The `getUserProfile` function queries for the profile endpoint for the currents users profile:
 
-```
+```javascript
 // Get user profile
-sesamy.getUserProfile()
+sesamy.getUserProfile();
 ```
 
 **Returns:**
@@ -21,14 +21,14 @@ sesamy.getUserProfile()
 
 **Example:**
 
-```
+```javascript
 // Get the user profile for the current user
-const userProfile = await sesamy.getUserProfile()
+const userProfile = await sesamy.getUserProfile();
 ```
 
 The userProfile will be in the following format
 
-```
+```json
 {
   "version": 1,
   "tz": "Europe/Madrid",
@@ -61,9 +61,9 @@ The userProfile will be in the following format
 
 The `getEntitlement` function queries for the entitlement object that defines the customers access to the content:
 
-```
+```javascript
 // Get entitlment
-sesamy.getEntitlement(ARTICLE_SRC_OR_SKU, PASSES_ARRAY)
+sesamy.getEntitlement(ARTICLE_SRC_OR_SKU, PASSES_ARRAY);
 ```
 
 **Arguments:**
@@ -77,18 +77,20 @@ sesamy.getEntitlement(ARTICLE_SRC_OR_SKU, PASSES_ARRAY)
 
 **Example:**
 
-```
+```javascript
 // Get the entitlement for an article
-const entitlement = sesamy.getEntitlement('https://example.com/article', ['https://example.com/subscription'])
+const entitlement = sesamy.getEntitlement("https://example.com/article", [
+  "https://example.com/subscription",
+]);
 ```
 
 ## getAccess
 
 The `getAccess` function returns an url to access a content resource, for instance an article or a podcast feed:
 
-```
+```javascript
 // Get access url
-sesamy.getAccess(ARTICLE_SRC_OR_SKU, PASSES_ARRAY, FORMAT)
+sesamy.getAccess(ARTICLE_SRC_OR_SKU, PASSES_ARRAY, FORMAT);
 ```
 
 **Arguments:**
@@ -103,18 +105,18 @@ sesamy.getAccess(ARTICLE_SRC_OR_SKU, PASSES_ARRAY, FORMAT)
 
 **Example:**
 
-```
+```javascript
 // Get the access url
-const accessUrl = sesamy.getEntitlement('sid:A2-3YbkzKvJLT8KVJsNZL', [], 'RSS')
+const accessUrl = sesamy.getEntitlement("sid:A2-3YbkzKvJLT8KVJsNZL", [], "RSS");
 ```
 
 ## isLoggedIn
 
 The `isLoggedIn` function returns if the user currently is logged in with a valid session:
 
-```
+```javascript
 // Check if a user is logged in. Returns a Promise<boolean>
-sesamy.isLoggedIn()
+sesamy.isLoggedIn();
 ```
 
 **Arguments:**
@@ -125,9 +127,9 @@ sesamy.isLoggedIn()
 
 **Example:**
 
-```
+```javascript
 // Get if the user is logged int
-sesamy.isLoggedIn().then(result => console.log(result))
+sesamy.isLoggedIn().then((result) => console.log(result));
 ```
 
 ## login
@@ -140,9 +142,9 @@ The `login` function redirects the user to the login page:
 
 **Example:**
 
-```
+```javascript
 // Redirect the user to the login page
-sesamy.login()
+sesamy.login();
 ```
 
 ## logout
@@ -153,9 +155,51 @@ The `logout` function clears the user session and bounces the user to the sesamy
 
 **Returns:**
 
+Redicrects the user to the logout page
+
 **Example:**
 
-```
+```javascript
 // Logout user
-sesamy.logout()
+sesamy.logout();
+```
+
+## openCheckout
+
+The `openCheckout` function generates a checkout url and redirects the user to the checkout page:
+
+```javascript
+// Open checkout
+sesamy.openCheckout({
+  itemSrc: ITEM_SRC_OR_SKU,
+  checkoutVersion: CHECKOUT_VERSION, // Optional
+  publisherContentId: PUBLISHER_CONTENT_ID, // Optional
+  price: PRICE, // Optional
+  currency: CURRENCY, // Optional
+
+```
+
+**Arguments:**
+
+- ITEM_SRC_OR_SKU (string): The url or sku for the content
+- CHECKOUT_VERSION (string): The checkout version to use
+- PUBLISHER_CONTENT_ID (string): The publisher content id
+- PRICE (number): The price of the item
+- CURRENCY (string): The currency of the item
+
+**Returns:**
+
+Redicrects the user to the checkout page
+
+**Example:**
+
+```javascript
+// Open a checkout for an article
+sesamy.openCheckout({
+  itemSrc: "https://example.com/article",
+  checkoutVersion: "2",
+  publisherContentId: "article-1",
+  price: 100,
+  currency: "SEK",
+});
 ```
