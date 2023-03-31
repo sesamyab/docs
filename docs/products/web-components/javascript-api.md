@@ -203,3 +203,15 @@ sesamy.openCheckout({
   currency: "SEK",
 });
 ```
+
+If the product uses a purchase option this is appeneded to the itemSrc attribute with a `:` as a separator:
+
+```javascript
+sesamy.openCheckout({
+  itemSrc: "https://example.com/article:option-1",
+  checkoutVersion: "2",
+  publisherContentId: "article-1",
+  price: 100,
+  currency: "SEK",
+});
+```
