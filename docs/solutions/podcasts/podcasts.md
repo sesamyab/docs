@@ -4,8 +4,10 @@ sidebar_position: 1
 
 # Podcasts
 
-At Sesamy we offer the best tools for premium podcast monetization. We partner with podcast hosting services to monetize podcasts with both subscriptions, bundles and single purchase as an option. We support both Apple and Android and have integrated with leading payment providers, such as Klarna, Swish, Paypal, Apple, to give our partners an efficient purchase flow. Our knowledgeable audio team supports you in all areas of distribution and monetization.
+Sesamy supports integration of locked podcasts with any rss compliant podcasts app. This way the users can consume the locked content in their podcast app of choice and doesn't have to add a new app to access the content. With the solution you also get better data about your listeners and their listening habits.
 
-- **Subscription, bundle, single purchase** - we do it all!
-- **Early releases & extra episodes** - hit us with your individual requests!
-- **Ad-free podcasts -** in combination with diversified revenue streams for the creators!
+The content can be packaged in a variety of ways: Lock individual episodes, entire seasons, the entire podcast or a bundle of podcasts to create your own Netflix for podcasts.
+
+The premium episodes can for instance be released early to your subscribers, as a bonus episode to your listeners or without ads.
+
+The podcast solution can be used as part of the Sesamy platform or as a standalone solution, integrating with your existing subscription platform and authentication system.
