@@ -10,7 +10,7 @@ Sesamy supports integration of locked podcasts with any rss compliant podcasts a
 
 There are two ways the users can access the locked content in the podcast app:
 
-- The user can open the podcast app from your website using the [Sesamy Entitlements Web Component](/docs/product/web-components/library/sesamy-entitlements)
+- The user can open the podcast app from your website using the [Sesamy Entitlements Web Component](/docs/products/web-components/library/sesamy-entitlements.md)
 - The user can follow a link the locked podcast from the description of the podcast in the podcast app. Some apps, such as overcast, also provides a support or purchase button in the podcast app.
 
 When a user unlocks a premium podcast in the Podcast app by clicking a link, the user will be authenticated either in Sesamy or directly by the publisher. After the authentication Sesamy will validate if the user has a valid subscription and if so, the user will be presented with a dialog where they can open the unlocked feed the podcast app.
