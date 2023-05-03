@@ -186,6 +186,12 @@ sesamy.openCheckout({
 - PUBLISHER_CONTENT_ID (string): The publisher content id
 - PRICE (number): The price of the item
 - CURRENCY (string): The currency of the item
+- DISCOUNT_CODE (string): The discount code applied to the checkout
+- UTM_SOURCE (string): The source UTM tag
+- UTM_MEDIUM (string): The medium UTM tag
+- UTM_CAMPAIGN (string): The campaign UTM tag
+- UTM_TERM (string): The term UTM tag
+- UTM_CONTENT (string): The content UTM tag
 
 **Returns:**
 
@@ -201,6 +207,12 @@ sesamy.openCheckout({
   publisherContentId: "article-1",
   price: 100,
   currency: "SEK",
+  discountCode: "DISC50",
+  utmSource: "google",
+  utmMedium: "cpc",
+  utmCampaign: "sale",
+  utmTerm: "article",
+  utmContent: "ad",
 });
 ```
 
