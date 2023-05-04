@@ -131,6 +131,33 @@ It is also possible to pass a Sesamy Product ID in the `item-src` attribute. Thi
 </html>
 ```
 
+### Passing UTM tags to the checkout
+
+To open the checkout with custom UTM tags you can define those as attributes of the button. The accepted UTM tags are the following: `utm-source`, `utm-medium`, `utm-campaign`, `utm-term`, and `utm-content`.
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-button
+      item-src="sid:test"
+      price="10"
+      currency="EUR"
+      utm-source="google"
+      utm-medium="cpc"
+      utm-campaign="sale"
+      utm-term="article"
+      utm-content="ad"
+    ></sesamy-button>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+    ></script>
+  </body>
+</html>
+```
+
 ### Checkout modes
 
 There are three different flows for the checkout once the `sesamy-button` is clicked:
