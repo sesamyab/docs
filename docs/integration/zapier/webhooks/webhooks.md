@@ -57,16 +57,7 @@ Sample hook payload:
             firstName: 'Bob',
             lastName: 'James',
             email: 'zapier@sesamy.com',
-            contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
+            contactEmail: 'zapier@sesamy.com'
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -93,16 +84,7 @@ Sample hook payload:
             firstName: 'Bob',
             lastName: 'James',
             email: 'zapier@sesamy.com',
-            contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
+            contactEmail: 'zapier@sesamy.com'
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -130,15 +112,6 @@ Sample hook payload:
             lastName: 'James',
             email: 'zapier@sesamy.com',
             contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -219,15 +192,6 @@ Sample hook payload:
         lastName: 'James',
         email: 'zapier@sesamy.com',
         contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
     },
 }
 ```
@@ -260,16 +224,7 @@ Sample hook payload:
         firstName: 'Bob',
         lastName: 'James',
         email: 'zapier@sesamy.com',
-        contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
+        contactEmail: 'zapier@sesamy.com'
     },
 }
 ```
@@ -291,16 +246,29 @@ Sample hook payload:
         lastName: 'James',
         email: 'zapier@sesamy.com',
         contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
     },
+    deliveryAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    billingAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    businessDetails: {
+        companyName: 'X Company',
+        vatNr: '1234'
+    }
 }
 ```
 
@@ -320,16 +288,29 @@ Sample hook payload:
         firstName: 'Bob',
         lastName: 'James',
         email: 'zapier@sesamy.com',
-        contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
+        contactEmail: 'zapier@sesamy.com'
     },
+    deliveryAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    billingAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    businessDetails: {
+        companyName: 'X Company',
+        vatNr: '1234'
+    }
 }
 ```
