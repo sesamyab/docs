@@ -57,16 +57,7 @@ Sample hook payload:
             firstName: 'Bob',
             lastName: 'James',
             email: 'zapier@sesamy.com',
-            contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
+            contactEmail: 'zapier@sesamy.com'
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -93,16 +84,7 @@ Sample hook payload:
             firstName: 'Bob',
             lastName: 'James',
             email: 'zapier@sesamy.com',
-            contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
+            contactEmail: 'zapier@sesamy.com'
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -130,15 +112,6 @@ Sample hook payload:
             lastName: 'James',
             email: 'zapier@sesamy.com',
             contactEmail: 'zapier@sesamy.com',
-            primaryAddress: {
-                firstName: 'Lucas',
-                lastName: 'James',
-                addressLineOne: 'Bergsjösvängen 1',
-                addressLineTwo: '',
-                zip: '41560',
-                city: 'Göteborg',
-                country: 'SE',
-            },
         },
         sku: '123-xyz',
         entitlementId: 'abc-xyz',
@@ -219,15 +192,6 @@ Sample hook payload:
         lastName: 'James',
         email: 'zapier@sesamy.com',
         contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
     },
 }
 ```
@@ -260,44 +224,93 @@ Sample hook payload:
         firstName: 'Bob',
         lastName: 'James',
         email: 'zapier@sesamy.com',
-        contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
+        contactEmail: 'zapier@sesamy.com'
     },
 }
 ```
 
 ### Vendor User Signed Up
 
-Subscribe to this event if you want to synchronize data each time an user signs up to your platform.
+Subscribe to this event if you want to synchronize data each time an user signs up to your platform. This trigger will only trigger once when a user signs up and may not contain all user selected settings like address or the accepted terms and conditions date (those are show to the user after he/she signs up). To get that data and keep it up to date please listen to the trigger "Vendor User Created Or Updated" below.
 
 Sample hook payload:
 
 ```
 {
     acceptedTCVersion: '2022-11-08T12:49:11.190Z',
+    newsletters: { newsletterX: true },
+    mobilePhone: '699000111222',
     user: {
         userId: '123',
         firstName: 'Bob',
         lastName: 'James',
         email: 'zapier@sesamy.com',
         contactEmail: 'zapier@sesamy.com',
-        primaryAddress: {
-            firstName: 'Lucas',
-            lastName: 'James',
-            addressLineOne: 'Bergsjösvängen 1',
-            addressLineTwo: '',
-            zip: '41560',
-            city: 'Göteborg',
-            country: 'SE',
-        },
     },
+    deliveryAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    billingAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    businessDetails: {
+        companyName: 'X Company',
+        vatNr: '1234'
+    }
+}
+```
+
+### Vendor User Created Or Updated
+
+Subscribe to this event if you want to synchronize data each time an user is created or updated. For example when a user signs up, he/she may latter set some extra settings like address or accept the terms and conditions durning the checkout process. So if you want to have the full user's data in sync you need to use this endpoint and keep your user up to date.
+
+Sample hook payload:
+
+```
+{
+    acceptedTCVersion: '2022-11-08T12:49:11.190Z',
+    newsletters: { newsletterX: true },
+    mobilePhone: '699000111222',
+    user: {
+        userId: '123',
+        firstName: 'Bob',
+        lastName: 'James',
+        email: 'zapier@sesamy.com',
+        contactEmail: 'zapier@sesamy.com'
+    },
+    deliveryAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    billingAddress: {
+        firstName: 'Lucas',
+        lastName: 'James',
+        addressLineOne: 'Bergsjösvängen 1',
+        addressLineTwo: '',
+        zip: '41560',
+        city: 'Göteborg',
+        country: 'SE',
+    },
+    businessDetails: {
+        companyName: 'X Company',
+        vatNr: '1234'
+    }
 }
 ```
