@@ -106,6 +106,83 @@ const entitlement = sesamy.getEntitlement("https://example.com/article", [
 ]);
 ```
 
+## getSubscriptions
+
+The `getSubscriptions` function queries for the subscriptions of the current user:
+
+```javascript
+// Get subscriptions
+sesamy.getSubscriptions();
+```
+
+**Arguments:**
+
+**Returns:**
+
+(Promise<[]\>): An array of the subscriptions
+
+**Example:**
+
+```javascript
+// Get the subscriptions for the current user
+const subscriptions = await sesamy.getSubscriptions();
+```
+
+The subscriptions will be in the following format
+
+```json
+[
+  {
+    "id": "test_id",
+    "userId": "google-oauth2|test",
+    "currency": "sek",
+    "cancelAt": 1687532004,
+    "cancelAtPeriodEnd": true,
+    "canceledAt": 1684853728,
+    "created": 1684853604,
+    "currentPeriodEnd": 1687532004,
+    "currentPeriodStart": 1684853604,
+    "endedAt": null,
+    "checkoutId": "test-3d31-40cc-bb71-9dfe08992e78",
+    "interval": "month",
+    "amount": 9900,
+    "status": "active",
+    "product": {
+      "name": "Montly subscription",
+      "description": " 99 kr per month w/taxes included",
+      "distributorId": "sesamy",
+      "optionId": "test-option-id",
+      "productId": "sid:test",
+      "sku": "sid:test",
+      "vendorId": "test-vendor",
+      "image": "https://images.sesamy.dev/cover/test/monthly-sub.png"
+    }
+  }
+]
+```
+
+## cancelSubscription
+
+The `cancelSubscription` function cancel a subscription from the current user:
+
+```javascript
+// Get subscriptions
+sesamy.cancelSubscription(SUBSCRIPTION_ID);
+```
+
+**Arguments:**
+
+- SUBSCRIPTION_ID (id): The id of the subscription to cancel.
+
+**Returns:**
+
+**Example:**
+
+```javascript
+// Cancel the subscription for the current user
+const subscriptions = await sesamy.cancelSubscription("test-id");
+```
+
 ## getAccess
 
 The `getAccess` function returns an url to access a content resource, for instance an article or a podcast feed:
