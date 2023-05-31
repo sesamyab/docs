@@ -49,3 +49,18 @@ sesamy.analytics.track('itemPurchased', {
 ```
 
 The analytics library will decorate each call with a user id and information about the current page.
+
+## Toogle analytics
+
+Anlytics are enabled by default. You can disable analytics either from a meta tag or toggle analytics from the JavaScript API.
+
+```
+<!-- Including the following tag in the <head> of your HTML will disable analytics -->
+<meta property="sesamy:analytics" content="false" />
+```
+
+```
+// You can also use the JavaScript API to enable and disable the analytics
+window.sesamy.analytics.enable()
+window.sesamy.analytics.disable()
+```
