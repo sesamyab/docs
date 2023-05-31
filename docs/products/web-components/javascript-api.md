@@ -63,8 +63,18 @@ The `updateUserProfileContactInfo` function updates the contact information from
 
 ```javascript
 // Update contact information
-sesamy.updateUserProfileContactInfo();
+sesamy.updateUserProfileContactInfo({
+  email: USER_EMAIL, // Optional
+  firstName: USER_FIRST_NAME, // Optional
+  lastName: USER_LAST_NAME, // Optional
+});
 ```
+
+**Arguments:**
+
+- USER_EMAIL (string): The updated contact email of the user.
+- USER_FIRST_NAME (string): The updated contact first name of the user.
+- USER_LAST_NAME (string): The updated contact last name of the user.
 
 **Returns:**
 
@@ -172,7 +182,7 @@ sesamy.cancelSubscription(SUBSCRIPTION_ID);
 
 **Arguments:**
 
-- SUBSCRIPTION_ID (id): The id of the subscription to cancel.
+- SUBSCRIPTION_ID (string): The id of the subscription to cancel.
 
 **Returns:**
 
@@ -275,7 +285,11 @@ sesamy.openCheckout({
   publisherContentId: PUBLISHER_CONTENT_ID, // Optional
   price: PRICE, // Optional
   currency: CURRENCY, // Optional
-
+  utmSource: UTM_SOURCE; // Optional
+  utmMedium: UTM_MEDIUM; // Optional
+  utmCampaign: UTM_CAMPAIGN; // Optional
+  utmTerm: UTM_TERM; // Optional
+  utmContent: UTM_CONTENT; // Optional
 ```
 
 **Arguments:**
