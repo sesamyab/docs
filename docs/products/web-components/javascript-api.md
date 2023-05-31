@@ -57,6 +57,28 @@ The userProfile will be in the following format
 }
 ```
 
+## updateUserProfileContactInfo
+
+The `updateUserProfileContactInfo` function updates the contact information from the current user:
+
+```javascript
+// Update contact information
+sesamy.updateUserProfileContactInfo();
+```
+
+**Returns:**
+
+**Example:**
+
+```javascript
+// Update the contact information of the current user
+await sesamy.updateUserProfileContactInfo({
+  email: "jondoe@example.com",
+  firstName: "Jon",
+  lastName: "Doe",
+});
+```
+
 ## getEntitlement
 
 The `getEntitlement` function queries for the entitlement object that defines the customers access to the content:
