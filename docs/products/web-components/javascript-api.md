@@ -193,6 +193,127 @@ sesamy.cancelSubscription(SUBSCRIPTION_ID);
 const subscriptions = await sesamy.cancelSubscription("test-id");
 ```
 
+## getTransactions
+
+The `getTransactions` function queries for the transactions of the current user:
+
+```javascript
+// Get transactions
+sesamy.getTransactions();
+```
+
+**Arguments:**
+
+**Returns:**
+
+(Promise<[]\>): An array of the transactions
+
+**Example:**
+
+```javascript
+// Get the transactions for the current user
+const subscriptions = await sesamy.getTransactions();
+```
+
+The transactions will be in the following format
+
+```json
+[
+  {
+    "id": "test-id",
+    "checkKey": "test-aaa8-404d-89c8-checkkey",
+    "currency": "SEK",
+    "totalPrice": 9900,
+    "items": [
+      {
+        "period": {
+          "start": "2023-05-23T14:53:24.000Z",
+          "end": "2023-06-23T14:53:24.000Z"
+        },
+        "originalPrice": {
+          "market": "ES",
+          "total": 9900,
+          "totalTaxes": 381,
+          "discounts": [],
+          "netPrice": 9519,
+          "taxes": [
+            {
+              "amount": 381,
+              "taxId": "es-vat-news",
+              "taxPct": 4,
+              "taxAbbr": "IVA",
+              "taxName": "Impuesto sobre el Valor Añadido",
+              "base": 9519
+            }
+          ],
+          "totalDiscount": 0,
+          "currency": "SEK"
+        },
+        "distributorId": "sesamy",
+        "vendorId": "test-vendor",
+        "source": "STRIPE",
+        "purchaseOptionId": "test-option-id",
+        "title": "Monthly subscription",
+        "purchaseOptionType": "RECURRING",
+        "userId": "google-oauth2|test",
+        "cover": "https://images.sesamy.dev/cover/test/monthly-sub.png",
+        "geo": {
+          "zip": "08020",
+          "regionCode": "CT",
+          "userCountry": null,
+          "city": "Barcelona",
+          "countryCode": "ES",
+          "ip": "139.47.123.217",
+          "regionName": "Catalonia",
+          "latitude": 41.387,
+          "countryName": "Spain",
+          "continentName": "Europe",
+          "continentCode": "EU",
+          "longitude": 2.1701
+        },
+        "price": {
+          "market": "ES",
+          "total": 9900,
+          "totalTaxes": 381,
+          "discounts": [],
+          "netPrice": 9519,
+          "taxes": [
+            {
+              "amount": 381,
+              "taxId": "es-vat-news",
+              "taxPct": 4,
+              "taxAbbr": "IVA",
+              "taxName": "Impuesto sobre el Valor Añadido",
+              "base": 9519
+            }
+          ],
+          "totalDiscount": 0,
+          "currency": "SEK"
+        },
+        "sesamyPrice": {
+          "totalDiscount": 0,
+          "currency": "SEK",
+          "total": 9900,
+          "totalTaxes": 381
+        },
+        "currency": "SEK",
+        "id": "test-c94f-461e-836e-4fc4ded32c89",
+        "vendorPrice": {
+          "totalDiscount": 0,
+          "currency": "SEK",
+          "total": 9900,
+          "totalTaxes": 381
+        },
+        "sku": "sid:test",
+        "checkoutId": "test-3d31-40cc-bb71-9dfe08992e78",
+        "productType": "bundle"
+      }
+    ],
+    "modified": "2023-05-23T14:53:30.552Z"
+  }
+]
+```
+
 ## getAccess
 
 The `getAccess` function returns an url to access a content resource, for instance an article or a podcast feed:
