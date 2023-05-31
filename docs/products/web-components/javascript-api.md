@@ -195,7 +195,7 @@ sesamy.openCheckout({
 
 **Returns:**
 
-Redicrects the user to the checkout page
+Redirects the user to the checkout page
 
 **Example:**
 
@@ -226,4 +226,81 @@ sesamy.openCheckout({
   price: 100,
   currency: "SEK",
 });
+```
+
+## parsePodcast
+
+The `parsePodcast` function parses a podcast using the url to feed an returns it in a json format:
+
+```javascript
+// Open checkout
+sesamy.parsePodcast(FEED_URL);
+```
+
+**Arguments:**
+
+- FEED_URL (string): The url to a podcast feed
+
+**Returns:**
+
+A podcast with episodes in a json format
+
+```json
+{
+  "title": "Åh fan! - Premium",
+  "externalIds": {},
+  "description": ".",
+  "summary": ".",
+  "image": "https://assets.example.com/system/shows/images/eb5/efa/53-/large/fokus-podden.png",
+  "author": "Fokus Redaktion",
+  "owner": {
+    "name": "Fokus Redaktion",
+    "email": "redaktion@fokus.se"
+  },
+  "publishDate": "2023-05-29T12:17:49.000Z",
+  "language": "en",
+  "keywords": [],
+  "rssUrl": "https://feed.sesamy.com/sid:2QNn9E1brlrKDGAf-lOY-",
+  "copyright": "Sesamy AB",
+  "isHidden": false,
+  "isExplicit": false,
+  "isComplete": false,
+  "podcastType": "EPISODIC",
+  "totalSeasons": 0,
+  "totalEpisodes": 1,
+  "episodes": [
+    {
+      "guid": "94d2db0ef890140723600cf8cd4ec89c",
+      "title": "Test",
+      "subtitle": "",
+      "description": "",
+      "url": "https://media.example.com/ahfanpremium/fokuspodden_211020_mix01.mp3",
+      "link": "https://sesamy.com/products/sid:2QNn9E1brlrKDGAf-lOY-?guid=94d2db0ef890140723600cf8cd4ec89c",
+      "image": "https://assets.example.com/system/shows/images/eb5/efa/53-/large/fokus-podden.png",
+      "duration": 2819,
+      "isExplicit": false,
+      "episodeType": "full",
+      "contentType": "audio/mpeg",
+      "contentLength": 45119702,
+      "publishDate": "2023-05-29T12:17:49.000Z",
+      "isLocked": false,
+      "isSesamy": false,
+      "isSample": false,
+      "permissions": []
+    }
+  ],
+  "products": [],
+  "categories": [],
+  "sesamy": {
+    "vendorId": "test-fokus",
+    "isPrivate": false
+  }
+}
+```
+
+**Example:**
+
+```javascript
+// Open a checkout for an article
+sesamy.parsePodcast("https://feed.sesamy.com/sid:2QNn9E1brlrKDGAf-lOY-");
 ```
