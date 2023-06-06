@@ -57,6 +57,38 @@ The userProfile will be in the following format
 }
 ```
 
+## updateUserProfileContactInfo
+
+The `updateUserProfileContactInfo` function updates the contact information from the current user:
+
+```javascript
+// Update contact information
+sesamy.updateUserProfileContactInfo({
+  email: USER_EMAIL, // Optional
+  firstName: USER_FIRST_NAME, // Optional
+  lastName: USER_LAST_NAME, // Optional
+});
+```
+
+**Arguments:**
+
+- USER_EMAIL (string): The updated contact email of the user.
+- USER_FIRST_NAME (string): The updated contact first name of the user.
+- USER_LAST_NAME (string): The updated contact last name of the user.
+
+**Returns:**
+
+**Example:**
+
+```javascript
+// Update the contact information of the current user
+await sesamy.updateUserProfileContactInfo({
+  email: "jondoe@example.com",
+  firstName: "Jon",
+  lastName: "Doe",
+});
+```
+
 ## getEntitlement
 
 The `getEntitlement` function queries for the entitlement object that defines the customers access to the content:
@@ -82,6 +114,131 @@ sesamy.getEntitlement(ARTICLE_SRC_OR_SKU, PASSES_ARRAY);
 const entitlement = sesamy.getEntitlement("https://example.com/article", [
   "https://example.com/subscription",
 ]);
+```
+
+## getSubscriptions
+
+The `getSubscriptions` function queries for the subscriptions of the current user:
+
+```javascript
+// Get subscriptions
+sesamy.getSubscriptions();
+```
+
+**Arguments:**
+
+**Returns:**
+
+(Promise<[]\>): An array of the subscriptions
+
+**Example:**
+
+```javascript
+// Get the subscriptions for the current user
+const subscriptions = await sesamy.getSubscriptions();
+```
+
+The subscriptions will be in the following format
+
+```json
+[
+  {
+    "id": "test_id",
+    "userId": "google-oauth2|test",
+    "currency": "sek",
+    "cancelAt": 1687532004,
+    "cancelAtPeriodEnd": true,
+    "canceledAt": 1684853728,
+    "created": 1684853604,
+    "currentPeriodEnd": 1687532004,
+    "currentPeriodStart": 1684853604,
+    "endedAt": null,
+    "checkoutId": "test-3d31-40cc-bb71-9dfe08992e78",
+    "interval": "month",
+    "amount": 9900,
+    "status": "active",
+    "product": {
+      "name": "Montly subscription",
+      "description": " 99 kr per month w/taxes included",
+      "distributorId": "sesamy",
+      "optionId": "test-option-id",
+      "productId": "sid:test",
+      "sku": "sid:test",
+      "vendorId": "test-vendor",
+      "image": "https://images.sesamy.dev/cover/test/monthly-sub.png"
+    }
+  }
+]
+```
+
+## cancelSubscription
+
+The `cancelSubscription` function cancel a subscription from the current user:
+
+```javascript
+// Get subscriptions
+sesamy.cancelSubscription(SUBSCRIPTION_ID);
+```
+
+**Arguments:**
+
+- SUBSCRIPTION_ID (string): The id of the subscription to cancel.
+
+**Returns:**
+
+**Example:**
+
+```javascript
+// Cancel the subscription for the current user
+const subscriptions = await sesamy.cancelSubscription("test-id");
+```
+
+## getTransactions
+
+The `getTransactions` function queries for the transactions of the current user:
+
+```javascript
+// Get transactions
+sesamy.getTransactions();
+```
+
+**Arguments:**
+
+**Returns:**
+
+(Promise<[]\>): An array of the transactions
+
+**Example:**
+
+```javascript
+// Get the transactions for the current user
+const subscriptions = await sesamy.getTransactions();
+```
+
+The transactions will be in the following format
+
+```json
+[
+  {
+    "id": "test-id",
+    "checkKey": "test-aaa8-404d-89c8-checkkey",
+    "currency": "SEK",
+    "totalPrice": 9900,
+    "items": [
+      {
+        "vendorId": "test-vendor",
+        "title": "Monthly subscription",
+        "cover": "https://images.sesamy.dev/cover/test/monthly-sub.png",
+        "price": {
+          "total": 9900
+        },
+        "sku": "sid:test",
+        "productType": "bundle"
+      }
+    ],
+    "modified": "2023-05-23T14:53:30.552Z"
+  }
+]
 ```
 
 ## getAccess
@@ -176,7 +333,11 @@ sesamy.openCheckout({
   publisherContentId: PUBLISHER_CONTENT_ID, // Optional
   price: PRICE, // Optional
   currency: CURRENCY, // Optional
-
+  utmSource: UTM_SOURCE; // Optional
+  utmMedium: UTM_MEDIUM; // Optional
+  utmCampaign: UTM_CAMPAIGN; // Optional
+  utmTerm: UTM_TERM; // Optional
+  utmContent: UTM_CONTENT; // Optional
 ```
 
 **Arguments:**
