@@ -96,9 +96,15 @@ Sample hook payload:
       }
 ```
 
-### Vendor User Subscription Canceled
+### Vendor User Subscription Ended
 
-Subscribe to this event if you want to synchronize data each time a user subscription is canceled (This includes status CANCELED (a user cancels but still has access until their subscription expires), EXPIRED and DELETED (user does not have access anymore). Select your vendor ID from the triggers list.
+Subscribe to this event if you want to synchronize data each time a user subscription is ended. The reason for the ending can be obtained on the status field:
+
+- CANCELED: The subscription has been canceled either by refunding the purchase or by user request.
+- EXPIRED: The subscription has expired. This happens when the subscription payment fails so the subscription is not automatically renewed.
+- DELETED: A subscription has been deleted by Sesamy due to technical reasons.
+
+Select your vendor ID from the triggers list.
 
 ![more-block](/img/zapier/webhooks/subscription-canceled.png)
 
@@ -119,7 +125,7 @@ Sample hook payload:
         title: 'Yearly subscription',
         description: 'A yearly subscription...',
         productType: 'bundle',
-        status: 'active',
+        status: 'CANCELED', // CANCELED EXPIRED or DELETED
       }
 ```
 
