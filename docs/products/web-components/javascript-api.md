@@ -212,7 +212,7 @@ sesamy.getTransactions();
 
 ```javascript
 // Get the transactions for the current user
-const subscriptions = await sesamy.getTransactions();
+const transactions = await sesamy.getTransactions();
 ```
 
 The transactions will be in the following format
