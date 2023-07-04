@@ -112,7 +112,7 @@ The external item could be both be an article on a separate url or a [pass](/doc
 </html>
 ```
 
-It is also possible to pass a Sesamy Product ID in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
+It is also possible to pass a Sesamy Product ID (SKU) in the `item-src` attribute. This can be used for selling other types of products, such as book, or bundles of products.
 
 ```html
 <html>
@@ -121,6 +121,25 @@ It is also possible to pass a Sesamy Product ID in the `item-src` attribute. Thi
     <sesamy-button
       item-src="isbn:9789164234858"
       text="Au Pif! Den sanna historien om Agnetas kloster"
+    ></sesamy-button>
+
+    <script
+      type="module"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-button.min.js"
+    ></script>
+  </body>
+</html>
+```
+
+If a product has multiple Purchase Options (PO), you can specify this in the item-src attribute together with the SKU separated by a `:`. In the example below the SKU is `sid:5Tw686FPwv8q_GgTe2Ll3` and the PO for a yearly subscription is `OBqmTKU65z0RqAOrjkDgt`:
+
+```html
+<html>
+  <head></head>
+  <body>
+    <sesamy-button
+      item-src="sid:5Tw686FPwv8q_GgTe2Ll3:OBqmTKU65z0RqAOrjkDgt"
+      text="Mobil Plus Yearly"
     ></sesamy-button>
 
     <script
