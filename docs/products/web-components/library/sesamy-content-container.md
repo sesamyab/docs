@@ -56,6 +56,7 @@ By setting the public property the article will be unlocked for all users.
 There are three different flows for the displaying the locked content once the `sesamy-content-conainer` is unlocked:
 
 - If the attribute `lock-mode="embed"` (default behavior): the locked content is fetched from the content slot as in the example above.
+- If the attribute `lock-mode="encode"`. The locked content is embedded on the public website, but in a base64 format. It makes it harder for for instance adblockers or other tools to get access to the content by simply appying css rules.
 - If the attribute `lock-mode="signedUrl"`: the content is fetched from the publisher's server using a signed url.
 - If the attribute `lock-mode="event`: an event is being emitted that could for instance be used to integrate with existing paywall solutions.
 
