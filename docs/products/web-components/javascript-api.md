@@ -99,6 +99,7 @@ sesamy.updateUserAddress({
   firstName: USER_ADDRESS_FIRST_NAME, // Optional
   lastName: USER_ADDRESS_LAST_NAME, // Optional
   co: USER_ADDRESS_CO, // Optional
+  city: USER_ADDRESS_CITY,
   street: USER_ADDRESS_STREET,
   country: USER_ADDRESS_COUNTRY,
   zip: USER_ADDRESS_ZIP,
@@ -110,6 +111,7 @@ sesamy.updateUserAddress({
 - USER_ADDRESS_FIRST_NAME (string): The updated first name of the vendor user.
 - USER_ADDRESS_LAST_NAME (string): The updated last name of the vendor user.
 - USER_ADDRESS_CO (string): The updated c/o (care of) of the vendor user.
+- USER_ADDRESS_CITY (string): The city of the vendor user.
 - USER_ADDRESS_STREET (string): The updated street of the vendor user.
 - USER_ADDRESS_COUNTRY (string): The updated country of the vendor user.
 - USER_ADDRESS_ZIP (string): The updated zip code of the vendor user.
