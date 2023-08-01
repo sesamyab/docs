@@ -89,6 +89,46 @@ await sesamy.updateUserProfileContactInfo({
 });
 ```
 
+## updateUserAddress
+
+The `updateUserAddress` function updates the billing address from the current vendor user:
+
+```javascript
+// Update contact information
+sesamy.updateUserAddress({
+  firstName: USER_ADDRESS_FIRST_NAME, // Optional
+  lastName: USER_ADDRESS_LAST_NAME, // Optional
+  co: USER_ADDRESS_CO, // Optional
+  street: USER_ADDRESS_STREET,
+  country: USER_ADDRESS_COUNTRY,
+  zip: USER_ADDRESS_ZIP,
+});
+```
+
+**Arguments:**
+
+- USER_ADDRESS_FIRST_NAME (string): The updated first name of the vendor user.
+- USER_ADDRESS_LAST_NAME (string): The updated last name of the vendor user.
+- USER_ADDRESS_CO (string): The updated c/o (care of) of the vendor user.
+- USER_ADDRESS_STREET (string): The updated street of the vendor user.
+- USER_ADDRESS_COUNTRY (string): The updated country of the vendor user.
+- USER_ADDRESS_ZIP (string): The updated zip code of the vendor user.
+
+**Returns:**
+
+**Example:**
+
+```javascript
+// Update the billing address of the current vendor user
+await sesamy.updateUserAddress({
+  firstName: "Jon",
+  lastName: "Doe",
+  street: "Av. Vallcarca 18, 4, 1A",
+  country: "ES",
+  zip: "08023",
+});
+```
+
 ## getEntitlement
 
 The `getEntitlement` function queries for the entitlement object that defines the customers access to the content:
