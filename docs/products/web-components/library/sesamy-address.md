@@ -18,7 +18,7 @@ The address component displays and allows updating the address of the current ve
 
     <script
       defer
-      src="https://assets.sesamy.com/scripts/web-components/sesamy-address.min.js"
+      src="https://assets.sesamy.com/scripts/web-components/sesamy-bundle.min.js"
     ></script>
   </body>
 </html>
