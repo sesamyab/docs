@@ -21,7 +21,7 @@ This URL includes six parameters: `sku`, `option`, `lang`, `redirect-url`, `clie
 There are two required parameters you need to include in every Sesamy checkout URL:
 
 - `client-id`: This identifies the publisher. Contact Sesamy support to get your client-id.
-- `sku`: This is the "store keeping unit" with is the id of the product.
+- `sku` or `url`: Either the sku (Store Keeping Unit), which is the id of the product, or the url of product is required.
 
 ## Optional Parameters
 
