@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Analytics
 
-Sesamy Analytics is a lightweight solution for tracking page views, custom events and identifying visitors. It is intended to be a complement to other analytics solution to better understand how the content is consumed.
+Sesamy Portal is an advanced AI-based analytics platform with solutions to provide valuable insights, predictions and actionable information. The platform has functionalities such as visualization and reporting, personalization, real-time insights, predictions and recommendations. 
