@@ -12,5 +12,4 @@ At Sesamy we offer a wide range of products to support News publishers monetizin
 - **Discount codes** - We have support for all kinds of promotions for subscription offers and single purchase, trial periods or percentage.
 - **CMS integration** - Handle your preferred setting directly in your existing CMS: set price of article, decide how much of an article to be open, handle your subscription offers and schedule bundles with your podcasts.
 - **Insight portal** - Near live data, manage your KPI's and let Sesamy’s Insight portal follow your performance in a comprehensive way.
-- **Webhooks** - Zapier integration connecting data to third party tools, such as MailChimp, Facebook, Google Analytics etc.
 - **Support** - We offer first and second line, as well as chat bot connected to the checkout.
